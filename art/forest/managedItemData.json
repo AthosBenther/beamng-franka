@@ -1,0 +1,113 @@
+{
+  "palm_medium": {
+    "name": "palm_medium",
+    "internalName": "palm_medium",
+    "class": "ForestItemData",
+    "__parent": "DataBlockGroup",
+    "shapeFile": "/levels/franka/art/shapes/trees/trees_palm/palm_medium.dae"
+  },
+  "palm_small": {
+    "name": "palm_small",
+    "internalName": "palm_small",
+    "class": "ForestItemData",
+    "__parent": "DataBlockGroup",
+    "shapeFile": "/levels/franka/art/shapes/trees/trees_palm/palm_small.dae"
+  },
+  "palm_tall": {
+    "name": "palm_tall",
+    "internalName": "palm_tall",
+    "class": "ForestItemData",
+    "__parent": "DataBlockGroup",
+    "shapeFile": "/levels/franka/art/shapes/trees/trees_palm/palm_tall.dae"
+  },
+  "palm_tiny": {
+    "name": "palm_tiny",
+    "internalName": "palm_tiny",
+    "class": "ForestItemData",
+    "__parent": "DataBlockGroup",
+    "shapeFile": "/levels/franka/art/shapes/trees/trees_palm/palm_tiny.dae"
+  },
+  "tro_tree_1_fallen": {
+    "name": "tro_tree_1_fallen",
+    "internalName": "tro_tree_1_fallen",
+    "class": "ForestItemData",
+    "__parent": "DataBlockGroup",
+    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_1/tro_tree_1_fallen.dae"
+  },
+  "tro_tree_1_filler": {
+    "name": "tro_tree_1_filler",
+    "internalName": "tro_tree_1_filler",
+    "class": "ForestItemData",
+    "__parent": "DataBlockGroup",
+    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_1/tro_tree_1_filler.dae"
+  },
+  "tro_tree_1_filler_02": {
+    "name": "tro_tree_1_filler_02",
+    "internalName": "tro_tree_1_filler_02",
+    "class": "ForestItemData",
+    "__parent": "DataBlockGroup",
+    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_1/tro_tree_1_filler_02.dae"
+  },
+  "tro_tree_1_huge": {
+    "name": "tro_tree_1_huge",
+    "internalName": "tro_tree_1_huge",
+    "class": "ForestItemData",
+    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_1/tro_tree_1_huge.dae",
+    "trunkBendScale": 1
+  },
+  "tro_tree_2_bush_huge": {
+    "name": "tro_tree_2_bush_huge",
+    "internalName": "tro_tree_2_bush_huge",
+    "class": "ForestItemData",
+    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_2/tro_tree_2_bush_huge.dae"
+  },
+  "tro_tree_2_large": {
+    "name": "tro_tree_2_large",
+    "internalName": "tro_tree_2_large",
+    "class": "ForestItemData",
+    "__parent": "DataBlockGroup",
+    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_2/tro_tree_2_large.dae"
+  },
+  "tro_tree_2_medium": {
+    "name": "tro_tree_2_medium",
+    "internalName": "tro_tree_2_medium",
+    "class": "ForestItemData",
+    "__parent": "DataBlockGroup",
+    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_2/tro_tree_2_medium.dae"
+  },
+  "tro_tree_2_tall": {
+    "name": "tro_tree_2_tall",
+    "internalName": "tro_tree_2_tall",
+    "class": "ForestItemData",
+    "__parent": "DataBlockGroup",
+    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_2/tro_tree_2_tall.dae"
+  },
+  "tro_tree_2_tall_02": {
+    "name": "tro_tree_2_tall_02",
+    "internalName": "tro_tree_2_tall_02",
+    "class": "ForestItemData",
+    "__parent": "DataBlockGroup",
+    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_2/tro_tree_2_tall_02.dae"
+  },
+  "tro_tree_2_tiny": {
+    "name": "tro_tree_2_tiny",
+    "internalName": "tro_tree_2_tiny",
+    "class": "ForestItemData",
+    "__parent": "DataBlockGroup",
+    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_2/tro_tree_2_tiny.dae"
+  },
+  "tropical_plant_01_a": {
+    "name": "tropical_plant_01_a",
+    "internalName": "tropical_plant_01_a",
+    "class": "ForestItemData",
+    "__parent": "DataBlockGroup",
+    "shapeFile": "/levels/franka/art/shapes/trees/tropical_wide_leaves/tropical_plant_01_a.dae"
+  },
+  "tropical_plant_03_e": {
+    "name": "tropical_plant_03_e",
+    "internalName": "tropical_plant_03_e",
+    "class": "ForestItemData",
+    "__parent": "DataBlockGroup",
+    "shapeFile": "/levels/franka/art/shapes/trees/tropical_wide_leaves/tropical_plant_03_e.dae"
+  }
+}

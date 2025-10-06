@@ -1,0 +1,18 @@
+{
+  "Name": "franka",
+  "ProjectPath": "C:\\Users\\athum\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\levels\\franka\\franka.brie",
+  "GeoJsonPath": "C:\\Users\\athum\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\levels\\franka\\google\\RoadsWithHeigth.geojson",
+  "HeightmapPath": "C:\\Users\\athum\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\levels\\franka\\terrain\\alala.png",
+  "SatMapPath": "C:\\Users\\athum\\AppData\\Local\\BeamNG\\BeamNG.drive\\current\\levels\\franka\\terrain\\gtt_satmap.png",
+  "Resolution": 2048,
+  "Size": 2048,
+  "TerrainElevationMax": 1005.7,
+  "TerrainElevationMin": 922.644,
+  "Extents": {
+    "West": -47.414622509,
+    "North": -20.537505716,
+    "East": -47.394703464,
+    "South": -20.556267836
+  },
+  "Autosave": true
+}

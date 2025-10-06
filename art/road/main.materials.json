@@ -1,0 +1,140 @@
+{
+  "BNG_Road_Dirt": {
+    "name": "BNG_Road_Dirt",
+    "mapTo": "unmapped_mat",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "levels/franka/art/road/road-01_d.dds",
+        "diffuseColor": [
+          0.850979984,
+          0.850979984,
+          0.850979984,
+          0.934000015
+        ],
+        "normalMap": "levels/franka/art/road/road-01_n.dds",
+        "pixelSpecular": true,
+        "scrollSpeed": 4.11800003,
+        "specular": [
+          0.00392156979,
+          0.00392156979,
+          0.00392156979,
+          1
+        ],
+        "specularMap": "levels/franka/art/road/road-01_s.dds",
+        "useAnisotropic": true
+      },
+      {
+        "diffuseColor": null,
+        "pixelSpecular": null,
+        "scrollSpeed": null,
+        "specular": null,
+        "useAnisotropic": null
+      },
+      {
+        "diffuseColor": null,
+        "pixelSpecular": null,
+        "scrollSpeed": null,
+        "specular": null,
+        "useAnisotropic": null
+      },
+      {
+        "diffuseColor": null,
+        "pixelSpecular": null,
+        "scrollSpeed": null,
+        "specular": null,
+        "useAnisotropic": null
+      }
+    ],
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "specularStrength0": "0.196078",
+    "translucent": true,
+    "translucentZWrite": true
+  },
+  "DirtRoad_variation_01": {
+    "name": "DirtRoad_variation_01",
+    "mapTo": "DirtRoad_variation_01",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "levels/franka/art/road/DirtRoad_variation_01_d.dds",
+        "diffuseColor": [
+          0.517647028,
+          0.439215988,
+          0.294117987,
+          0.751999974
+        ],
+        "pixelSpecular": true,
+        "roughnessFactor": 0.812008262,
+        "useAnisotropic": true
+      },
+      {
+        "diffuseColor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null,
+        "useAnisotropic": true
+      },
+      {
+        "diffuseColor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null,
+        "useAnisotropic": null
+      },
+      {
+        "diffuseColor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null,
+        "useAnisotropic": null
+      }
+    ],
+    "alphaRef": 255,
+    "castShadows": false,
+    "materialTag0": "RoadAndPath",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "specularStrength0": "0.196078",
+    "translucent": true,
+    "translucentZWrite": true
+  },
+  "dirt_road_tread_ruts": {
+    "name": "dirt_road_tread_ruts",
+    "mapTo": "unmapped_mat",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "levels/franka/art/road/dirt_road_tread_ruts_d.dds",
+        "diffuseColor": [
+          0.933000028,
+          0.819999993,
+          0.728999972,
+          1.20700002
+        ],
+        "normalMap": "levels/franka/art/road/dirt_road_tread_ruts_n.dds",
+        "specularMap": "levels/franka/art/road/dirt_road_tread_ruts_s.dds",
+        "useAnisotropic": true
+      },
+      {
+        "diffuseColor": null,
+        "useAnisotropic": null
+      },
+      {
+        "diffuseColor": null,
+        "useAnisotropic": null
+      },
+      {
+        "diffuseColor": null,
+        "useAnisotropic": null
+      }
+    ],
+    "alphaRef": 134,
+    "materialTag0": "beamng",
+    "materialTag1": "RoadAndPath",
+    "specularStrength0": "0.0980392",
+    "translucent": true,
+    "translucentZWrite": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "tro_bush_1_leaves": {
+    "name": "tro_bush_1_leaves",
+    "mapTo": "tro_bush_1_leaves",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/bush_tropical_1/t_tro_bush_01_leaves_ao.data.png",
+        "baseColorMap": "/levels/franka/art/shapes/trees/bush_tropical_1/t_tro_bush_01_leaves_b.color.png",
+        "normalMap": "/levels/franka/art/shapes/trees/bush_tropical_1/t_tro_bush_01_leaves_nm.normal.png",
+        "opacityMap": "/levels/franka/art/shapes/trees/bush_tropical_1/t_tro_bush_01_leaves_o.data.png",
+        "roughnessFactor": 0.654999971,
+        "roughnessMap": "/levels/franka/art/shapes/trees/bush_tropical_1/t_tro_bush_01_leaves_r.data.png"
+      },
+      {
+        "roughnessFactor": null
+      },
+      {
+        "roughnessFactor": null
+      },
+      {
+        "roughnessFactor": null
+      }
+    ],
+    "alphaRef": 100,
+    "alphaTest": true,
+    "doubleSided": true,
+    "groundType": "LEAVES_THIN",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "specularStrength0": "0.490196",
+    "version": 1.5
+  }
+}

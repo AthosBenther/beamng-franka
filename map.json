@@ -1,0 +1,9 @@
+{
+    "segments" : {
+        
+        "manual_AI_path_01" : {
+            "nodes" : ["wp1", "wp2",],
+            "drivability" : 0.8 ,
+        }
+    }
+}

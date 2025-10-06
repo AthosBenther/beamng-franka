@@ -1,0 +1,29 @@
+{
+  "dry_grass": {
+    "name": "dry_grass",
+    "mapTo": "dry_grass",
+    "class": "material",
+    "Stages": [
+      {
+        "colorMap": "/levels/Utah/art/shapes/groundcover/dry_grass_d.dds",
+        "diffuseColor": [
+          0.868264019,
+          0.738964021,
+          0.738964021,
+          1
+        ]
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "alphaRef": 47,
+    "alphaTest": true
+  }
+}

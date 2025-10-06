@@ -1,0 +1,50 @@
+{
+  "decals":{},
+  "decorations":{},
+  "header":{
+    "type":"roadTemplate",
+    "version":1.1
+  },
+  "roads":[
+    {
+      "arrayElements":{},
+      "dynamicFields":{},
+      "fields":{
+        "ImprovedSpline":"1",
+        "Material":"BlankWhite",
+        "annotation":"",
+        "autoJunction":"1",
+        "autoLanes":"1",
+        "breakAngle":"3",
+        "canSave":"1",
+        "canSaveDynamicFields":"1",
+        "debugRoadLength":"0",
+        "decalBias":"0.000500000024",
+        "detail":"0.100000001",
+        "distanceFade":"0 0",
+        "drivability":"-1",
+        "endTangent":"0",
+        "flipDirection":"0",
+        "gatedRoad":"0",
+        "hidden":"0",
+        "hiddenInNavi":"0",
+        "isRenderEnabled":"true",
+        "isSelectionEnabled":"true",
+        "lanesLeft":"1",
+        "lanesRight":"1",
+        "locked":"0",
+        "looped":"0",
+        "node":"",
+        "oneWay":"0",
+        "overObjects":"0",
+        "renderPriority":"10",
+        "smoothness":"0.5",
+        "startEndFade":"0 0",
+        "startTangent":"0",
+        "textureLength":"5",
+        "useSubdivisions":"1",
+        "zBias":"0"
+      }
+    }
+  ]
+}

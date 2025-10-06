@@ -1,0 +1,39 @@
+{
+  "title": "Franka",
+  "description": "Alala",
+  "previews": [
+    "template_preview.png"
+  ],
+  "size": [
+    2048,
+    2048
+  ],
+  "biome": "levels.template.info.description",
+  "roads": "levels.template.info.description",
+  "suitablefor": "levels.template.info.description",
+  "features": "levels.template.info.description",
+  "isAuxiliary": true,
+  "authors": "Athos Benther",
+  "spawnPoints": [
+    {
+      "translationId": "White Cock",
+      "objectname": "spawn_white_cock",
+      "preview": "template_preview.png"
+    },
+    {
+      "translationId": "Little Castle",
+      "objectname": "spawn_little_castle",
+      "preview": "template_preview.png"
+    },
+    {
+      "translationId": "Harpooner",
+      "objectname": "spawn_harpooner",
+      "preview": "template_preview.png"
+    },
+    {
+      "translationId": "Edge",
+      "objectname": "spawn_edge",
+      "preview": "template_preview.png"
+    }
+  ]
+}

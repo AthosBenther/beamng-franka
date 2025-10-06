@@ -1,0 +1,42 @@
+{
+  "vine_leaves": {
+    "name": "vine_leaves",
+    "mapTo": "vine_leaves",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/vines/t_vine_ao.data.png",
+        "baseColorFactor": [
+          1,
+          1,
+          0.999989986,
+          1
+        ],
+        "baseColorMap": "/levels/franka/art/shapes/trees/vines/t_vine_b.color.png",
+        "normalMap": "/levels/franka/art/shapes/trees/vines/t_vine_nm.normal.png",
+        "opacityMap": "/levels/franka/art/shapes/trees/vines/t_vine_o.data.png",
+        "roughnessFactor": 0.899999976,
+        "roughnessMap": "/levels/franka/art/shapes/trees/vines/t_vine_r.data.png"
+      },
+      {
+        "baseColorFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "alphaRef": 65,
+    "alphaTest": true,
+    "doubleSided": true,
+    "groundType": "LEAVES_THIN",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "version": 1.5
+  }
+}

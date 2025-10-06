@@ -1,0 +1,18 @@
+{"name":"ForestBrush_Brush","internalName":"Huge Trees","class":"ForestBrush","__parent":"ForestBrushGroup"}
+{"name":"ForestBrush_Brush0","internalName":"Trees","class":"ForestBrush","__parent":"ForestBrushGroup"}
+{"name":"ForestBrush_Brush1","internalName":"Bushes","class":"ForestBrush","__parent":"ForestBrushGroup"}
+{"name":"ForestBrush_Brush2","internalName":"Palms","class":"ForestBrush","__parent":"ForestBrushGroup"}
+{"internalName":"Huge","class":"ForestBrushElement","__parent":"ForestBrush_Brush","forestItemData":"tro_tree_1_huge","probability":0.699999988}
+{"internalName":"Filler","class":"ForestBrushElement","__parent":"ForestBrush_Brush","forestItemData":"tro_tree_1_filler","probability":0.150000006}
+{"internalName":"Filler 2","class":"ForestBrushElement","__parent":"ForestBrush_Brush","forestItemData":"tro_tree_1_filler_02","probability":0.150000006}
+{"internalName":"Element0","class":"ForestBrushElement","__parent":"ForestBrush_Brush0","forestItemData":"tro_tree_2_medium"}
+{"internalName":"Element4","class":"ForestBrushElement","__parent":"ForestBrush_Brush0","forestItemData":"tro_tree_2_large"}
+{"internalName":"Element","class":"ForestBrushElement","__parent":"ForestBrush_Brush0","forestItemData":"tro_tree_2_tiny"}
+{"internalName":"Element1","class":"ForestBrushElement","__parent":"ForestBrush_Brush1","forestItemData":"tro_tree_2_bush_huge","scaleMax":2,"scaleMin":0.699999988}
+{"internalName":"Element6","class":"ForestBrushElement","__parent":"ForestBrush_Brush1","forestItemData":"tropical_plant_03_e","probability":0.00999999978}
+{"internalName":"Element7","class":"ForestBrushElement","__parent":"ForestBrush_Brush1","forestItemData":"tropical_plant_01_a","probability":0.0199999996}
+{"internalName":"Medium","class":"ForestBrushElement","__parent":"ForestBrush_Brush2","forestItemData":"palm_medium"}
+{"name":"Small","internalName":"Small","class":"ForestBrushElement","__parent":"ForestBrush_Brush2","forestItemData":"palm_small"}
+{"internalName":"Tall","class":"ForestBrushElement","__parent":"ForestBrush_Brush2","forestItemData":"palm_tall"}
+{"internalName":"Tiny","class":"ForestBrushElement","__parent":"ForestBrush_Brush2","forestItemData":"palm_tiny"}
+{"name":"ForestBrushGroup","class":"SimGroup"}

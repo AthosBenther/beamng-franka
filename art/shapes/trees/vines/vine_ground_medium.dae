@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0 commit date:2017-09-11, commit time:10:43, hash:5bd8ac9</authoring_tool>
+    </contributor>
+    <created>2020-02-03T15:17:37</created>
+    <modified>2020-02-03T15:17:37</modified>
+    <unit name="meter" meter="1" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="vegetation_vine_01_d_dds" name="vegetation_vine_01_d_dds">
+      <init_from>/D:/game/levels/Industrial_v2/art/shapes/trees/vines/vegetation_vine_01_d.dds</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="vine_leaves-effect">
+      <profile_COMMON>
+        <newparam sid="vegetation_vine_01_d_dds-surface">
+          <surface type="2D">
+            <init_from>vegetation_vine_01_d_dds</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="vegetation_vine_01_d_dds-sampler">
+          <sampler2D>
+            <source>vegetation_vine_01_d_dds-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="vegetation_vine_01_d_dds-sampler" />
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="vegetation_vine_01_d_dds-sampler" />
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided" type="int">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra><technique profile="MAX3D"><double_sided>1</double_sided></technique></extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="vine_leaves-material" name="vine_leaves">
+      <instance_effect url="#vine_leaves-effect" />
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Plane_157-mesh" name="Plane.157">
+      <mesh>
+        <source id="Plane_157-mesh-positions">
+          <float_array id="Plane_157-mesh-positions-array" count="96">-0.1477502 -1.935192 0.1166249 0.206952 -1.935192 0.03553783 -0.1477502 -2.190497 0.03553783 0.2066216 -2.189597 0.1166249 0.03820079 -2.645723 0.1239513 -0.2521594 -2.947524 0.02821147 -0.1790267 -2.43673 0.02821147 -0.4683503 -2.738986 0.1239513 0.1372733 -3.565385 -0.007500648 -0.1322584 -3.565385 0.1087313 -5.77316e-4 -4.016585 0.08782219 -0.1868423 -2.824214 0.05120831 0.02372199 -2.791321 0.1256221 0.2099871 -3.983692 0.01340842 -0.05990433 -2.361969 0.05061531 -0.3294361 -2.361969 0.05061531 0.1372733 0.04452395 0.1087313 0.3795202 -1.158722 0.05061531 -0.1322581 0.04452395 -0.007500648 0.1099884 -1.158722 0.05061531 0.3166997 -1.440175 0.1345529 -0.1293961 -1.189813 0.01760983 0.4969033 -1.119088 0.01760983 0.05058842 -0.8700907 0.1345529 -0.1511507 -0.7479832 0.1417345 -0.1365535 -0.1737904 0.0104283 0.2621371 -0.7584898 0.0104283 0.275264 -0.1847954 0.1417345 -0.04669481 -1.97521 0.1185913 -0.192213 -1.519096 -0.009339392 0.2816032 -1.87047 -0.009339392 0.1350637 -1.41515 0.1185913</float_array>
+          <technique_common>
+            <accessor source="#Plane_157-mesh-positions-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_157-mesh-normals">
+          <float_array id="Plane_157-mesh-normals-array" count="96">0.2128422 0.2964653 0.9310244 -0.04483312 -0.06244283 0.9970411 0.04510754 0.06280875 0.9970058 -0.2123517 -0.295791 0.9313509 0.0660749 -0.3589103 0.9310304 -0.01391643 0.07559448 0.9970416 0.01397782 -0.07605415 0.9970058 -0.06592106 0.3581103 0.9313492 0.2668614 -0.03497517 0.9631 0.3379425 -0.03570777 0.9404891 -0.2577913 -0.02465909 0.965886 -0.3299755 -0.0225538 0.9437201 0.02621561 0.0213021 0.9994294 0 0.02584922 0.9996659 0.347944 0.0243234 0.9371997 0.3958908 0.02050864 0.9180687 -0.3489586 -0.03729468 0.9363958 -0.3957422 -0.0353412 0.9176814 -0.02581924 -0.02252316 0.9994129 0 -0.0255137 0.9996746 -0.3307075 -0.1543667 0.9310229 0.06964552 0.03250324 0.9970422 -0.07007235 -0.03271669 0.9970053 0.3299431 0.1539999 0.9313547 -0.2909721 0.2202891 0.9310252 0.06128317 -0.04638963 0.9970418 -0.06164908 0.04666405 0.9970065 0.2902978 -0.2197986 0.9313517 -0.3962042 0.1285786 0.9091149 0.08408033 -0.02728414 0.9960855 -0.08456736 0.02743631 0.99604 0.3953437 -0.128302 0.9095285</float_array>
+          <technique_common>
+            <accessor source="#Plane_157-mesh-normals-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_157-mesh-map-0">
+          <float_array id="Plane_157-mesh-map-0-array" count="108">0.2939118 0.9999999 0 0.9999999 0.2936381 0.789196 0 0.9999999 0 0.7884501 0.2936381 0.789196 0.2939118 0.9999999 0 0.9999999 0.2936381 0.789196 0 0.9999999 0 0.7884501 0.2936381 0.789196 0.6237659 0.9999999 0.4471729 1 0.4471729 0 0.6237658 0 0.6237659 0.9999999 0.4471729 0 0.847104 1 0.6237659 0.9999999 0.6237658 0 0.8471041 0 0.847104 1 0.6237658 0 0.847104 1 0.6237659 0.9999999 0.6237658 0 0.8471041 0 0.847104 1 0.6237658 0 0.847104 1 0.6237659 0.9999999 0.6237658 0 0.8471041 0 0.847104 1 0.6237658 0 0.2939118 0.9999999 0 0.9999999 0.2936381 0.789196 0 0.9999999 0 0.7884501 0.2936381 0.789196 0.2939118 0.9999999 0 0.9999999 0.2936381 0.789196 0 0.9999999 0 0.7884501 0.2936381 0.789196 0.2939118 0.9999999 0 0.9999999 0.2936381 0.789196 0 0.9999999 0 0.7884501 0.2936381 0.789196</float_array>
+          <technique_common>
+            <accessor source="#Plane_157-mesh-map-0-array" count="54" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_157-mesh-colors-Col" name="Col">
+          <float_array id="Plane_157-mesh-colors-Col-array" count="162">0.08235293 0.2666667 1 0.07843136 0.7254902 1 0.1137255 0.3333333 1 0.07843136 0.7254902 1 0.05098038 0.5058824 1 0.1137255 0.3333333 1 0.08235293 0.8117647 1 0.07843136 0.9764706 1 0.1137255 0.9215686 1 0.07843136 0.9764706 1 0.05098038 0.6392157 1 0.1137255 0.9215686 1 0.1098039 0.1921569 1 0.1137255 0.3568627 1 0 1 0.7647059 0 0.7647059 0.8 0.1098039 0.1921569 1 0 1 0.7647059 0 0.2313725 0.8627451 0 0.5647059 0.9843137 0 0.4470588 1 0 0.5058824 1 0 0.2313725 0.8627451 0 0.4470588 1 0 0 0.6078432 0 0 0.2392157 0 0.4431372 1 0 0.5647059 1 0 0 0.6078432 0 0.4431372 1 0 0.5647059 1 0 0.4431372 1 0 0.5647059 0.9921569 0 0.2313725 0.8666667 0 0.5647059 1 0 0.5647059 0.9921569 0.08235293 0.5450981 1 0.07843136 0.7686275 1 0.1137255 0.5764706 1 0.07843136 0.7686275 1 0.05098038 0.7647059 1 0.1137255 0.5176471 1 0.08235293 0.3058823 1 0.07843136 0.8352941 1 0.1137255 0.3921568 1 0.07843136 0.8352941 1 0.05098038 0.4078431 1 0.1137255 0.3921568 1 0.08235293 0.6196079 1 0.07843136 0.6392157 1 0.1137255 0.7921569 1 0.07843136 0.6392157 1 0.05098038 0.2431373 1 0.1137255 0.7921569 1</float_array>
+          <technique_common>
+            <accessor source="#Plane_157-mesh-colors-Col-array" count="54" stride="3">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_157-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_157-mesh-positions" />
+        </vertices>
+        <triangles material="vine_leaves-material" count="18">
+          <input semantic="VERTEX" source="#Plane_157-mesh-vertices" offset="0" />
+          <input semantic="NORMAL" source="#Plane_157-mesh-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#Plane_157-mesh-map-0" offset="2" set="0" />
+          <input semantic="COLOR" source="#Plane_157-mesh-colors-Col" offset="3" set="0" />
+          <p>1 0 0 0 0 1 1 1 3 2 2 2 0 1 3 3 2 3 4 4 3 2 5 5 5 4 6 6 4 5 7 7 7 6 8 8 4 5 9 9 6 7 10 10 7 6 11 11 10 8 12 12 13 9 13 13 12 10 14 14 11 11 15 15 10 8 16 16 12 10 17 17 14 12 18 18 15 13 19 19 9 14 20 20 8 15 21 21 14 12 22 22 9 14 23 23 16 16 24 24 18 17 25 25 19 18 26 26 17 19 27 27 16 16 28 28 19 18 29 29 17 19 30 30 19 18 31 31 15 13 32 32 14 12 33 33 17 19 34 34 15 13 35 35 21 20 36 36 20 21 37 37 23 22 38 38 20 21 39 39 22 23 40 40 23 22 41 41 25 24 42 42 24 25 43 43 27 26 44 44 24 25 45 45 26 27 46 46 27 26 47 47 29 28 48 48 28 29 49 49 31 30 50 50 28 29 51 51 30 31 52 52 31 30 53 53</p>
+        </triangles>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+    <geometry id="Plane_156-mesh" name="Plane.156">
+      <mesh>
+        <source id="Plane_156-mesh-positions">
+          <float_array id="Plane_156-mesh-positions-array" count="36">0.1372733 -3.565385 -0.007500708 -0.1322584 -3.565385 0.1087313 -5.77316e-4 -4.016585 0.08782219 -0.1868423 -2.824214 0.05120837 0.02372199 -2.791321 0.1256221 0.2099871 -3.983692 0.01340842 -0.05990433 -2.361969 0.05061531 -0.3294361 -2.361969 0.05061531 0.1372733 0.04452395 0.1087313 0.3795202 -1.158722 0.05061531 -0.1322581 0.04452395 -0.007500708 0.1099884 -1.158722 0.05061531</float_array>
+          <technique_common>
+            <accessor source="#Plane_156-mesh-positions-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_156-mesh-normals">
+          <float_array id="Plane_156-mesh-normals-array" count="36">0.2668614 -0.03497517 0.9631 0.3379425 -0.03570777 0.9404891 -0.2577913 -0.02465909 0.965886 -0.3299755 -0.0225538 0.9437201 0.02621561 0.0213021 0.9994294 0 0.02584922 0.9996659 0.347944 0.0243234 0.9371997 0.3958908 0.02050864 0.9180687 -0.3489586 -0.03729468 0.9363958 -0.3957422 -0.0353412 0.9176814 -0.02581924 -0.02252316 0.9994129 0 -0.0255137 0.9996746</float_array>
+          <technique_common>
+            <accessor source="#Plane_156-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_156-mesh-map-0">
+          <float_array id="Plane_156-mesh-map-0-array" count="48">0.6237659 0.9999999 0.4471729 1 0.4471729 0 0.6237658 0 0.6237659 0.9999999 0.4471729 0 0.847104 1 0.6237659 0.9999999 0.6237658 0 0.8471041 0 0.847104 1 0.6237658 0 0.847104 1 0.6237659 0.9999999 0.6237658 0 0.8471041 0 0.847104 1 0.6237658 0 0.847104 1 0.6237659 0.9999999 0.6237658 0 0.8471041 0 0.847104 1 0.6237658 0</float_array>
+          <technique_common>
+            <accessor source="#Plane_156-mesh-map-0-array" count="24" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_156-mesh-colors-Col" name="Col">
+          <float_array id="Plane_156-mesh-colors-Col-array" count="72">0.1098039 0.1921569 1 0.1137255 0.3568627 1 0 1 0.7647059 0 0.7647059 0.8 0.1098039 0.1921569 1 0 1 0.7647059 0 0.2313725 0.8627451 0 0.5647059 0.9843137 0 0.4470588 1 0 0.5058824 1 0 0.2313725 0.8627451 0 0.4470588 1 0 0 0.6078432 0 0 0.2392157 0 0.4431372 1 0 0.5647059 1 0 0 0.6078432 0 0.4431372 1 0 0.5647059 1 0 0.4431372 1 0 0.5647059 0.9921569 0 0.2313725 0.8666667 0 0.5647059 1 0 0.5647059 0.9921569</float_array>
+          <technique_common>
+            <accessor source="#Plane_156-mesh-colors-Col-array" count="24" stride="3">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_156-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_156-mesh-positions" />
+        </vertices>
+        <triangles material="vine_leaves-material" count="8">
+          <input semantic="VERTEX" source="#Plane_156-mesh-vertices" offset="0" />
+          <input semantic="NORMAL" source="#Plane_156-mesh-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#Plane_156-mesh-map-0" offset="2" set="0" />
+          <input semantic="COLOR" source="#Plane_156-mesh-colors-Col" offset="3" set="0" />
+          <p>2 0 0 0 5 1 1 1 4 2 2 2 3 3 3 3 2 0 4 4 4 2 5 5 6 4 6 6 7 5 7 7 1 6 8 8 0 7 9 9 6 4 10 10 1 6 11 11 8 8 12 12 10 9 13 13 11 10 14 14 9 11 15 15 8 8 16 16 11 10 17 17 9 11 18 18 11 10 19 19 7 5 20 20 6 4 21 21 9 11 22 22 7 5 23 23</p>
+        </triangles>
+      </mesh>
+      <extra><technique profile="MAYA"><double_sided>1</double_sided></technique></extra>
+    </geometry>
+  </library_geometries>
+  <library_controllers />
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="base00" name="base00" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="nulldetail25" name="nulldetail25" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+        <node id="start01" name="start01" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="vine_ground_medium_a150" name="vine_ground_medium_a150" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry url="#Plane_157-mesh" name="vine_ground_medium_a150">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="vine_leaves-material" target="#vine_leaves-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="vine_ground_medium_a80" name="vine_ground_medium_a80" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry url="#Plane_156-mesh" name="vine_ground_medium_a80">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="vine_leaves-material" target="#vine_leaves-material" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

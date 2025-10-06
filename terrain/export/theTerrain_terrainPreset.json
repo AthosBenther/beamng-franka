@@ -1,0 +1,20 @@
+{
+  "heightMapPath":"/levels/franka/terrain/export/theTerrain_heightmap.png",
+  "heightScale":83.055999755859,
+  "holeMapPath":"/levels/franka/terrain/export/theTerrain_holemap.png",
+  "name":"theTerrain",
+  "opacityMaps":[
+    "/levels/franka/terrain/export/theTerrain_layerMap_0_Grass.png",
+    "/levels/franka/terrain/export/theTerrain_layerMap_1_Asphalt.png",
+    "/levels/franka/terrain/export/theTerrain_layerMap_2_DryGrass.png",
+    "/levels/franka/terrain/export/theTerrain_layerMap_3_DirtRoad.png",
+    "/levels/franka/terrain/export/theTerrain_layerMap_4_Mud.png"
+  ],
+  "pos":{
+    "x":-1024,
+    "y":-1024,
+    "z":922.64398193359
+  },
+  "squareSize":1,
+  "type":"TerrainData"
+}

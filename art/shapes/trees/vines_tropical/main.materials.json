@@ -1,0 +1,49 @@
+{
+  "tro_hangingplants": {
+    "name": "tro_hangingplants",
+    "mapTo": "tro_hangingplants",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "levels/franka/art/shapes/trees/vines_tropical/tro_hangingplants_d.dds"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 100,
+    "alphaTest": true,
+    "groundType": "LEAVES_THIN",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation"
+  },
+  "tro_vines_2d": {
+    "name": "tro_vines_2d",
+    "mapTo": "tro_vines_2d",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/vines_tropical/t_tro_vines_ao.data.png",
+        "baseColorMap": "/levels/franka/art/shapes/trees/vines_tropical/t_tro_vines_b.color.png",
+        "normalMap": "/levels/franka/art/shapes/trees/vines_tropical/t_tro_vines_nm.normal.png",
+        "opacityMap": "/levels/franka/art/shapes/trees/vines_tropical/t_tro_vines_o.data.png",
+        "roughnessMap": "/levels/franka/art/shapes/trees/vines_tropical/t_tro_vines_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 67,
+    "alphaTest": true,
+    "doubleSided": true,
+    "groundType": "LEAVES_THIN",
+    "invertBackFaceNormals": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "version": 1.5
+  }
+}

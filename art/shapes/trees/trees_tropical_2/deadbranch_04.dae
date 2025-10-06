@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.81.16 commit date:2019-12-04, commit time:11:32, hash:f1aa4d18d49d</authoring_tool>
+    </contributor>
+    <created>2020-10-21T13:39:51</created>
+    <modified>2020-10-21T13:39:51</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="leaves_strong-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.64 0.1921665 0.09282804 1</color>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <color sid="alpha">0 0 0 0.2125966</color>
+            </transparent>
+            <index_of_refraction>
+              <float sid="ior">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="tro_tree_2_branch-effect">
+      <profile_COMMON>
+        <newparam sid="tro_branch_02_d_color_png-surface">
+          <surface type="2D">
+            <init_from>tro_branch_02_d_color_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="tro_branch_02_d_color_png-sampler">
+          <sampler2D>
+            <source>tro_branch_02_d_color_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="tro_branch_02_d_color_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <color sid="alpha">0 0 0 0</color>
+            </transparent>
+            <index_of_refraction>
+              <float sid="ior">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="tro_branch_02_d_color_png" name="tro_branch_02_d_color_png">
+      <init_from>/D:/game/levels/jungle_rock_island/art/shapes/trees/trees_tropical_2/tro_branch_02_d.color.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="leaves_strong-material" name="leaves_strong">
+      <instance_effect url="#leaves_strong-effect"/>
+    </material>
+    <material id="tro_tree_2_branch-material" name="tro_tree_2_branch">
+      <instance_effect url="#tro_tree_2_branch-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Plane_14700-mesh" name="Plane.14700">
+      <mesh>
+        <source id="Plane_14700-mesh-positions">
+          <float_array id="Plane_14700-mesh-positions-array" count="33">-0.03749662 -0.8594952 -0.01737689 0.3576049 -0.02586472 0.02278447 0.5753902 0.2786986 -0.006007015 -0.3454282 0.6804639 0.1752437 -0.1519277 0.9517207 0.07445645 0.1499826 0.3153229 0.1773576 0.3012269 0.8483089 0.01977604 -0.06713044 -0.5027912 0.08711433 0.2479479 -0.006311833 -0.006007075 -0.09784352 -0.5894178 -0.01737689 0.1499826 0.3153229 -0.01737689</float_array>
+          <technique_common>
+            <accessor source="#Plane_14700-mesh-positions-array" count="11" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_14700-mesh-normals">
+          <float_array id="Plane_14700-mesh-normals-array" count="33">0.2505496 -0.2231833 0.9420266 -0.03368854 -0.2890732 0.9567141 0.402356 -0.03174364 0.9149329 -0.2627359 -0.3712327 0.8905932 0.2513549 0.2081432 0.9452498 -0.9581959 0.07748389 0.2754213 -0.1204331 0.4201067 0.8994478 -0.4397143 -0.1375214 0.8875467 -0.5806073 0.1801415 0.7940053 -0.9595315 5.23523e-4 0.2816011 -0.8397351 -0.5182933 -0.1619174</float_array>
+          <technique_common>
+            <accessor source="#Plane_14700-mesh-normals-array" count="11" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_14700-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_14700-mesh-positions"/>
+        </vertices>
+        <triangles material="leaves_strong-material" count="13">
+          <input semantic="VERTEX" source="#Plane_14700-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane_14700-mesh-normals" offset="1"/>
+          <p>1 0 0 1 2 2 5 3 2 2 6 4 3 5 6 4 4 6 1 0 8 7 7 8 0 1 1 0 7 8 8 7 1 0 5 3 0 1 7 8 9 9 7 8 8 7 9 9 5 3 3 5 10 10 8 7 5 3 10 10 3 5 4 6 10 10 5 3 1 0 2 2 3 5 5 3 6 4</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Plane_14692-mesh" name="Plane.14692">
+      <mesh>
+        <source id="Plane_14692-mesh-positions">
+          <float_array id="Plane_14692-mesh-positions-array" count="12">-0.08433127 -0.9687417 -0.0248121 -0.2613769 0.05192381 0.3147121 0.7895017 0.6019247 -0.006007015 -0.4570741 1.282342 0.04720073</float_array>
+          <technique_common>
+            <accessor source="#Plane_14692-mesh-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_14692-mesh-normals">
+          <float_array id="Plane_14692-mesh-normals-array" count="12">0.3117064 -0.04204285 0.949248 0.3916308 -0.2285531 0.891285 0.2646045 0.05582153 0.9627401 0.1691258 0.235002 0.9571681</float_array>
+          <technique_common>
+            <accessor source="#Plane_14692-mesh-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_14692-mesh-map-0">
+          <float_array id="Plane_14692-mesh-map-0-array" count="12">0.5482591 0.3076611 0.1641442 0.008791744 1.000003 3.02434e-4 1.002409 0.6610229 0.5482591 0.3076611 1.000003 3.02434e-4</float_array>
+          <technique_common>
+            <accessor source="#Plane_14692-mesh-map-0-array" count="6" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_14692-mesh-colors-Col" name="Col">
+          <float_array id="Plane_14692-mesh-colors-Col-array" count="24">0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Plane_14692-mesh-colors-Col-array" count="6" stride="4">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+              <param name="A" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_14692-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_14692-mesh-positions"/>
+        </vertices>
+        <triangles material="tro_tree_2_branch-material" count="2">
+          <input semantic="VERTEX" source="#Plane_14692-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane_14692-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Plane_14692-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#Plane_14692-mesh-colors-Col" offset="3" set="0"/>
+          <p>1 0 0 0 0 1 1 1 2 2 2 2 3 3 3 3 1 0 4 4 2 2 5 5</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="base00" name="base00" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="bb__autobillboard25" name="bb__autobillboard25" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+        <node id="collision-1" name="collision-1" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+        <node id="start01" name="start01" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="deadbranch_04_a80" name="deadbranch_04_a80" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry url="#Plane_14692-mesh" name="deadbranch_04_a80">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="tro_tree_2_branch-material" target="#tro_tree_2_branch-material">
+                    <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="Colmesh_deadbranch_04-1" name="Colmesh_deadbranch_04-1" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry url="#Plane_14700-mesh" name="Colmesh_deadbranch_04-1">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="leaves_strong-material" target="#leaves_strong-material"/>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

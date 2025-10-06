@@ -1,0 +1,74 @@
+{
+  "tro_bush_2_leaves": {
+    "name": "tro_bush_2_leaves",
+    "mapTo": "tro_bush_2_leaves",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/bush_tropical_2/t_tro_bush_2_ao.data.png",
+        "baseColorFactor": [
+          0.827450991,
+          0.850979984,
+          0.823529005,
+          2
+        ],
+        "baseColorMap": "/levels/franka/art/shapes/trees/bush_tropical_2/t_tro_bush_2_b.color.png",
+        "normalMap": "/levels/franka/art/shapes/trees/bush_tropical_2/t_tro_bush_2_nm.normal.png",
+        "opacityMap": "/levels/franka/art/shapes/trees/bush_tropical_2/t_tro_bush_2_o.data.png",
+        "roughnessMap": "/levels/franka/art/shapes/trees/bush_tropical_2/t_tro_bush_2_r.data.png"
+      },
+      {
+        "baseColorFactor": null
+      },
+      {
+        "baseColorFactor": null
+      },
+      {
+        "baseColorFactor": null
+      }
+    ],
+    "alphaRef": 174,
+    "alphaTest": true,
+    "doubleSided": true,
+    "groundType": "LEAVES_THIN",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "specularStrength0": "0.882353",
+    "version": 1.5
+  },
+  "tro_bush_2_trunk": {
+    "name": "tro_bush_2_trunk",
+    "mapTo": "tro_bush_2_trunk",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/bush_tropical_2/t_tro_bush_2_trunk_ao.data.png",
+        "baseColorMap": "/levels/franka/art/shapes/trees/bush_tropical_2/t_tro_bush_2_trunk_b.color.png",
+        "detailScale": [
+          0.800000012,
+          0.800000012
+        ],
+        "normalMap": "/levels/franka/art/shapes/trees/bush_tropical_2/t_tro_bush_2_trunk_nm.normal.png",
+        "roughnessMap": "/levels/franka/art/shapes/trees/bush_tropical_2/t_tro_bush_2_trunk_r.data.png"
+      },
+      {
+        "detailScale": null
+      },
+      {
+        "detailScale": null
+      },
+      {
+        "detailScale": null
+      }
+    ],
+    "groundType": "WOOD",
+    "materialTag0": "vegetation",
+    "materialTag1": "beamng",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "specularStrength0": "0.490196",
+    "version": 1.5
+  }
+}

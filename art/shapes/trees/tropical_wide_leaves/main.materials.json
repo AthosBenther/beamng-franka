@@ -1,0 +1,59 @@
+{
+  "tropical_stem": {
+    "name": "tropical_stem",
+    "mapTo": "tropical_stem",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_stems_ao.data.png",
+        "baseColorMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_stems_b.color.png",
+        "normalMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_stems_nm.normal.png",
+        "opacityMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_stems_o.data.png",
+        "roughnessMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_stems_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 95,
+    "alphaTest": true,
+    "doubleSided": true,
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "tropical_wide_leaves": {
+    "name": "tropical_wide_leaves",
+    "mapTo": "tropical_wide_leaves",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_wide_leaves_ao.data.png",
+        "baseColorMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_wide_leaves_b.color.png",
+        "normalMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_wide_leaves_nm.normal.png",
+        "opacityMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_wide_leaves_o.data.png",
+        "roughnessMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_wide_leaves_r.data.png",
+        "specular": [
+          1,
+          0.999989986,
+          0.999989986,
+          1
+        ]
+      },
+      {
+        "specular": null
+      },
+      {
+        "specular": null
+      },
+      {
+        "specular": null
+      }
+    ],
+    "alphaRef": 93,
+    "alphaTest": true,
+    "doubleSided": true,
+    "translucentBlendOp": "None",
+    "translucentZWrite": true,
+    "version": 1.5
+  }
+}

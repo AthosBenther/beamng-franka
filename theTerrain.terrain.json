@@ -1,0 +1,20 @@
+{
+  "binaryFormat": "version(char), size(unsigned int), heightMap(heightMapSize * heightMapItemSize), layerMap(layerMapSize * layerMapItemSize), layerTextureMap(layerMapSize * layerMapItemSize), materialNames",
+  "datafile": "/levels/franka/theTerrain.ter",
+  "heightMapItemSize": 2,
+  "heightMapSize": 4194304,
+  "heightmapImage": "/levels/franka/theTerrain.terrainheightmap.png",
+  "layerMapItemSize": 1,
+  "layerMapSize": 4194304,
+  "materials": [
+    "Grass",
+    "Asphalt",
+    "DryGrass",
+    "DirtRoad",
+    "Mud",
+    "Concrete",
+    "SatMap"
+  ],
+  "size": 2048,
+  "version": 9
+}

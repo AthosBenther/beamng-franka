@@ -1,0 +1,29 @@
+{
+  "childs": [
+    {
+      "ForestItemData": "Tropical_Bushes_1",
+      "childs": [
+        {
+          "ForestItemData": "tro_bush_small",
+          "class": "ForestBrushElement",
+          "internalName": "tro_bush_small",
+          "probability": 2,
+          "scaleMax": 1.200000047683716,
+          "scaleMin": 0.6000000238418579
+        },
+        {
+          "ForestItemData": "tro_bush_huge",
+          "class": "ForestBrushElement",
+          "internalName": "tro_bush_huge",
+          "probability": 0.800000011920929,
+          "scaleMax": 1.200000047683716,
+          "scaleMin": 0.6000000238418579
+        }
+      ],
+      "class": "ForestBrush",
+      "internalName": "Tropical_Bushes_1"
+    }
+  ],
+  "class": "SimGroup",
+  "name": "ForestBrushGroup"
+}

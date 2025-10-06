@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.81.16 commit date:2019-12-04, commit time:11:32, hash:f1aa4d18d49d</authoring_tool>
+    </contributor>
+    <created>2020-09-12T09:55:40</created>
+    <modified>2020-09-12T09:55:40</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="leaves_thin-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.5394552 1 0.2873878 1</color>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <color sid="alpha">0 0 0 0.04520208</color>
+            </transparent>
+            <index_of_refraction>
+              <float sid="ior">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="tropical_stem-effect">
+      <profile_COMMON>
+        <newparam sid="tropical_stem_d_color_png-surface">
+          <surface type="2D">
+            <init_from>tropical_stem_d_color_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="tropical_stem_d_color_png-sampler">
+          <sampler2D>
+            <source>tropical_stem_d_color_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="tropical_stem_d_color_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="tropical_wide_leaves-effect">
+      <profile_COMMON>
+        <newparam sid="tropical_wide_leaves_d_color_png-surface">
+          <surface type="2D">
+            <init_from>tropical_wide_leaves_d_color_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="tropical_wide_leaves_d_color_png-sampler">
+          <sampler2D>
+            <source>tropical_wide_leaves_d_color_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="tropical_wide_leaves_d_color_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="tropical_stem_d_color_png" name="tropical_stem_d_color_png">
+      <init_from>/D:/game/levels/jungle_rock_island_v2/art/shapes/trees/tropical_wide_leaves/tropical_stem_d.color.png</init_from>
+    </image>
+    <image id="tropical_wide_leaves_d_color_png" name="tropical_wide_leaves_d_color_png">
+      <init_from>/D:/game/levels/jungle_rock_island_v2/art/shapes/trees/tropical_wide_leaves/tropical_wide_leaves_d.color.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="leaves_thin-material" name="leaves_thin">
+      <instance_effect url="#leaves_thin-effect"/>
+    </material>
+    <material id="tropical_stem-material" name="tropical_stem">
+      <instance_effect url="#tropical_stem-effect"/>
+    </material>
+    <material id="tropical_wide_leaves-material" name="tropical_wide_leaves">
+      <instance_effect url="#tropical_wide_leaves-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Sphere_017-mesh" name="Sphere.017">
+      <mesh>
+        <source id="Sphere_017-mesh-positions">
+          <float_array id="Sphere_017-mesh-positions-array" count="60">-0.1076152 1.003213 5.617463 0.9703931 1.785354 4.81362 0.2622284 0.6389358 3.159012 1.419484 1.619648 4.96428 1.456636 1.395251 4.433255 1.187875 0.8151289 3.094376 1.471186 -0.6064018 3.645584 1.516232 -0.5885907 3.617538 1.494561 -0.3888565 3.132145 -0.3147934 -1.396086 4.587686 -0.5052679 -1.704673 4.363929 -0.2274089 -1.259207 3.125904 -0.005181789 0.03914785 -0.04985809 -0.4380452 0.3479036 5.909517 -0.3147934 -1.396086 4.587686 -0.5052679 -1.704673 4.363929 -0.8244734 -0.2495828 3.268446 -0.4021738 0.4304345 5.911905 -1.224326 -0.2587285 3.92125 -0.3183165 0.2830354 3.198242</float_array>
+          <technique_common>
+            <accessor source="#Sphere_017-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Sphere_017-mesh-normals">
+          <float_array id="Sphere_017-mesh-normals-array" count="60">-0.1103868 0.06292992 -0.9918945 -0.3948252 0.8890204 -0.2318533 0.5507839 0.7399432 -0.3861622 -0.1038244 0.9941141 0.03094589 0.7323681 0.4976148 0.4647761 0.7804737 0.5389123 -0.3169139 -0.836199 0.4863255 0.2534935 -0.6304401 0.1244888 0.7661905 0.9071517 -0.3137065 -0.2804712 0.5991887 -0.5728198 0.5593302 0.8525923 -0.5039988 0.1381006 -0.2511106 -0.8885617 -0.3839294 0.337415 -0.3567028 0.8711569 0.2407652 -0.3902173 0.8886858 -0.9160004 0.08731514 -0.3915601 -0.4266644 -0.1622423 0.8897387 -0.3912258 -0.1169801 0.9128297 -0.6014673 0.7920581 -0.1043137 -0.9912324 0.08746796 -0.09903472 0.5777491 -0.1055946 0.8093553</float_array>
+          <technique_common>
+            <accessor source="#Sphere_017-mesh-normals-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Sphere_017-mesh-map-0">
+          <float_array id="Sphere_017-mesh-map-0-array" count="216">0.5833333 0 0.6666667 0.25 0.5 0.25 0.6666667 0.5 0.5 0.75 0.5 0.5 0.6666667 0.25 0.5 0.5 0.5 0.25 0.6666667 0.7500001 0.5833333 1 0.5 0.75 0.4166666 0 0.5 0.25 0.3333333 0.25 0.5 0.5 0.3333333 0.75 0.3333333 0.5 0.5 0.25 0.3333333 0.5 0.3333333 0.25 0.5 0.75 0.4166666 1 0.3333333 0.75 0.25 0 0.3333333 0.25 0.1666666 0.2500001 0.3333333 0.5 0.1666666 0.75 0.1666666 0.5 0.3333333 0.5 0.1666666 0.2500001 0.3333333 0.25 0.3333333 0.75 0.25 1 0.1666666 0.75 0.08333331 0 0.1666666 0.2500001 0 0.2500001 0.1666666 0.75 0 0.5 0.1666666 0.5 0.1666666 0.2500001 0 0.5 0 0.2500001 0.1666666 0.75 0.08333331 1 0 0.75 0.9166667 0 1 0.2500001 0.8333333 0.25 1 0.75 0.8333333 0.5 1 0.5 1 0.2500001 0.8333333 0.5 0.8333333 0.25 1 0.75 0.9166667 1 0.8333333 0.75 0.8333333 0.75 0.7500001 1 0.6666667 0.7500001 0.7500001 0 0.8333333 0.25 0.6666667 0.25 0.8333333 0.75 0.6666667 0.5 0.8333333 0.5 0.8333333 0.5 0.6666667 0.25 0.8333333 0.25 0.6666667 0.5 0.6666667 0.7500001 0.5 0.75 0.6666667 0.25 0.6666667 0.5 0.5 0.5 0.5 0.5 0.5 0.75 0.3333333 0.75 0.5 0.25 0.5 0.5 0.3333333 0.5 0.3333333 0.5 0.3333333 0.75 0.1666666 0.75 0.3333333 0.5 0.1666666 0.5 0.1666666 0.2500001 0.1666666 0.75 0 0.75 0 0.5 0.1666666 0.2500001 0.1666666 0.5 0 0.5 1 0.75 0.8333333 0.75 0.8333333 0.5 1 0.2500001 1 0.5 0.8333333 0.5 0.8333333 0.75 0.6666667 0.7500001 0.6666667 0.5 0.8333333 0.5 0.6666667 0.5 0.6666667 0.25</float_array>
+          <technique_common>
+            <accessor source="#Sphere_017-mesh-map-0-array" count="108" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Sphere_017-mesh-vertices">
+          <input semantic="POSITION" source="#Sphere_017-mesh-positions"/>
+        </vertices>
+        <triangles material="leaves_thin-material" count="36">
+          <input semantic="VERTEX" source="#Sphere_017-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Sphere_017-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Sphere_017-mesh-map-0" offset="2" set="0"/>
+          <p>12 0 0 2 1 1 5 2 2 1 3 3 3 4 4 4 5 5 2 1 6 4 5 7 5 2 8 0 6 9 13 7 10 3 4 11 12 0 12 5 2 13 8 8 14 4 5 15 6 9 16 7 10 17 5 2 18 7 10 19 8 8 20 3 4 21 13 7 22 6 9 23 12 0 24 8 8 25 11 11 26 7 10 27 9 12 28 10 13 29 7 10 30 11 11 31 8 8 32 6 9 33 13 7 34 9 12 35 12 0 36 11 11 37 16 14 38 9 12 39 15 15 40 10 13 41 11 11 42 15 15 43 16 14 44 9 12 45 13 7 46 14 16 47 12 0 48 16 14 49 19 17 50 14 16 51 18 18 52 15 15 53 16 14 54 18 18 55 19 17 56 14 16 57 13 7 58 17 19 59 17 19 60 13 7 61 0 6 62 12 0 63 19 17 64 2 1 65 17 19 66 1 3 67 18 18 68 18 18 69 2 1 70 19 17 71 1 3 72 0 6 73 3 4 74 2 1 75 1 3 76 4 5 77 4 5 78 3 4 79 6 9 80 5 2 81 4 5 82 7 10 83 7 10 84 6 9 85 9 12 86 7 10 87 10 13 88 11 11 89 9 12 90 14 16 91 15 15 92 11 11 93 10 13 94 15 15 95 14 16 96 17 19 97 18 18 98 16 14 99 15 15 100 18 18 101 17 19 102 0 6 103 1 3 104 18 18 105 1 3 106 2 1 107</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Plane_13949-mesh" name="Plane.13949">
+      <mesh>
+        <source id="Plane_13949-mesh-positions">
+          <float_array id="Plane_13949-mesh-positions-array" count="108">-0.01932728 0.711668 4.677744 -0.06585615 0.01914125 -0.0651322 0.1227067 -0.05685311 -0.05588579 1.222386 0.8275092 3.662942 0.06502628 0.4652538 4.511776 -0.3995009 0.3495088 5.909517 0.2366789 1.050775 4.376571 -0.06258225 0.9459437 5.927707 1.617878 0.7926803 3.494186 0.6455909 0.7262995 3.501699 1.580196 1.421226 4.96428 1.168656 1.664835 4.860092 -0.3619077 -1.065881 3.387966 -0.02226549 -0.03035575 -0.06062209 0.05083549 0.09682255 -0.01523411 -0.3817723 0.06695145 2.954408 -0.3952246 -0.54773 3.486856 -0.3179715 -1.220566 2.975784 -0.4582446 -1.397845 4.587686 -0.6797677 -1.684953 4.363929 -0.5085699 -0.2320551 2.715948 -1.244593 -0.1720794 3.921251 -0.172645 0.3430458 2.897585 -0.65215 0.04785025 4.156444 1.191477 0.393599 3.140631 0.01393467 0.0340901 -0.05669468 -0.06704044 -0.07901632 -0.01415461 0.9148901 -0.5851094 2.605512 1.145374 -0.1045327 3.161916 1.099179 0.6077284 2.792345 1.576086 0.495958 4.254415 1.786358 0.7617047 4.035075 1.038453 -0.2915396 2.395172 1.932595 -0.6494423 3.325521 0.6627746 -0.7984701 2.567168 1.40016 -0.7981318 3.645585</float_array>
+          <technique_common>
+            <accessor source="#Plane_13949-mesh-positions-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_13949-mesh-normals">
+          <float_array id="Plane_13949-mesh-normals-array" count="108">-0.03738629 0.06397944 0.9972507 -0.1741835 -0.1761177 0.9688358 0.185151 0.0960853 0.9780015 -0.05841153 -0.2224728 0.9731876 0.4586042 0.08236682 0.8848153 0.2440142 -0.3100689 0.9188658 0.7510352 -0.6004022 0.274706 0.8964744 0.3074166 0.3191059 0.4796056 -0.6854315 0.5478705 0.2231523 -0.04594421 0.9737004 -0.4265797 -0.7264416 0.5388064 0.02980595 0.07529759 0.9967156 -0.01887595 -0.340593 0.9400213 0.2028107 -0.4828995 0.8518661 -0.0268988 -0.1212059 0.9922629 0.2619296 -0.3789702 0.8875667 0.8219202 0.241796 0.5157344 0.3787338 -0.3423288 0.8598672 0.8794658 -0.4744424 -0.03800481 0.2780482 -0.5381645 0.7956559 0.1757039 -0.2766723 0.9447649 -0.2652211 -0.5039414 0.8220103 0.3854103 -0.9014194 0.1972366 0.8709967 -0.05497568 0.4882035 0.2795543 0.1721266 0.944575 0.07653319 0.3611208 0.9293732 0.2552679 -0.05124771 0.9655113 0.0069862 0.2636823 0.9645844 -0.7280867 -0.1876205 0.659309 -0.117877 0.2515736 0.960633 -0.7583395 0.6103526 0.228891 0.003536403 0.436407 0.8997425 0.08154249 0.1407018 0.9866884 0.5230954 0.3106842 0.7936288 -0.1526227 0.9065271 0.3935925 -0.7229265 0.1135764 0.681526</float_array>
+          <technique_common>
+            <accessor source="#Plane_13949-mesh-normals-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_13949-mesh-map-0">
+          <float_array id="Plane_13949-mesh-map-0-array" count="108">6.75478e-7 0.9999951 6.75478e-7 -1.78814e-6 0.2214627 0.7923985 6.75478e-7 -1.78814e-6 0.04247373 -1.78814e-6 0.2214627 0.7923985 0.06248253 0.004277408 0.3318877 0.00448817 0.3599272 0.4906029 0.3599272 0.4906029 0.0116685 0.499167 0.06248253 0.004277408 -6.35982e-4 1.000642 0.001134097 0.4996684 0.3046537 1.000553 0.1242971 0.4970748 0.3046537 1.000553 0.001134097 0.4996684 6.75478e-7 0.9999951 6.75478e-7 -1.78814e-6 0.2214627 0.7923985 6.75478e-7 -1.78814e-6 0.04247373 -1.78814e-6 0.2214627 0.7923985 -6.35982e-4 1.000642 0.001134097 0.4996684 0.3046537 1.000553 0.1242971 0.4970748 0.3046537 1.000553 0.001134097 0.4996684 0.06248253 0.004277408 0.3318877 0.00448817 0.3599272 0.4906029 0.3599272 0.4906029 0.0116685 0.499167 0.06248253 0.004277408 6.75478e-7 0.9999951 6.75478e-7 -1.78814e-6 0.2214627 0.7923985 6.75478e-7 -1.78814e-6 0.04247373 -1.78814e-6 0.2214627 0.7923985 -6.35982e-4 1.000642 0.001134097 0.4996684 0.3046537 1.000553 0.1242971 0.4970748 0.3046537 1.000553 0.001134097 0.4996684 0.06248253 0.004277408 0.3318877 0.00448817 0.3599272 0.4906029 0.3599272 0.4906029 0.0116685 0.499167 0.06248253 0.004277408</float_array>
+          <technique_common>
+            <accessor source="#Plane_13949-mesh-map-0-array" count="54" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_13949-mesh-colors-Col" name="Col">
+          <float_array id="Plane_13949-mesh-colors-Col-array" count="216">0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Plane_13949-mesh-colors-Col-array" count="54" stride="4">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+              <param name="A" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_13949-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_13949-mesh-positions"/>
+        </vertices>
+        <triangles material="tropical_stem-material" count="6">
+          <input semantic="VERTEX" source="#Plane_13949-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane_13949-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Plane_13949-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#Plane_13949-mesh-colors-Col" offset="3" set="0"/>
+          <p>0 0 0 0 1 1 1 1 3 2 2 2 1 1 3 3 2 3 4 4 3 2 5 5 12 12 18 18 13 13 19 19 15 14 20 20 13 13 21 21 14 15 22 22 15 14 23 23 24 24 36 36 25 25 37 37 27 26 38 38 25 25 39 39 26 27 40 40 27 26 41 41</p>
+        </triangles>
+        <triangles material="tropical_wide_leaves-material" count="12">
+          <input semantic="VERTEX" source="#Plane_13949-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane_13949-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Plane_13949-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#Plane_13949-mesh-colors-Col" offset="3" set="0"/>
+          <p>7 4 6 6 5 5 7 7 4 6 8 8 4 6 9 9 6 7 10 10 7 4 11 11 8 8 12 12 10 9 13 13 9 10 14 14 11 11 15 15 9 10 16 16 10 9 17 17 16 16 24 24 18 17 25 25 17 18 26 26 19 19 27 27 17 18 28 28 18 17 29 29 23 20 30 30 21 21 31 31 20 22 32 32 20 22 33 33 22 23 34 34 23 20 35 35 28 28 42 42 30 29 43 43 29 30 44 44 31 31 45 45 29 30 46 46 30 29 47 47 35 32 48 48 33 33 49 49 32 34 50 50 32 34 51 51 34 35 52 52 35 32 53 53</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Plane_13948-mesh" name="Plane.13948">
+      <mesh>
+        <source id="Plane_13948-mesh-positions">
+          <float_array id="Plane_13948-mesh-positions-array" count="126">-0.01932728 0.711668 4.677744 -0.06585615 0.01914125 -0.0651322 0.1227067 -0.05685311 -0.05588579 1.222386 0.8275092 3.662942 0.07648229 0.4403203 4.511776 -0.3880449 0.3245754 5.909517 0.2481349 1.025841 4.376571 -0.3840039 0.8291874 5.851837 -0.03834867 0.6719552 5.279782 1.617878 0.7926803 3.494186 0.6455909 0.7262995 3.501699 1.563609 1.65291 4.864797 1.168656 1.664835 4.860092 1.296483 1.308224 4.490779 -0.3619163 -1.065881 3.387965 -0.02227401 -0.03035652 -0.06062299 0.05082702 0.09682178 -0.01523494 -0.3817808 0.06695073 2.954407 -0.3952382 -0.5477281 3.486856 -0.3179849 -1.220564 2.975784 -0.6770973 -1.407682 4.567559 -0.6797812 -1.684951 4.363929 -0.5045215 -1.34924 4.101774 -0.5085835 -0.2320531 2.715948 -1.244606 -0.1720776 3.92125 -0.1726586 0.3430478 2.897585 -0.9050204 0.213687 4.099016 -0.6580899 -0.03051847 3.50271 1.191469 0.3935983 3.14063 0.0139262 0.03408932 -0.05669558 -0.06704896 -0.0790171 -0.01415544 0.9148815 -0.5851102 2.605511 1.145369 -0.1045368 3.161914 1.099174 0.6077242 2.792343 1.772672 0.4745838 4.188654 1.786353 0.7617005 4.035072 1.513622 0.5205088 3.7946 1.038448 -0.2915437 2.395171 1.93259 -0.6494464 3.325519 0.6627703 -0.7984742 2.567166 1.58783 -0.9807386 3.517314 1.291561 -0.6239829 3.056555</float_array>
+          <technique_common>
+            <accessor source="#Plane_13948-mesh-positions-array" count="42" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_13948-mesh-normals">
+          <float_array id="Plane_13948-mesh-normals-array" count="126">-0.03738629 0.06397944 0.9972507 -0.1741835 -0.1761177 0.9688358 0.185151 0.0960853 0.9780015 -0.05841153 -0.2224728 0.9731876 0.1411554 0.2941215 0.9452872 0.1589711 -0.1880881 0.9692013 0.5099794 -0.1666751 0.8438842 0.739385 -0.6269956 0.2453292 0.8837308 0.3626818 0.2957734 0.4795889 -0.6854696 0.5478376 0.2257816 0.06728136 0.9718518 0.1161778 -0.1309668 0.984556 0.02981799 0.07528305 0.9967164 -0.4265566 -0.7264211 0.5388523 -0.01887607 -0.340593 0.9400213 0.2028108 -0.4828994 0.8518661 -0.02689886 -0.1212058 0.992263 0.2619295 -0.3789699 0.8875668 0.8219448 0.241809 0.515689 0.272014 -0.3647808 0.8904737 0.4647778 -0.4152865 0.7819967 0.2780634 -0.5381515 0.7956594 0.8794624 -0.4744532 -0.03795063 0.03750509 -0.1316899 0.9905813 -0.2446635 -0.4766142 0.8443807 0.1758628 -0.5314851 0.8286108 0.3850293 -0.8993536 0.2071611 0.8746151 -0.05262303 0.4819535 0.2795544 0.1721266 0.944575 0.0765329 0.3611208 0.9293732 0.2552676 -0.05124765 0.9655114 0.0069862 0.263682 0.9645844 -0.728122 -0.1876219 0.6592696 -0.004844069 0.2510325 0.9679665 -0.2022718 0.3494186 0.9148731 0.003522455 0.4363971 0.8997473 -0.7583228 0.6103535 0.2289437 0.1952285 -0.03033161 0.9802886 0.5026967 0.2837202 0.8165777 0.1070228 0.4078744 0.9067441 -0.150602 0.9028078 0.4028116 -0.7281507 0.1129124 0.6760528</float_array>
+          <technique_common>
+            <accessor source="#Plane_13948-mesh-normals-array" count="42" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_13948-mesh-map-0">
+          <float_array id="Plane_13948-mesh-map-0-array" count="180">6.75478e-7 0.9999951 6.75478e-7 -1.78814e-6 0.2214627 0.7923985 6.75478e-7 -1.78814e-6 0.04247373 -1.78814e-6 0.2214627 0.7923985 0.06248253 0.004277408 0.3318877 0.00448817 0.1942106 0.2196544 0.3599272 0.4906029 0.0116685 0.499167 0.1942106 0.2196544 0.1942106 0.2196544 0.3318877 0.00448817 0.3599272 0.4906029 0.1942106 0.2196544 0.0116685 0.499167 0.06248253 0.004277408 -6.35982e-4 1.000642 0.001134097 0.4996684 0.09110945 0.6481508 0.1242971 0.4970748 0.3046537 1.000553 0.09110945 0.6481508 0.09110945 0.6481508 0.3046537 1.000553 -6.35982e-4 1.000642 0.09110945 0.6481508 0.001134097 0.4996684 0.1242971 0.4970748 6.75478e-7 0.9999951 6.75478e-7 -1.78814e-6 0.2214627 0.7923985 6.75478e-7 -1.78814e-6 0.04247373 -1.78814e-6 0.2214627 0.7923985 -6.35982e-4 1.000642 0.001134097 0.4996684 0.09110945 0.6481508 0.1242971 0.4970748 0.3046537 1.000553 0.09110945 0.6481508 0.09110945 0.6481508 0.3046537 1.000553 -6.35982e-4 1.000642 0.09110945 0.6481508 0.001134097 0.4996684 0.1242971 0.4970748 0.06248253 0.004277408 0.3318877 0.00448817 0.1942106 0.2196544 0.3599272 0.4906029 0.0116685 0.499167 0.1942106 0.2196544 0.1942106 0.2196544 0.3318877 0.00448817 0.3599272 0.4906029 0.1942106 0.2196544 0.0116685 0.499167 0.06248253 0.004277408 6.75478e-7 0.9999951 6.75478e-7 -1.78814e-6 0.2214627 0.7923985 6.75478e-7 -1.78814e-6 0.04247373 -1.78814e-6 0.2214627 0.7923985 -6.35982e-4 1.000642 0.001134097 0.4996684 0.09110945 0.6481508 0.1242971 0.4970748 0.3046537 1.000553 0.09110945 0.6481508 0.09110945 0.6481508 0.3046537 1.000553 -6.35982e-4 1.000642 0.09110945 0.6481508 0.001134097 0.4996684 0.1242971 0.4970748 0.06248253 0.004277408 0.3318877 0.00448817 0.1942106 0.2196544 0.3599272 0.4906029 0.0116685 0.499167 0.1942106 0.2196544 0.1942106 0.2196544 0.3318877 0.00448817 0.3599272 0.4906029 0.1942106 0.2196544 0.0116685 0.499167 0.06248253 0.004277408</float_array>
+          <technique_common>
+            <accessor source="#Plane_13948-mesh-map-0-array" count="90" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Plane_13948-mesh-colors-Col" name="Col">
+          <float_array id="Plane_13948-mesh-colors-Col-array" count="360">0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0.6392157 1 1 0 0.4313725 1 0.4117647 0 0.07058823 1 0 0 0 1 0 0 0 1 0.4117647 0 0.07058823 1 0.4117647 0 0.07058823 1 1 0 0.4313725 1 0 0 0 1 0.4117647 0 0.07058823 1 0 0 0 1 1 0 0.6392157 1 0 0 0 1 1 0 0.7176471 1 0.4901961 0 0.0862745 1 1 0 0.7176471 1 0 0 0 1 0.4901961 0 0.0862745 1 0.4901961 0 0.0862745 1 0 0 0 1 0 0 0 1 0.4901961 0 0.0862745 1 1 0 0.7176471 1 1 0 0.7176471 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0.7176471 1 0.4901961 0 0.0862745 1 1 0 0.7176471 1 0 0 0 1 0.4901961 0 0.0862745 1 0.4901961 0 0.0862745 1 0 0 0 1 0 0 0 1 0.4901961 0 0.0862745 1 1 0 0.7176471 1 1 0 0.7176471 1 1 0 0.6392157 1 1 0 0.4313725 1 0.4117647 0 0.07058823 1 0 0 0 1 0 0 0 1 0.4117647 0 0.07058823 1 0.4117647 0 0.07058823 1 1 0 0.4313725 1 0 0 0 1 0.4117647 0 0.07058823 1 0 0 0 1 1 0 0.6392157 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0.7176471 1 0.4901961 0 0.0862745 1 1 0 0.7176471 1 0 0 0 1 0.4901961 0 0.0862745 1 0.4901961 0 0.0862745 1 0 0 0 1 0 0 0 1 0.4901961 0 0.0862745 1 1 0 0.7176471 1 1 0 0.7176471 1 1 0 0.6392157 1 1 0 0.4313725 1 0.4117647 0 0.07058823 1 0 0 0 1 0 0 0 1 0.4117647 0 0.07058823 1 0.4117647 0 0.07058823 1 1 0 0.4313725 1 0 0 0 1 0.4117647 0 0.07058823 1 0 0 0 1 1 0 0.6392157 1</float_array>
+          <technique_common>
+            <accessor source="#Plane_13948-mesh-colors-Col-array" count="90" stride="4">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+              <param name="A" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Plane_13948-mesh-vertices">
+          <input semantic="POSITION" source="#Plane_13948-mesh-positions"/>
+        </vertices>
+        <triangles material="tropical_stem-material" count="6">
+          <input semantic="VERTEX" source="#Plane_13948-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane_13948-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Plane_13948-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#Plane_13948-mesh-colors-Col" offset="3" set="0"/>
+          <p>0 0 0 0 1 1 1 1 3 2 2 2 1 1 3 3 2 3 4 4 3 2 5 5 14 14 30 30 15 15 31 31 17 16 32 32 15 15 33 33 16 17 34 34 17 16 35 35 28 28 60 60 29 29 61 61 31 30 62 62 29 29 63 63 30 31 64 64 31 30 65 65</p>
+        </triangles>
+        <triangles material="tropical_wide_leaves-material" count="24">
+          <input semantic="VERTEX" source="#Plane_13948-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Plane_13948-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Plane_13948-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#Plane_13948-mesh-colors-Col" offset="3" set="0"/>
+          <p>7 4 6 6 5 5 7 7 8 6 8 8 4 7 9 9 6 8 10 10 8 6 11 11 8 6 12 12 5 5 13 13 4 7 14 14 8 6 15 15 6 8 16 16 7 4 17 17 9 9 18 18 11 10 19 19 13 11 20 20 12 12 21 21 10 13 22 22 13 11 23 23 13 11 24 24 10 13 25 25 9 9 26 26 13 11 27 27 11 10 28 28 12 12 29 29 18 18 36 36 20 19 37 37 22 20 38 38 21 21 39 39 19 22 40 40 22 20 41 41 22 20 42 42 19 22 43 43 18 18 44 44 22 20 45 45 20 19 46 46 21 21 47 47 26 23 48 48 24 24 49 49 27 25 50 50 23 26 51 51 25 27 52 52 27 25 53 53 27 25 54 54 24 24 55 55 23 26 56 56 27 25 57 57 25 27 58 58 26 23 59 59 32 32 66 66 34 33 67 67 36 34 68 68 35 35 69 69 33 36 70 70 36 34 71 71 36 34 72 72 33 36 73 73 32 32 74 74 36 34 75 75 34 33 76 76 35 35 77 77 40 37 78 78 38 38 79 79 41 39 80 80 37 40 81 81 39 41 82 82 41 39 83 83 41 39 84 84 38 38 85 85 37 40 86 86 41 39 87 87 39 41 88 88 40 37 89 89</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="base00" name="base00" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="bb__autobillboard25" name="bb__autobillboard25" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+        <node id="collision-1" name="collision-1" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+        <node id="start01" name="start01" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="tro_plant_01_a_a150" name="tro_plant_01_a_a150" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry url="#Plane_13948-mesh" name="tro_plant_01_a_a150">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="tropical_stem-material" target="#tropical_stem-material">
+                    <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                  <instance_material symbol="tropical_wide_leaves-material" target="#tropical_wide_leaves-material">
+                    <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="tro_plant_01_a_a70" name="tro_plant_01_a_a70" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry url="#Plane_13949-mesh" name="tro_plant_01_a_a70">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="tropical_stem-material" target="#tropical_stem-material">
+                    <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                  <instance_material symbol="tropical_wide_leaves-material" target="#tropical_wide_leaves-material">
+                    <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="Colmesh_tro_plant_01_a-1" name="Colmesh_tro_plant_01_a-1" type="NODE">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <instance_geometry url="#Sphere_017-mesh" name="Colmesh_tro_plant_01_a-1">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="leaves_thin-material" target="#leaves_thin-material">
+                    <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

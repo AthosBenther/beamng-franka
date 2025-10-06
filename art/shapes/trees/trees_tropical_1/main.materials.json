@@ -1,0 +1,200 @@
+{
+  "tro_tree_1_branches": {
+    "name": "tro_tree_1_branches",
+    "mapTo": "tro_tree_1_branches",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_branch_01_ao.data.png",
+        "baseColorMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_branch_01_b.color.png",
+        "normalMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_branch_01_nm.normal.png",
+        "opacityMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_branch_01_o.data.png",
+        "roughnessMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_branch_01_r.data.png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 51,
+    "alphaTest": true,
+    "doubleSided": true,
+    "groundType": "LEAVES_STRONG",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "version": 1.5
+  },
+  "tro_tree_1_leaves": {
+    "name": "tro_tree_1_leaves",
+    "mapTo": "tro_tree_1_leaves",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_tree_01_leaves_ao.data.png",
+        "baseColorMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_tree_01_leaves_b.color.png",
+        "normalMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_tree_01_leaves_nm.normal.png",
+        "opacityMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_tree_01_leaves_o.data.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_tree_01_leaves_r.data.png"
+      },
+      {
+        "pixelSpecular": null
+      },
+      {
+        "pixelSpecular": null
+      },
+      {
+        "pixelSpecular": null
+      }
+    ],
+    "alphaRef": 60,
+    "alphaTest": true,
+    "doubleSided": true,
+    "groundType": "LEAVES_THIN",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "specularStrength0": "0.882353",
+    "translucentBlendOp": "None",
+    "version": 1.5
+  },
+  "tro_tree_1_leaves_02": {
+    "name": "tro_tree_1_leaves_02",
+    "mapTo": "tro_tree_1_leaves_02",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_tree_01_leaves_02_ao.data.png",
+        "baseColorFactor": [
+          0.999998987,
+          1,
+          0.999989986,
+          1
+        ],
+        "baseColorMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_tree_01_leaves_02_b.color.png",
+        "normalMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_tree_01_leaves_02_nm.normal.png",
+        "opacityMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_tree_01_leaves_02_o.data.png",
+        "pixelSpecular": true,
+        "roughnessFactor": 0.800000012,
+        "roughnessMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_tree_01_leaves_02_r.data.png"
+      },
+      {
+        "baseColorFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "pixelSpecular": null,
+        "roughnessFactor": null
+      }
+    ],
+    "alphaRef": 90,
+    "alphaTest": true,
+    "doubleSided": true,
+    "groundType": "LEAVES_THIN",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "specularStrength0": "0.882353",
+    "version": 1.5
+  },
+  "tro_tree_1_leaves_03": {
+    "name": "tro_tree_1_leaves_03",
+    "mapTo": "tro_tree_1_leaves_03",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_tree_01_leaves_03_ao.data.png",
+        "baseColorFactor": [
+          0.999992013,
+          1,
+          0.999989986,
+          1
+        ],
+        "baseColorMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_tree_01_leaves_03_b.color.png",
+        "normalMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_tree_01_leaves_03_nm.normal.png",
+        "opacityMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_tree_01_leaves_03_o.data.png",
+        "roughnessFactor": 0.643000007,
+        "roughnessMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_tree_01_leaves_03_r.data.png"
+      },
+      {
+        "baseColorFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "roughnessFactor": null
+      },
+      {
+        "baseColorFactor": null,
+        "roughnessFactor": null
+      }
+    ],
+    "alphaRef": 90,
+    "alphaTest": true,
+    "doubleSided": true,
+    "groundType": "LEAVES_THIN",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "materialTag3": "vegetation",
+    "specularStrength0": "0.490196",
+    "version": 1.5
+  },
+  "tro_tree_1_trunk": {
+    "name": "tro_tree_1_trunk",
+    "mapTo": "tro_tree_1_trunk",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_bark_01_ao.data.png",
+        "baseColorFactor": [
+          1,
+          0.999994993,
+          0.999989986,
+          1
+        ],
+        "baseColorMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_bark_01_b.color.png",
+        "detailMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_bark_01_detail.data.png",
+        "detailNormalMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_bark_01_detail_nm.normal.png",
+        "detailScale": [
+          0.400000006,
+          0.400000006
+        ],
+        "normalMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_bark_01_nm.normal.png",
+        "pixelSpecular": true,
+        "roughnessMap": "/levels/franka/art/shapes/trees/trees_tropical_1/t_tro_bark_01_r.data.png"
+      },
+      {
+        "baseColorFactor": null,
+        "detailScale": null,
+        "pixelSpecular": null
+      },
+      {
+        "baseColorFactor": null,
+        "detailScale": null,
+        "pixelSpecular": null
+      },
+      {
+        "baseColorFactor": null,
+        "detailScale": null,
+        "pixelSpecular": null
+      }
+    ],
+    "groundType": "WOOD",
+    "materialTag0": "beamng",
+    "materialTag1": "vegetation",
+    "materialTag2": "Natural",
+    "specularStrength0": "0.392157",
+    "version": 1.5
+  }
+}
