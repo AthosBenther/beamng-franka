@@ -78,7 +78,7 @@
     "baseColorBaseTexSize": 2048,
     "baseColorDetailTex": "/assets/materials/terrain/asphalt/asphalt/t_asphalt_b.png",
     "detailMap": "/levels/franka/art/terrains/Grass-01-D.dds",
-    "detailSize": 3,
+    "detailSize": 4,
     "diffuseMap": "/levels/franka/art/terrains/Overlay_Grass-01.dds",
     "diffuseSize": 150,
     "groundmodelName": "GRASS",
@@ -115,6 +115,18 @@
     "diffuseMap": "/levels/franka/terrain/satmap.png",
     "diffuseSize": 2048,
     "groundmodelName": "ASPHALT"
+  },
+  "TallGrass": {
+    "internalName": "TallGrass",
+    "class": "TerrainMaterial",
+    "persistentId": "fe887092-fbe5-46bf-87c4-953abc2c8cb8",
+    "detailMap": "/levels/franka/art/terrains/Grass-01-D.dds",
+    "detailStrength": 0.5,
+    "diffuseMap": "/assets/materials/terrain/backdrop/far_backdrop/t_far_backdrop_b.color.dds",
+    "groundmodelName": "LEAVES_STRONG",
+    "macroMap": "/assets/materials/terrain/backdrop/far_backdrop/t_far_backdrop_b.color.dds",
+    "macroStrength": 0.200000003,
+    "normalMap": "/assets/materials/terrain/backdrop/far_backdrop/t_far_backdrop_nm.normal.dds"
   },
   "frankaTerrainMaterialTextureSet": {
     "name": "frankaTerrainMaterialTextureSet",

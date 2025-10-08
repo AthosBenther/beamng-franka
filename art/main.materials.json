@@ -1,4 +1,20 @@
 {
+  "TallGrassMat": {
+    "name": "TallGrassMat",
+    "mapTo": "TallGrassMat",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/levels/franka/art/shapes/groundcover/Grass03_tropical_d.dds"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 0,
+    "alphaTest": true,
+    "translucent": true
+  },
   "dry_grass": {
     "name": "dry_grass",
     "mapTo": "dry_grass",

@@ -1,4 +1,18 @@
 {
+  "generibush": {
+    "name": "generibush",
+    "internalName": "generibush",
+    "class": "forestItemData",
+    "__parent": "DataBlockGroup",
+    "shapeFile": "/assets/meshes/foliage/bushes/generibush.dae"
+  },
+  "generibush_small": {
+    "name": "generibush_small",
+    "internalName": "generibush_small",
+    "class": "forestItemData",
+    "__parent": "DataBlockGroup",
+    "shapeFile": "/assets/meshes/foliage/bushes/generibush_small.dae"
+  },
   "palm_medium": {
     "name": "palm_medium",
     "internalName": "palm_medium",
