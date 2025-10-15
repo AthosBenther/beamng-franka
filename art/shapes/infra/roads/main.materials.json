@@ -1,0 +1,14 @@
+{
+  "frk_infra_concrete_curb_white_001": {
+    "name": "frk_infra_concrete_curb_white_001",
+    "mapTo": "frk_infra_concrete_curb_white.001",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ],
+    "translucentBlendOp": "None"
+  }
+}

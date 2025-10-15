@@ -5,17 +5,31 @@
     "class": "Material",
     "Stages": [
       {
-        "colorMap": "/levels/franka/art/shapes/groundcover/Grass03_tropical_d.dds"
+        "colorMap": "/levels/franka/art/shapes/groundcover/Grass03_tropical_d.dds",
+        "diffuseColor": [
+          0.779814005,
+          0.691663027,
+          1,
+          1
+        ],
+        "opacityMap": "/levels/franka/art/shapes/groundcover/Grass03_tropical_d.dds"
       },
-      {},
-      {},
-      {}
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
     ],
-    "alphaRef": 107,
+    "alphaRef": 22,
     "alphaTest": true,
     "doubleSided": true,
     "materialTag0": "beamng",
     "materialTag1": "vegetation",
-    "materialTag2": "vegetation"
+    "materialTag2": "vegetation",
+    "translucentBlendOp": "None"
   }
 }

@@ -1,0 +1,3 @@
+{"name":"HighRisings","class":"SimGroup","__parent":"Buildings"}
+{"name":"Sites","class":"SimGroup","__parent":"Buildings"}
+{"name":"Infra","class":"SimGroup","__parent":"Buildings"}

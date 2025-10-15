@@ -11,9 +11,34 @@
       {},
       {}
     ],
-    "alphaRef": 0,
+    "alphaRef": 104,
     "alphaTest": true,
-    "translucent": true
+    "translucentBlendOp": "None",
+    "translucentRecvShadows": true
+  },
+  "TallGrassMat2": {
+    "name": "TallGrassMat2",
+    "mapTo": "TallGrassMat2",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "corrugation": {
+    "name": "corrugation",
+    "mapTo": "corrugation",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/levels/west_coast_usa/art/shapes/buildings/t_corrugated_modern_b.color.dds"
+      },
+      {},
+      {},
+      {}
+    ]
   },
   "dry_grass": {
     "name": "dry_grass",
@@ -29,17 +54,231 @@
           1
         ]
       },
-      {
-        "diffuseColor": null
-      },
-      {
-        "diffuseColor": null
-      },
-      {
-        "diffuseColor": null
-      }
+      {},
+      {},
+      {}
     ],
     "alphaRef": 47,
     "alphaTest": true
+  },
+  "frk_infra_asphalt": {
+    "name": "frk_infra_asphalt",
+    "mapTo": "frk_infra_asphalt",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/franka/art/materials/asphalt/t_asphalt_ao.png",
+        "baseColorFactor": [
+          0.536060989,
+          0.536060989,
+          0.536060989,
+          1
+        ],
+        "baseColorMap": "/levels/franka/art/materials/asphalt/t_asphalt_b.png",
+        "detailBaseColorMapStrength": 0.300000012,
+        "detailMap": "/levels/franka/art/materials/asphalt/t_asphalt_b.png",
+        "normalMap": "/levels/franka/art/materials/asphalt/t_asphalt_nm.png",
+        "roughnessMap": "/levels/franka/art/materials/asphalt/t_asphalt_r.png"
+      },
+      {
+        "baseColorFactor": null,
+        "detailBaseColorMapStrength": null
+      },
+      {
+        "baseColorFactor": null,
+        "detailBaseColorMapStrength": null
+      },
+      {
+        "baseColorFactor": null,
+        "detailBaseColorMapStrength": null
+      }
+    ],
+    "version": 1.5
+  },
+  "frk_infra_bridges_detail_metal_railing_yellow": {
+    "name": "frk_infra_bridges_detail_metal_railing_yellow",
+    "mapTo": "frk_infra_bridges_detail_metal_railing_yellow",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorFactor": [
+          0.982816994,
+          0.746244013,
+          0.132805005,
+          1
+        ],
+        "detailMap": "/assets/materials/tileable/metal/ind_metal_rust/ind_rust_d.color.dds",
+        "metallicMap": "/assets/materials/tileable/metal/ind_metal_rust/ind_rust_s.color.dds",
+        "normalMap": "/assets/materials/tileable/metal/ind_metal_rust/ind_rust_nm.normal.dds"
+      },
+      {
+        "baseColorFactor": null
+      },
+      {
+        "baseColorFactor": null
+      },
+      {
+        "baseColorFactor": null
+      }
+    ],
+    "version": 1.5
+  },
+  "frk_infra_concrete": {
+    "name": "frk_infra_concrete",
+    "mapTo": "frk_infra_concrete",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/franka/art/materials/concrete/basic/frk_infra_concrete_ao.jpg",
+        "baseColorFactor": [
+          0.547515988,
+          0.523002028,
+          0.469116986,
+          1
+        ],
+        "detailMap": "/levels/franka/art/materials/concrete/basic/frk_infra_concrete_color.jpg",
+        "normalMap": "/levels/franka/art/materials/concrete/basic/frk_infra_concrete_normal.png",
+        "roughnessMap": "/levels/franka/art/materials/concrete/basic/frk_infra_concrete_roughness.jpg"
+      },
+      {
+        "baseColorFactor": null
+      },
+      {
+        "baseColorFactor": null
+      },
+      {
+        "baseColorFactor": null
+      }
+    ],
+    "version": 1.5
+  },
+  "frk_infra_concrete_curb_white": {
+    "name": "frk_infra_concrete_curb_white",
+    "mapTo": "frk_infra_concrete_curb_white",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/franka/art/materials/concrete/basic/frk_infra_concrete_ao.jpg",
+        "baseColorFactor": [
+          0.684979975,
+          0.684979975,
+          0.684979975,
+          1
+        ],
+        "detailMap": "/levels/franka/art/materials/concrete/basic/frk_infra_concrete_color.jpg",
+        "normalMap": "/levels/franka/art/materials/concrete/basic/frk_infra_concrete_normal.png",
+        "roughnessMap": "/levels/franka/art/materials/concrete/basic/frk_infra_concrete_roughness.jpg"
+      },
+      {
+        "baseColorFactor": null
+      },
+      {
+        "baseColorFactor": null
+      },
+      {
+        "baseColorFactor": null
+      }
+    ],
+    "version": 1.5
+  },
+  "frk_infra_overpass_concrete_base": {
+    "name": "frk_infra_overpass_concrete_base",
+    "mapTo": "frk_infra_overpass_concrete_base",
+    "class": "Material",
+    "Stages": [
+      {
+        "baseColorMap": "/levels/franka/art/shapes/infra/overpass/frk_infra_overpass_white_cock/frk_infra_overpass_concrete_base.png",
+        "detailMapUseUV": 1,
+        "detailScale": [
+          1,
+          1
+        ]
+      },
+      {
+        "detailMapUseUV": null,
+        "detailScale": null
+      },
+      {
+        "detailMapUseUV": null,
+        "detailScale": null
+      },
+      {
+        "detailMapUseUV": null,
+        "detailScale": null
+      }
+    ],
+    "translucentBlendOp": "None",
+    "translucentRecvShadows": true,
+    "version": 1.5
+  },
+  "frk_infra_overpass_concrete_curb_white": {
+    "name": "frk_infra_overpass_concrete_curb_white",
+    "mapTo": "frk_infra_overpass_concrete_curb_white",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/franka/art/shapes/buildings/infra/frk_infra_overpass_white_cock/frk_infra_overpass_concrete_ao.jpg",
+        "baseColorFactor": [
+          0.805260003,
+          0.805260003,
+          0.805260003,
+          1
+        ],
+        "baseColorMap": "/levels/franka/art/shapes/buildings/infra/frk_infra_overpass_white_cock/frk_infra_overpass_concrete_color.jpg",
+        "normalMap": "/levels/franka/art/shapes/buildings/infra/frk_infra_overpass_white_cock/frk_infra_overpass_concrete_normal_opengl_4k.png",
+        "roughnessMap": "/levels/franka/art/shapes/buildings/infra/frk_infra_overpass_white_cock/frk_infra_overpass_concrete_roughness_4k.jpg"
+      },
+      {
+        "baseColorFactor": null,
+        "baseColorMap": "/levels/franka/art/shapes/buildings/infra/frk_infra_overpass_white_cock/frk_inra_overpass_concrete_color.jpg"
+      },
+      {
+        "baseColorFactor": null
+      },
+      {
+        "baseColorFactor": null
+      }
+    ],
+    "version": 1.5
+  },
+  "frk_infra_overpass_concrete_pillars_blue": {
+    "name": "frk_infra_overpass_concrete_pillars_blue",
+    "mapTo": "frk_infra_overpass_concrete_pillars_blue",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/franka/art/shapes/buildings/infra/frk_infra_overpass_white_cock/frk_infra_overpass_concrete_ao.jpg",
+        "baseColorFactor": [
+          1,
+          0.989964008,
+          0.942723989,
+          1
+        ],
+        "baseColorMap": "/levels/franka/art/shapes/buildings/infra/frk_infra_overpass_white_cock/frk_infra_overpass_concrete_color.jpg",
+        "normalMap": "/levels/franka/art/shapes/buildings/infra/frk_infra_overpass_white_cock/frk_infra_overpass_concrete_normal_opengl_4k.png",
+        "roughnessMap": "/levels/franka/art/shapes/buildings/infra/frk_infra_overpass_white_cock/frk_infra_overpass_concrete_roughness_4k.jpg"
+      },
+      {
+        "baseColorFactor": null
+      },
+      {
+        "baseColorFactor": null
+      },
+      {
+        "baseColorFactor": null
+      }
+    ],
+    "version": 1.5
+  },
+  "frk_inra_overpass_concrete_pillars_blue": {
+    "name": "frk_inra_overpass_concrete_pillars_blue",
+    "mapTo": "frk_inra_overpass_concrete_painted_blue",
+    "class": "Material",
+    "Stages": [
+      {},
+      {},
+      {},
+      {}
+    ]
   }
 }

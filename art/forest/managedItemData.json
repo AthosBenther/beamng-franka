@@ -13,6 +13,13 @@
     "__parent": "DataBlockGroup",
     "shapeFile": "/assets/meshes/foliage/bushes/generibush_small.dae"
   },
+  "ind_bld_02": {
+    "name": "ind_bld_02",
+    "internalName": "ind_bld_02",
+    "class": "ForestItemData",
+    "__parent": "DataBlockGroup",
+    "shapeFile": "/assets/meshes/architecture/buildings/industrial/ind_bld_02.dae"
+  },
   "palm_medium": {
     "name": "palm_medium",
     "internalName": "palm_medium",
@@ -59,7 +66,6 @@
     "name": "tro_tree_1_filler_02",
     "internalName": "tro_tree_1_filler_02",
     "class": "ForestItemData",
-    "__parent": "DataBlockGroup",
     "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_1/tro_tree_1_filler_02.dae"
   },
   "tro_tree_1_huge": {

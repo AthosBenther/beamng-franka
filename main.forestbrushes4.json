@@ -6,12 +6,12 @@
 {"internalName":"Huge","class":"ForestBrushElement","__parent":"ForestBrush_Brush","forestItemData":"tro_tree_1_huge","probability":0.699999988}
 {"internalName":"Filler","class":"ForestBrushElement","__parent":"ForestBrush_Brush","forestItemData":"tro_tree_1_filler","probability":0.150000006}
 {"internalName":"Filler 2","class":"ForestBrushElement","__parent":"ForestBrush_Brush","forestItemData":"tro_tree_1_filler_02","probability":0.150000006}
-{"internalName":"Element0","class":"ForestBrushElement","__parent":"ForestBrush_Brush0","forestItemData":"tro_tree_2_medium","scaleMax":1.5,"scaleMin":0.699999988}
-{"internalName":"Element4","class":"ForestBrushElement","__parent":"ForestBrush_Brush0","forestItemData":"tro_tree_2_large","scaleMax":1.20000005,"scaleMin":0.800000012}
-{"internalName":"Element","class":"ForestBrushElement","__parent":"ForestBrush_Brush0","forestItemData":"tro_tree_2_tiny","scaleMax":1.5,"scaleMin":0.800000012}
+{"internalName":"Very large","class":"ForestBrushElement","__parent":"ForestBrush_Brush0","forestItemData":"tro_tree_2_medium","scaleMax":1.5,"scaleMin":0.699999988}
+{"internalName":"Large","class":"ForestBrushElement","__parent":"ForestBrush_Brush0","forestItemData":"tro_tree_2_large","scaleMax":1.20000005,"scaleMin":0.800000012}
+{"internalName":"Small","class":"ForestBrushElement","__parent":"ForestBrush_Brush0","forestItemData":"tro_tree_2_tiny","scaleMax":1.5,"scaleMin":0.800000012}
 {"internalName":"Element1","class":"ForestBrushElement","__parent":"ForestBrush_Brush1","forestItemData":"tro_tree_2_bush_huge","scaleMax":2,"scaleMin":0.699999988}
 {"internalName":"Element6","class":"ForestBrushElement","__parent":"ForestBrush_Brush1","forestItemData":"tropical_plant_03_e","probability":0.00999999978}
-{"internalName":"Element7","class":"ForestBrushElement","__parent":"ForestBrush_Brush1","forestItemData":"tropical_plant_01_a","probability":0.0199999996}
+{"internalName":"Element7","class":"ForestBrushElement","__parent":"ForestBrush_Brush1","forestItemData":"tropical_plant_01_a","probability":0.0199999996,"scaleMax":0.800000012,"scaleMin":0.200000003}
 {"internalName":"Medium","class":"ForestBrushElement","__parent":"ForestBrush_Brush2","forestItemData":"palm_medium","scaleMax":1.39999998,"scaleMin":0.800000012}
 {"name":"Small","internalName":"Small","class":"ForestBrushElement","__parent":"ForestBrush_Brush2","forestItemData":"palm_small","scaleMax":1.5,"scaleMin":0.699999988}
 {"internalName":"Tall","class":"ForestBrushElement","__parent":"ForestBrush_Brush2","forestItemData":"palm_tall","scaleMin":0.699999988}

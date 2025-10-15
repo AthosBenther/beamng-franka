@@ -1,0 +1,88 @@
+{
+  "frk_infra_overpass_asphalt": {
+    "name": "frk_infra_overpass_asphalt",
+    "mapTo": "frk_infra_overpass_asphalt",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/levels/franka/art/terrains/asphalt/t_asphalt_b.png",
+        "detailScale": [
+          1,
+          1
+        ],
+        "normalMap": "/levels/franka/art/terrains/asphalt/t_asphalt_nm.png"
+      },
+      {
+        "detailScale": null
+      },
+      {
+        "detailScale": null
+      },
+      {
+        "detailScale": null
+      }
+    ]
+  },
+  "frk_infra_overpass_concrete": {
+    "name": "frk_infra_overpass_concrete",
+    "mapTo": "frk_infra_overpass_concrete",
+    "class": "material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/franka/art/shapes/buildings/infra/frk_infra_overpass_white_cock/frk_infra_overpass_concrete_ao.jpg",
+        "baseColorMap": "/levels/franka/art/shapes/buildings/infra/frk_infra_overpass_white_cock/frk_infra_overpass_concrete_color.jpg",
+        "normalMap": "/levels/franka/art/shapes/buildings/infra/frk_infra_overpass_white_cock/frk_infra_overpass_concrete_normal_opengl_4k.png",
+        "roughnessMap": "/levels/franka/art/shapes/buildings/infra/frk_infra_overpass_white_cock/frk_infra_overpass_concrete_roughness_4k.jpg"
+      },
+      {},
+      {},
+      {}
+    ],
+    "version": 1.5
+  },
+  "frk_infra_overpass_concrete_painted": {
+    "name": "frk_infra_overpass_concrete_painted",
+    "mapTo": "frk_infra_overpass_concrete_painted",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/assets/materials/terrain/concrete/concrete/t_concrete_damaged_b.png",
+        "diffuseColor": [
+          0.730800986,
+          0.87322098,
+          1,
+          1
+        ],
+        "normalMap": "/assets/materials/terrain/concrete/concrete/t_concrete_damaged_nm.png"
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
+    ],
+    "groundType": "CONCRETE",
+    "materialTag0": "Franka",
+    "translucentBlendOp": "None"
+  },
+  "frk_infra_overpass_concrete_very_old": {
+    "name": "frk_infra_overpass_concrete_very_old",
+    "mapTo": "frk_infra_overpass_concrete_very_old",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/assets/materials/tileable/concrete/eca_bld_concrete_01/eca_bld_concrete_01_d.dds",
+        "normalMap": "/assets/materials/tileable/concrete/jri_concrete_layered/jri_concrete_layered_nm.normal .png"
+      },
+      {},
+      {},
+      {}
+    ],
+    "alphaRef": 196,
+    "subSurfacaae0": "0"
+  }
+}

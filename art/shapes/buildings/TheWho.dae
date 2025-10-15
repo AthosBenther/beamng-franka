@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 4.5.3 LTS commit date:2025-09-08, commit time:12:46, hash:67807e1800cc</authoring_tool>
+    </contributor>
+    <created>2025-10-14T04:25:16</created>
+    <modified>2025-10-14T04:25:16</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="frk_buildings_the_who_long-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 1 1 1</color>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">0.5</float>
+            </reflectivity>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="frk_buildings_the_who_top-effect">
+      <profile_COMMON>
+        <newparam sid="TheWho_B_T_png-surface">
+          <surface type="2D">
+            <init_from>TheWho_B_T_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="TheWho_B_T_png-sampler">
+          <sampler2D>
+            <source>TheWho_B_T_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="TheWho_B_T_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="frk_buildings_the_who_wide-effect">
+      <profile_COMMON>
+        <newparam sid="TheWho_B__W_png-surface">
+          <surface type="2D">
+            <init_from>TheWho_B__W_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="TheWho_B__W_png-sampler">
+          <sampler2D>
+            <source>TheWho_B__W_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="TheWho_B__W_png-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.5</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="TheWho_B_T_png" name="TheWho_B_T_png">
+      <init_from>TheWho_B_T.png</init_from>
+    </image>
+    <image id="TheWho_B__W_png" name="TheWho_B__W_png">
+      <init_from>TheWho_B%20_W.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="frk_buildings_the_who_long-material" name="frk_buildings_the_who_long">
+      <instance_effect url="#frk_buildings_the_who_long-effect"/>
+    </material>
+    <material id="frk_buildings_the_who_top-material" name="frk_buildings_the_who_top">
+      <instance_effect url="#frk_buildings_the_who_top-effect"/>
+    </material>
+    <material id="frk_buildings_the_who_wide-material" name="frk_buildings_the_who_wide">
+      <instance_effect url="#frk_buildings_the_who_wide-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="ID3_008-mesh" name="ID3.008">
+      <mesh>
+        <source id="ID3_008-mesh-positions">
+          <float_array id="ID3_008-mesh-positions-array" count="72">634.6457 1417.323 0 634.6457 1417.323 3937.008 555.9055 1417.323 3937.008 555.9055 1437.008 3937.008 555.9055 1417.323 0 555.9055 1417.323 3937.008 555.9055 1437.008 0 555.9055 1437.008 3937.008 398.4252 1437.008 0 398.4252 1279.528 0 398.4252 1437.008 3937.008 398.4252 1279.528 3937.008 240.9449 1437.008 3937.008 240.9449 1279.528 0 240.9449 1279.528 3937.008 83.46457 1437.008 0 240.9449 1437.008 0 83.46457 1437.008 3937.008 83.46457 1417.323 3937.008 83.46457 1437.008 3937.008 83.46457 1417.323 3937.008 4.724409 1417.323 0 83.46457 1417.323 0 4.724409 1417.323 3937.008</float_array>
+          <technique_common>
+            <accessor source="#ID3_008-mesh-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID3_008-mesh-normals">
+          <float_array id="ID3_008-mesh-normals-array" count="9">-1 0 0 0 1 0 1 0 0</float_array>
+          <technique_common>
+            <accessor source="#ID3_008-mesh-normals-array" count="3" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID3_008-mesh-map-0">
+          <float_array id="ID3_008-mesh-map-0-array" count="108">0.4097838 0 0.2516375 0.9999997 0.2516375 0 -0.08442413 0 -0.1041923 0.9999997 -0.1041923 0 0.7260767 0 0.8842234 0.9999997 0.7260767 0.9999997 -0.06465578 0 0.01441764 0.9999997 -0.06465578 0.9999997 0.01441758 0 0.09349089 1 0.01441758 1 0.4097838 0 0.5679305 0.9999997 0.4097838 0.9999997 0.09349089 0 0.2516375 0.9999997 0.09349089 0.9999997 0.5679305 0.9999997 0.7260767 0 0.7260767 0.9999997 -0.08442419 0.9999997 -0.06465584 0 -0.06465584 0.9999997 0.4097838 0 0.4097838 0.9999997 0.2516375 0.9999997 -0.08442413 0 -0.08442413 0.9999997 -0.1041923 0.9999997 0.7260767 0 0.8842234 0 0.8842234 0.9999997 -0.06465578 0 0.01441764 0 0.01441764 0.9999997 0.01441758 0 0.09349089 0 0.09349089 1 0.4097838 0 0.5679305 0 0.5679305 0.9999997 0.09349089 0 0.2516375 0 0.2516375 0.9999997 0.5679305 0.9999997 0.5679305 0 0.7260767 0 -0.08442419 0.9999997 -0.08442419 0 -0.06465584 0</float_array>
+          <technique_common>
+            <accessor source="#ID3_008-mesh-map-0-array" count="54" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ID3_008-mesh-vertices">
+          <input semantic="POSITION" source="#ID3_008-mesh-positions"/>
+        </vertices>
+        <triangles material="frk_buildings_the_who_long-material" count="18">
+          <input semantic="VERTEX" source="#ID3_008-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ID3_008-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ID3_008-mesh-map-0" offset="2" set="0"/>
+          <p>9 0 0 10 0 1 8 0 2 22 0 3 19 0 4 15 0 5 16 1 6 17 1 7 12 1 8 0 1 9 2 1 10 1 1 11 22 1 12 23 1 13 20 1 14 9 1 15 14 1 16 11 1 17 6 1 18 10 1 19 7 1 20 14 2 21 16 2 22 12 2 23 5 2 24 6 2 25 3 2 26 9 0 27 11 0 28 10 0 29 22 0 30 18 0 31 19 0 32 16 1 33 15 1 34 17 1 35 0 1 36 4 1 37 2 1 38 22 1 39 21 1 40 23 1 41 9 1 42 13 1 43 14 1 44 6 1 45 8 1 46 10 1 47 14 2 48 13 2 49 16 2 50 5 2 51 4 2 52 6 2 53</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="ID3_006-mesh" name="ID3.006">
+      <mesh>
+        <source id="ID3_006-mesh-positions">
+          <float_array id="ID3_006-mesh-positions-array" count="168">555.9055 1417.323 3937.008 218.8976 1013.78 3976.379 415.7481 423.2284 4133.859 415.7481 1013.78 3976.379 218.8976 1013.78 4133.859 415.7481 1013.78 4133.859 415.7481 423.2284 3976.379 218.8976 423.2284 3976.379 634.6457 1102.362 3937.008 4.724409 1102.362 3937.008 629.9213 620.0787 3976.378 610.2362 620.0787 3976.378 218.8976 423.2283 3976.378 0 334.6457 3976.378 634.6457 816.9291 3976.378 610.2362 816.9291 3976.378 415.748 423.2283 3976.378 415.748 1013.78 3976.378 24.40945 620.0787 3976.378 218.8976 1013.78 3976.378 4.724409 816.9291 3976.378 24.40945 816.9291 3976.378 4.724409 1102.362 3976.378 629.9213 334.6457 3976.378 551.1811 19.68504 3937.008 78.74016 19.68504 3937.008 0 620.0787 3976.378 4.724409 1417.323 3937.008 83.46457 1437.008 3937.008 83.46457 1417.323 3937.008 240.9449 1437.008 3937.008 634.6457 1102.362 3976.378 240.9449 1279.528 3937.008 555.9055 1437.008 3937.008 398.4252 1437.008 3937.008 4.724409 1102.362 3937.008 634.6457 1102.362 3937.008 398.4252 1279.528 3937.008 634.6457 1417.323 3937.008 0 334.6457 3937.008 236.2205 157.4803 3937.008 0 19.68504 3937.008 629.9213 334.6457 3937.008 78.74016 0 3937.008 393.7008 157.4803 3937.008 393.7008 0 3937.008 629.9213 19.68504 3937.008 236.2205 0 3937.008 218.8976 423.2284 4133.859 218.8976 1013.78 3976.379 415.7481 1013.78 3976.379 415.7481 423.2284 3976.379 218.8976 423.2284 3976.379 551.1812 19.68504 3937.009 393.7008 0 3937.009 551.1812 0 3937.009</float_array>
+          <technique_common>
+            <accessor source="#ID3_006-mesh-positions-array" count="56" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID3_006-mesh-normals">
+          <float_array id="ID3_006-mesh-normals-array" count="33">0 0 1 5.44623e-6 0 1 1.05239e-6 0 1 0 -1 0 5.04032e-6 0 1 -3.36021e-6 0 1 4.87772e-6 0 1 1.6801e-6 0 1 0 1 0 1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#ID3_006-mesh-normals-array" count="11" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID3_006-mesh-map-0">
+          <float_array id="ID3_006-mesh-map-0-array" count="300">0.01648062 0.5781494 0 0.5781494 0 0.7708659 0.1477937 0.3123335 0.01648062 0.5781494 0 0.7708659 0.1477937 0.7110577 0.1477937 0.3123335 0 0.7708659 0.2807016 0.7110577 0.1477937 0.7110577 0 0.7708659 0.4120147 0.5781494 0.4120147 0.4452415 0.2807016 0.7110577 0.2807016 0.7110577 0 0.7708659 0.4253055 0.770866 0.4120147 0.5781494 0.2807016 0.7110577 0.4253055 0.770866 0.4253055 0.770866 0.4253055 0.5781494 0.4120147 0.5781494 0.4284953 0.2259436 0.003189861 0.252525 0.4284953 0.252525 0.4120147 0.4452415 0.4284953 0.4452415 0.4284953 0.252525 0.4284953 0.252525 0.2807017 0.3123335 0.4120147 0.4452415 0.4284953 0.252525 0.003189861 0.252525 0.2807017 0.3123335 0.2807017 0.3123335 0.2807016 0.7110577 0.4120147 0.4452415 0.003189861 0.252525 0.1477937 0.3123335 0.2807017 0.3123335 0.003189861 0.252525 0.01648068 0.4452414 0.1477937 0.3123335 0.01648068 0.4452414 0.01648062 0.5781494 0.1477937 0.3123335 0.003189861 0.252525 0.003189861 0.4452414 0.01648068 0.4452414 0.774056 0.265816 0.774056 0.3721424 0.8803822 0.265816 0.7740561 0.05316323 0.774056 0.1594896 0.7873468 0.05316323 1 0.4253056 1 0 0.8803822 0.265816 0.8803822 0.265816 0.7873468 0.4253056 1 0.4253056 0.8803822 0.265816 0.7873468 0.3721424 0.7873468 0.4253056 0.8803822 0.265816 0.774056 0.3721424 0.7873468 0.3721424 1 0 0.8803821 0.1594896 0.8803822 0.265816 1 0 0.774056 0.1594896 0.8803821 0.1594896 1 0 0.7873468 0.05316323 0.774056 0.1594896 1 0 0.787347 0 0.7873468 0.05316323 0.4284953 0.2259436 0.4284954 0.01329082 0.2690058 0.1063264 0.2690058 0.1063264 0.003189861 0.2259435 0.4284953 0.2259436 0.4284954 0.01329082 0.3753321 0.01329082 0.2690058 0.1063264 0.3753321 0.01329082 0.3753321 0 0.2690058 0.1063264 0.2690058 0.1063264 0.1626794 0.1063264 0.003189861 0.2259435 0.1626794 0.1063264 0.1626794 0 0.003189861 0.2259435 0.1626794 0 0.05635303 0.01329082 0.003189861 0.2259435 0.05635303 0.01329082 0.003189861 0.01329076 0.003189861 0.2259435 0.2690058 0 0.2690058 0.1063264 0.3753321 0 0 0.7974472 0.4253055 0.770866 0 0.7708659 0.5348219 0.611377 0.6677297 0.5050506 0.5348219 0.5050507 0.6677297 0 0.5348219 0.1063264 0.6677297 0.1063264 0.6677297 0.5050506 0.7740561 0.1063264 0.6677297 0.1063264 0.5348219 0.1063264 0.6677297 0.5050506 0.6677297 0.1063264 0.4284955 0.5050507 0.5348219 0.1063264 0.4284955 0.1063264 0.4284954 0.7177033 0.4417861 0.7177033 0.4284954 0.6113769 0.4284953 0.2259436 0.003189861 0.2259435 0.003189861 0.252525 0 0.7974472 0.4253054 0.7974474 0.4253055 0.770866 0.5348219 0.611377 0.6677297 0.611377 0.6677297 0.5050506 0.6677297 0 0.5348219 0 0.5348219 0.1063264 0.6677297 0.5050506 0.7740562 0.5050506 0.7740561 0.1063264 0.5348219 0.1063264 0.5348219 0.5050507 0.6677297 0.5050506 0.4284955 0.5050507 0.5348219 0.5050507 0.5348219 0.1063264</float_array>
+          <technique_common>
+            <accessor source="#ID3_006-mesh-map-0-array" count="150" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ID3_006-mesh-vertices">
+          <input semantic="POSITION" source="#ID3_006-mesh-positions"/>
+        </vertices>
+        <triangles material="frk_buildings_the_who_top-material" count="50">
+          <input semantic="VERTEX" source="#ID3_006-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ID3_006-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ID3_006-mesh-map-0" offset="2" set="0"/>
+          <p>15 0 0 14 0 1 31 0 2 16 1 3 15 1 4 31 1 5 17 0 6 16 0 7 31 0 8 19 0 9 17 0 10 31 0 11 21 0 12 18 0 13 19 0 14 19 0 15 31 0 16 22 0 17 21 2 18 19 2 19 22 2 20 22 0 21 20 0 22 21 0 23 39 3 24 23 3 25 13 3 26 18 0 27 26 0 28 13 0 29 13 0 30 12 0 31 18 0 32 13 0 33 23 0 34 12 0 35 12 0 36 19 0 37 18 0 38 23 0 39 16 0 40 12 0 41 23 0 42 11 0 43 16 0 44 11 0 45 15 0 46 16 0 47 23 0 48 10 0 49 11 0 50 30 0 51 28 0 52 32 0 53 33 0 54 34 0 55 0 0 56 35 0 57 36 0 58 32 0 59 32 0 60 27 0 61 35 0 62 32 0 63 29 0 64 27 0 65 32 4 66 28 4 67 29 4 68 36 0 69 37 0 70 32 0 71 36 5 72 34 5 73 37 5 74 36 6 75 0 6 76 34 6 77 36 0 78 38 0 79 0 0 80 39 7 81 41 7 82 40 7 83 40 0 84 42 0 85 39 0 86 41 0 87 25 0 88 40 0 89 25 0 90 43 0 91 40 0 92 40 0 93 44 0 94 42 0 95 44 0 96 45 0 97 42 0 98 45 0 99 24 0 100 42 0 101 24 0 102 46 0 103 42 0 104 47 0 105 40 0 106 43 0 107 8 8 108 22 8 109 31 8 110 7 3 111 2 3 112 48 3 113 3 8 114 4 8 115 5 8 116 2 9 117 50 9 118 5 9 119 4 0 120 2 0 121 5 0 122 52 10 123 4 10 124 49 10 125 55 0 126 53 0 127 54 0 128 39 3 129 42 3 130 23 3 131 8 8 132 9 8 133 22 8 134 7 3 135 6 3 136 2 3 137 3 8 138 1 8 139 4 8 140 2 9 141 51 9 142 50 9 143 4 0 144 48 0 145 2 0 146 52 10 147 48 10 148 4 10 149</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="ID3_004-mesh" name="ID3.004">
+      <mesh>
+        <source id="ID3_004-mesh-positions">
+          <float_array id="ID3_004-mesh-positions-array" count="54">634.6457 1102.362 3976.378 634.6457 1102.362 3937.008 629.9213 620.0787 0 610.2363 620.0787 0 634.6458 1417.323 0 634.6458 1102.362 3976.379 634.6458 816.9292 0 634.6458 816.9292 3976.379 634.6458 1102.362 3937.009 634.6458 1417.323 3937.009 629.9213 19.68504 0 629.9213 620.0787 3976.379 629.9213 334.6457 3937.009 629.9213 334.6457 3976.379 610.2363 816.9292 0 610.2363 816.9292 3976.379 610.2363 620.0787 3976.379 629.9213 19.68504 3937.009</float_array>
+          <technique_common>
+            <accessor source="#ID3_004-mesh-positions-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID3_004-mesh-normals">
+          <float_array id="ID3_004-mesh-normals-array" count="24">-0.7760004 0.6307325 0 1 0 0 1 -4.40533e-7 0 0 -1 0 0 1 0 1 -1.37666e-7 0 1 0 -1.55026e-6 -0.9975808 0 0.06951713</float_array>
+          <technique_common>
+            <accessor source="#ID3_004-mesh-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID3_004-mesh-map-0">
+          <float_array id="ID3_004-mesh-map-0-array" count="96">0.2205995 0.9994111 0.2205882 0.9894461 0.2205995 0.9993394 0.782135 0.9893614 0.9988657 0 0.5835608 6.28171e-5 0.217865 0.9893736 0.4180395 0.9993095 0.4168941 8.8026e-5 0.4337787 8.5464e-5 0.4180395 0.9993095 0.434924 0.999307 0.5710896 0.9992865 0.4337787 8.5464e-5 0.434924 0.999307 0.217865 0.9893736 0.001589238 0 0 0.9893274 0.5835608 6.28171e-5 0.5710896 0.9992865 0.5847062 0.9992845 0.5847062 0.9992845 0.7821462 0.9992546 0.782135 0.9893614 0.5835608 6.28171e-5 0.5847062 0.9992845 0.782135 0.9893614 0.2205995 0.9994111 0.4180395 0.9993095 0.2205882 0.9894461 0.782135 0.9893614 1 0.9893284 0.9988657 0 0.217865 0.9893736 0.2205882 0.9894461 0.4180395 0.9993095 0.4337787 8.5464e-5 0.4168941 8.8026e-5 0.4180395 0.9993095 0.5710896 0.9992865 0.5699442 6.48766e-5 0.4337787 8.5464e-5 0.217865 0.9893736 0.4168941 8.8026e-5 0.001589238 0 0.5835608 6.28171e-5 0.5699442 6.48766e-5 0.5710896 0.9992865</float_array>
+          <technique_common>
+            <accessor source="#ID3_004-mesh-map-0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ID3_004-mesh-vertices">
+          <input semantic="POSITION" source="#ID3_004-mesh-positions"/>
+        </vertices>
+        <triangles material="frk_buildings_the_who_wide-material" count="16">
+          <input semantic="VERTEX" source="#ID3_004-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ID3_004-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ID3_004-mesh-map-0" offset="2" set="0"/>
+          <p>5 0 0 1 0 1 0 0 2 12 1 3 10 1 4 2 1 5 8 2 6 7 2 7 6 2 8 14 3 9 7 3 10 15 3 11 16 1 12 14 1 13 15 1 14 8 1 15 4 1 16 9 1 17 2 4 18 16 4 19 11 4 20 11 1 21 13 1 22 12 1 23 2 5 24 11 5 25 12 5 26 5 6 27 7 6 28 1 6 29 12 1 30 17 1 31 10 1 32 8 7 33 1 7 34 7 7 35 14 3 36 6 3 37 7 3 38 16 1 39 3 1 40 14 1 41 8 1 42 6 1 43 4 1 44 2 4 45 3 4 46 16 4 47</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="ID3_002-mesh" name="ID3.002">
+      <mesh>
+        <source id="ID3_002-mesh-positions">
+          <float_array id="ID3_002-mesh-positions-array" count="54">0 334.6457 3937.008 24.40945 620.0787 3976.378 24.40945 816.9291 3976.378 0 620.0787 3976.378 0 334.6457 3976.378 0 19.68504 0 0 19.68504 3937.008 4.724409 816.9291 0 24.40945 816.9291 0 4.724409 816.9291 3976.378 4.724409 1102.362 3976.378 4.724409 1417.323 3937.008 4.724409 1102.362 3937.008 4.724409 1417.323 0 24.40945 620.0787 0 0 334.6457 3937.009 0 334.6457 3976.379 0 620.0787 0</float_array>
+          <technique_common>
+            <accessor source="#ID3_002-mesh-positions-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID3_002-mesh-normals">
+          <float_array id="ID3_002-mesh-normals-array" count="21">-1 0 0 0 1 0 0 -1 0 0 0 1 1 0 0 2.50047e-6 1 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#ID3_002-mesh-normals-array" count="7" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID3_002-mesh-map-0">
+          <float_array id="ID3_002-mesh-map-0-array" count="96">0.2170684 0.9955672 0.2170685 0.9857102 0.4137865 0.9955673 0.2170685 0.9857102 0 0.9857102 2.44614e-7 0 0.5630211 0 0.5798437 0.9955673 0.563021 0.9955673 0.4137867 0 0.2170685 0.9857102 2.44614e-7 0 0.4137867 0 0.4273533 0.9955673 0.4137865 0.9955673 0.5630211 0 0.4273533 0.9955673 0.4273535 0 0.7765738 0.9956389 0.7765616 0.9955674 0.5798437 0.9955673 0.7765616 0.9955674 0.7765617 0.9857103 0.5798437 0.9955673 0.9936301 0 0.9936299 0.9857103 0.7765617 0.9857103 0.5798439 0 0.7765617 0.9857103 0.5798437 0.9955673 0.5630211 0 0.5798439 0 0.5798437 0.9955673 0.4137867 0 0.4137865 0.9955673 0.2170685 0.9857102 0.4137867 0 0.4273535 0 0.4273533 0.9955673 0.5630211 0 0.563021 0.9955673 0.4273533 0.9955673 0.7765738 0.9956389 0.7780805 1 0.7765616 0.9955674 0.5798439 0 0.9936301 0 0.7765617 0.9857103</float_array>
+          <technique_common>
+            <accessor source="#ID3_002-mesh-map-0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ID3_002-mesh-vertices">
+          <input semantic="POSITION" source="#ID3_002-mesh-positions"/>
+        </vertices>
+        <triangles material="frk_buildings_the_who_wide-material" count="16">
+          <input semantic="VERTEX" source="#ID3_002-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ID3_002-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ID3_002-mesh-map-0" offset="2" set="0"/>
+          <p>10 0 0 12 0 1 9 0 2 12 0 3 11 0 4 13 0 5 14 1 6 3 1 7 1 1 8 7 0 9 12 0 10 13 0 11 7 2 12 2 2 13 9 2 14 14 0 15 2 0 16 8 0 17 4 3 18 16 3 19 3 3 20 16 4 21 0 4 22 3 4 23 5 0 24 6 0 25 0 0 26 17 0 27 0 0 28 3 0 29 14 5 30 17 5 31 3 5 32 7 6 33 9 6 34 12 6 35 7 2 36 8 2 37 2 2 38 14 0 39 1 0 40 2 0 41 4 4 42 15 4 43 16 4 44 17 0 45 5 0 46 0 0 47</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="ID3_001-mesh" name="ID3.001">
+      <mesh>
+        <source id="ID3_001-mesh-positions">
+          <float_array id="ID3_001-mesh-positions-array" count="60">236.2205 157.4803 3937.008 236.2205 0 3937.008 236.2205 0 0 0 19.68504 0 629.9213 19.68504 0 78.74016 0 0 78.74016 0 3937.008 78.74016 19.68504 3937.008 78.74016 19.68504 0 551.1811 0 0 551.1811 19.68504 0 393.7008 157.4803 0 236.2205 157.4803 0 393.7008 157.4803 3937.008 393.7008 0 0 551.1811 19.68504 3937.008 629.9213 19.68504 3937.008 0 19.68504 3937.008 393.7008 0 3937.008 551.1811 0 3937.008</float_array>
+          <technique_common>
+            <accessor source="#ID3_001-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID3_001-mesh-normals">
+          <float_array id="ID3_001-mesh-normals-array" count="9">-1 0 0 1 0 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#ID3_001-mesh-normals-array" count="3" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID3_001-mesh-map-0">
+          <float_array id="ID3_001-mesh-map-0-array" count="108">0.8895752 0 0.9093435 1 0.9093435 0 0.0988416 1 0.07907336 0 0.07907336 1 0.2569884 0 0.415135 1 0.415135 0 0.8895752 0 0.7314285 1 0.8895752 1 0.2569884 0 0.0988416 1 0.2569884 1 0.7314285 1 0.5732818 0 0.5732818 1 0.9884169 0 0.9093435 1 0.9884169 1 0.5732818 0 0.415135 1 0.5732818 1 0 1 0.07907336 0 0 0 0.8895752 0 0.8895752 1 0.9093435 1 0.0988416 1 0.0988416 0 0.07907336 0 0.2569884 0 0.2569884 1 0.415135 1 0.8895752 0 0.7314285 0 0.7314285 1 0.2569884 0 0.0988416 0 0.0988416 1 0.7314285 1 0.7314285 0 0.5732818 0 0.9884169 0 0.9093435 0 0.9093435 1 0.5732818 0 0.415135 0 0.415135 1 0 1 0.07907336 1 0.07907336 0</float_array>
+          <technique_common>
+            <accessor source="#ID3_001-mesh-map-0-array" count="54" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ID3_001-mesh-vertices">
+          <input semantic="POSITION" source="#ID3_001-mesh-positions"/>
+        </vertices>
+        <triangles material="frk_buildings_the_who_long-material" count="18">
+          <input semantic="VERTEX" source="#ID3_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ID3_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ID3_001-mesh-map-0" offset="2" set="0"/>
+          <p>5 0 0 7 0 1 8 0 2 19 1 3 10 1 4 15 1 5 14 0 6 13 0 7 11 0 8 5 2 9 1 2 10 6 2 11 14 2 12 19 2 13 18 2 14 1 1 15 12 1 16 0 1 17 3 2 18 7 2 19 17 2 20 12 2 21 13 2 22 0 2 23 16 2 24 10 2 25 4 2 26 5 0 27 6 0 28 7 0 29 19 1 30 9 1 31 10 1 32 14 0 33 18 0 34 13 0 35 5 2 36 2 2 37 1 2 38 14 2 39 9 2 40 19 2 41 1 1 42 2 1 43 12 1 44 3 2 45 8 2 46 7 2 47 12 2 48 11 2 49 13 2 50 16 2 51 15 2 52 10 2 53</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Long_B" name="Long B" type="NODE">
+        <matrix sid="transform">0.0254 0 0 0 0 0.0254 0 0 0 0 0.0254 0 0 0 0 1</matrix>
+        <instance_geometry url="#ID3_008-mesh" name="Long B">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="frk_buildings_the_who_long-material" target="#frk_buildings_the_who_long-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Roof" name="Roof" type="NODE">
+        <matrix sid="transform">0.0254 0 0 0 0 0.0254 0 0 0 0 0.0254 0 0 0 0 1</matrix>
+        <instance_geometry url="#ID3_006-mesh" name="Roof">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="frk_buildings_the_who_top-material" target="#frk_buildings_the_who_top-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Wide_A" name="Wide A" type="NODE">
+        <matrix sid="transform">0.0254 0 0 0 0 0.0254 0 0 0 0 0.0254 0 0 0 0 1</matrix>
+        <instance_geometry url="#ID3_004-mesh" name="Wide A">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="frk_buildings_the_who_wide-material" target="#frk_buildings_the_who_wide-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Wide_B" name="Wide B" type="NODE">
+        <matrix sid="transform">0.0254 0 0 0 0 0.0254 0 0 0 0 0.0254 0 0 0 0 1</matrix>
+        <instance_geometry url="#ID3_002-mesh" name="Wide B">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="frk_buildings_the_who_wide-material" target="#frk_buildings_the_who_wide-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Long_A" name="Long A" type="NODE">
+        <matrix sid="transform">0.0254 0 0 0 0 0.0254 0 0 0 0 0.0254 0 0 0 0 1</matrix>
+        <instance_geometry url="#ID3_001-mesh" name="Long A">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="frk_buildings_the_who_long-material" target="#frk_buildings_the_who_long-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

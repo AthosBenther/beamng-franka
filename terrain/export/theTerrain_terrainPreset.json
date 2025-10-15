@@ -8,7 +8,10 @@
     "/levels/franka/terrain/export/theTerrain_layerMap_1_Asphalt.png",
     "/levels/franka/terrain/export/theTerrain_layerMap_2_DryGrass.png",
     "/levels/franka/terrain/export/theTerrain_layerMap_3_DirtRoad.png",
-    "/levels/franka/terrain/export/theTerrain_layerMap_4_Mud.png"
+    "/levels/franka/terrain/export/theTerrain_layerMap_4_Mud.png",
+    "/levels/franka/terrain/export/theTerrain_layerMap_5_Concrete.png",
+    "/levels/franka/terrain/export/theTerrain_layerMap_6_TallGrass.png",
+    "/levels/franka/terrain/export/theTerrain_layerMap_7_SatMap.png"
   ],
   "pos":{
     "x":-1024,
