@@ -3,24 +3,19 @@
     "name": "tro_bush_1_leaves",
     "mapTo": "tro_bush_1_leaves",
     "class": "Material",
+    "persistentId": "f1e4f105-6104-4900-b19c-ea8cac936579",
     "Stages": [
       {
-        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/bush_tropical_1/t_tro_bush_01_leaves_ao.data.png",
-        "baseColorMap": "/levels/franka/art/shapes/trees/bush_tropical_1/t_tro_bush_01_leaves_b.color.png",
-        "normalMap": "/levels/franka/art/shapes/trees/bush_tropical_1/t_tro_bush_01_leaves_nm.normal.png",
-        "opacityMap": "/levels/franka/art/shapes/trees/bush_tropical_1/t_tro_bush_01_leaves_o.data.png",
+        "ambientOcclusionMap": "/levels/jungle_rock_island/art/shapes/trees/bush_tropical_1/t_tro_bush_01_leaves_ao.data.png",
+        "baseColorMap": "/levels/jungle_rock_island/art/shapes/trees/bush_tropical_1/t_tro_bush_01_leaves_b.color.png",
+        "normalMap": "/levels/jungle_rock_island/art/shapes/trees/bush_tropical_1/t_tro_bush_01_leaves_nm.normal.png",
+        "opacityMap": "/levels/jungle_rock_island/art/shapes/trees/bush_tropical_1/t_tro_bush_01_leaves_o.data.png",
         "roughnessFactor": 0.654999971,
-        "roughnessMap": "/levels/franka/art/shapes/trees/bush_tropical_1/t_tro_bush_01_leaves_r.data.png"
+        "roughnessMap": "/levels/jungle_rock_island/art/shapes/trees/bush_tropical_1/t_tro_bush_01_leaves_r.data.png"
       },
-      {
-        "roughnessFactor": null
-      },
-      {
-        "roughnessFactor": null
-      },
-      {
-        "roughnessFactor": null
-      }
+      {},
+      {},
+      {}
     ],
     "alphaRef": 100,
     "alphaTest": true,

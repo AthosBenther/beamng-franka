@@ -1,4 +1,580 @@
 {
+  "C_AP_G_CO_08_80x300": {
+    "name": "C_AP_G_CO_08_80x300",
+    "internalName": "C_AP_G_CO_08_80x300_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/corner/C_AP_G_CO_08_80x300.dae"
+  },
+  "C_AP_G_CO_09_80x300": {
+    "name": "C_AP_G_CO_09_80x300",
+    "internalName": "C_AP_G_CO_09_80x300_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/corner/C_AP_G_CO_09_80x300.dae"
+  },
+  "C_HO_G_PL_01_100x400": {
+    "name": "C_HO_G_PL_01_100x400",
+    "internalName": "C_HO_G_PL_01_100x400_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/pillar/C_HO_G_PL_01_100x400.dae"
+  },
+  "C_HO_G_PL_02_100x300": {
+    "name": "C_HO_G_PL_02_100x300",
+    "internalName": "C_HO_G_PL_02_100x300_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/pillar/C_HO_G_PL_02_100x300.dae"
+  },
+  "C_HO_G_PL_03_90x300": {
+    "name": "C_HO_G_PL_03_90x300",
+    "internalName": "C_HO_G_PL_03_90x300_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/pillar/C_HO_G_PL_03_90x300.dae"
+  },
+  "C_HO_G_PL_04_100x300": {
+    "name": "C_HO_G_PL_04_100x300",
+    "internalName": "C_HO_G_PL_04_100x300_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/pillar/C_HO_G_PL_04_100x300.dae"
+  },
+  "C_HO_G_SC_01_600x90": {
+    "name": "C_HO_G_SC_01_600x90",
+    "internalName": "C_HO_G_SC_01_600x90_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/string_course/C_HO_G_SC_01_600x90.dae"
+  },
+  "C_HO_G_SC_02_600x70": {
+    "name": "C_HO_G_SC_02_600x70",
+    "internalName": "C_HO_G_SC_02_600x70_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/string_course/C_HO_G_SC_02_600x70.dae"
+  },
+  "C_HO_G_SC_03_600x70": {
+    "name": "C_HO_G_SC_03_600x70",
+    "internalName": "C_HO_G_SC_03_600x70_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/string_course/C_HO_G_SC_03_600x70.dae"
+  },
+  "R_HS_A_BA_01_180x120": {
+    "name": "R_HS_A_BA_01_180x120",
+    "internalName": "R_HS_A_BA_01_180x120_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/balcony/R_HS_A_BA_01_180x120.dae"
+  },
+  "R_HS_A_CO_01_10x300": {
+    "name": "R_HS_A_CO_01_10x300",
+    "internalName": "R_HS_A_CO_01_10x300_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/corner/R_HS_A_CO_01_10x300.dae"
+  },
+  "R_HS_A_CO_02_10x300": {
+    "name": "R_HS_A_CO_02_10x300",
+    "internalName": "R_HS_A_CO_02_10x300_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/corner/R_HS_A_CO_02_10x300.dae"
+  },
+  "R_HS_A_CO_03_20x300": {
+    "name": "R_HS_A_CO_03_20x300",
+    "internalName": "R_HS_A_CO_03_20x300_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/corner/R_HS_A_CO_03_20x300.dae"
+  },
+  "R_HS_A_DR_01_100x210": {
+    "name": "R_HS_A_DR_01_100x210",
+    "internalName": "R_HS_A_DR_01_100x210_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_A_DR_01_100x210.dae"
+  },
+  "R_HS_A_DR_01_130x215": {
+    "name": "R_HS_A_DR_01_130x215",
+    "internalName": "R_HS_A_DR_01_130x215_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_A_DR_01_130x215.dae"
+  },
+  "R_HS_A_DR_01_210x205": {
+    "name": "R_HS_A_DR_01_210x205",
+    "internalName": "R_HS_A_DR_01_210x205_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_A_DR_01_210x205.dae"
+  },
+  "R_HS_A_DR_01_210x235": {
+    "name": "R_HS_A_DR_01_210x235",
+    "internalName": "R_HS_A_DR_01_210x235_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_A_DR_01_210x235.dae"
+  },
+  "R_HS_A_DR_01_80x200": {
+    "name": "R_HS_A_DR_01_80x200",
+    "internalName": "R_HS_A_DR_01_80x200_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_A_DR_01_80x200.dae"
+  },
+  "R_HS_A_DR_01_90x220": {
+    "name": "R_HS_A_DR_01_90x220",
+    "internalName": "R_HS_A_DR_01_90x220_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_A_DR_01_90x220.dae"
+  },
+  "R_HS_A_DR_02_100x210": {
+    "name": "R_HS_A_DR_02_100x210",
+    "internalName": "R_HS_A_DR_02_100x210_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_A_DR_02_100x210.dae"
+  },
+  "R_HS_A_DR_02_130x230": {
+    "name": "R_HS_A_DR_02_130x230",
+    "internalName": "R_HS_A_DR_02_130x230_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_A_DR_02_130x230.dae"
+  },
+  "R_HS_A_DR_02_210x220": {
+    "name": "R_HS_A_DR_02_210x220",
+    "internalName": "R_HS_A_DR_02_210x220_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_A_DR_02_210x220.dae"
+  },
+  "R_HS_A_DR_02_210x250": {
+    "name": "R_HS_A_DR_02_210x250",
+    "internalName": "R_HS_A_DR_02_210x250_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_A_DR_02_210x250.dae"
+  },
+  "R_HS_A_DR_02_80x210": {
+    "name": "R_HS_A_DR_02_80x210",
+    "internalName": "R_HS_A_DR_02_80x210_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_A_DR_02_80x210.dae"
+  },
+  "R_HS_A_DR_02_90x220": {
+    "name": "R_HS_A_DR_02_90x220",
+    "internalName": "R_HS_A_DR_02_90x220_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_A_DR_02_90x220.dae"
+  },
+  "R_HS_A_DR_04_210x205": {
+    "name": "R_HS_A_DR_04_210x205",
+    "internalName": "R_HS_A_DR_04_210x205_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_A_DR_04_210x205.dae"
+  },
+  "R_HS_A_DR_04_210x235": {
+    "name": "R_HS_A_DR_04_210x235",
+    "internalName": "R_HS_A_DR_04_210x235_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_A_DR_04_210x235.dae"
+  },
+  "R_HS_A_DR_05_210x210": {
+    "name": "R_HS_A_DR_05_210x210",
+    "internalName": "R_HS_A_DR_05_210x210_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_A_DR_05_210x210.dae"
+  },
+  "R_HS_A_DR_05_210x240": {
+    "name": "R_HS_A_DR_05_210x240",
+    "internalName": "R_HS_A_DR_05_210x240_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_A_DR_05_210x240.dae"
+  },
+  "R_HS_A_SC_01_600x20": {
+    "name": "R_HS_A_SC_01_600x20",
+    "internalName": "R_HS_A_SC_01_600x20_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/string_course/R_HS_A_SC_01_600x20.dae"
+  },
+  "R_HS_A_SC_02_600x20": {
+    "name": "R_HS_A_SC_02_600x20",
+    "internalName": "R_HS_A_SC_02_600x20_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/string_course/R_HS_A_SC_02_600x20.dae"
+  },
+  "R_HS_A_ST_01_130X60": {
+    "name": "R_HS_A_ST_01_130X60",
+    "internalName": "R_HS_A_ST_01_130X60_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/stairs/R_HS_A_ST_01_130X60.dae"
+  },
+  "R_HS_A_ST_02_230X130": {
+    "name": "R_HS_A_ST_02_230X130",
+    "internalName": "R_HS_A_ST_02_230X130_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/stairs/R_HS_A_ST_02_230X130.dae"
+  },
+  "R_HS_A_WN_01_120x130": {
+    "name": "R_HS_A_WN_01_120x130",
+    "internalName": "R_HS_A_WN_01_120x130_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_01_120x130.dae"
+  },
+  "R_HS_A_WN_01_120x155": {
+    "name": "R_HS_A_WN_01_120x155",
+    "internalName": "R_HS_A_WN_01_120x155_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_01_120x155.dae"
+  },
+  "R_HS_A_WN_01_140x230": {
+    "name": "R_HS_A_WN_01_140x230",
+    "internalName": "R_HS_A_WN_01_140x230_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_01_140x230.dae"
+  },
+  "R_HS_A_WN_01_150x160": {
+    "name": "R_HS_A_WN_01_150x160",
+    "internalName": "R_HS_A_WN_01_150x160_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_01_150x160.dae"
+  },
+  "R_HS_A_WN_01_160x200": {
+    "name": "R_HS_A_WN_01_160x200",
+    "internalName": "R_HS_A_WN_01_160x200_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_01_160x200.dae"
+  },
+  "R_HS_A_WN_01_60x120": {
+    "name": "R_HS_A_WN_01_60x120",
+    "internalName": "R_HS_A_WN_01_60x120_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_01_60x120.dae"
+  },
+  "R_HS_A_WN_01_70x140": {
+    "name": "R_HS_A_WN_01_70x140",
+    "internalName": "R_HS_A_WN_01_70x140_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_01_70x140.dae"
+  },
+  "R_HS_A_WN_01_70x220": {
+    "name": "R_HS_A_WN_01_70x220",
+    "internalName": "R_HS_A_WN_01_70x220_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_01_70x220.dae"
+  },
+  "R_HS_A_WN_01_70x70": {
+    "name": "R_HS_A_WN_01_70x70",
+    "internalName": "R_HS_A_WN_01_70x70_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_01_70x70.dae"
+  },
+  "R_HS_A_WN_01_90x120": {
+    "name": "R_HS_A_WN_01_90x120",
+    "internalName": "R_HS_A_WN_01_90x120_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_01_90x120.dae"
+  },
+  "R_HS_A_WN_02_120x160": {
+    "name": "R_HS_A_WN_02_120x160",
+    "internalName": "R_HS_A_WN_02_120x160_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_02_120x160.dae"
+  },
+  "R_HS_A_WN_02_120x250": {
+    "name": "R_HS_A_WN_02_120x250",
+    "internalName": "R_HS_A_WN_02_120x250_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_02_120x250.dae"
+  },
+  "R_HS_A_WN_02_140x260": {
+    "name": "R_HS_A_WN_02_140x260",
+    "internalName": "R_HS_A_WN_02_140x260_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_02_140x260.dae"
+  },
+  "R_HS_A_WN_02_150x180": {
+    "name": "R_HS_A_WN_02_150x180",
+    "internalName": "R_HS_A_WN_02_150x180_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_02_150x180.dae"
+  },
+  "R_HS_A_WN_02_160x230": {
+    "name": "R_HS_A_WN_02_160x230",
+    "internalName": "R_HS_A_WN_02_160x230_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_02_160x230.dae"
+  },
+  "R_HS_A_WN_02_60x150": {
+    "name": "R_HS_A_WN_02_60x150",
+    "internalName": "R_HS_A_WN_02_60x150_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_02_60x150.dae"
+  },
+  "R_HS_A_WN_02_70x100": {
+    "name": "R_HS_A_WN_02_70x100",
+    "internalName": "R_HS_A_WN_02_70x100_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_02_70x100.dae"
+  },
+  "R_HS_A_WN_02_70x170": {
+    "name": "R_HS_A_WN_02_70x170",
+    "internalName": "R_HS_A_WN_02_70x170_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_02_70x170.dae"
+  },
+  "R_HS_A_WN_02_70x250": {
+    "name": "R_HS_A_WN_02_70x250",
+    "internalName": "R_HS_A_WN_02_70x250_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_02_70x250.dae"
+  },
+  "R_HS_A_WN_02_90x120": {
+    "name": "R_HS_A_WN_02_90x120",
+    "internalName": "R_HS_A_WN_02_90x120_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_02_90x120.dae"
+  },
+  "R_HS_A_WN_03_120x180": {
+    "name": "R_HS_A_WN_03_120x180",
+    "internalName": "R_HS_A_WN_03_120x180_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_A_WN_03_120x180.dae"
+  },
+  "R_HS_B_DR_03_100x210": {
+    "name": "R_HS_B_DR_03_100x210",
+    "internalName": "R_HS_B_DR_03_100x210_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_B_DR_03_100x210.dae"
+  },
+  "R_HS_B_DR_03_130x220": {
+    "name": "R_HS_B_DR_03_130x220",
+    "internalName": "R_HS_B_DR_03_130x220_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_B_DR_03_130x220.dae"
+  },
+  "R_HS_B_DR_03_210x210": {
+    "name": "R_HS_B_DR_03_210x210",
+    "internalName": "R_HS_B_DR_03_210x210_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_B_DR_03_210x210.dae"
+  },
+  "R_HS_B_DR_03_210x250": {
+    "name": "R_HS_B_DR_03_210x250",
+    "internalName": "R_HS_B_DR_03_210x250_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_B_DR_03_210x250.dae"
+  },
+  "R_HS_B_DR_03_80x200": {
+    "name": "R_HS_B_DR_03_80x200",
+    "internalName": "R_HS_B_DR_03_80x200_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_B_DR_03_80x200.dae"
+  },
+  "R_HS_B_DR_03_90x220": {
+    "name": "R_HS_B_DR_03_90x220",
+    "internalName": "R_HS_B_DR_03_90x220_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_B_DR_03_90x220.dae"
+  },
+  "R_HS_B_DR_06_210x210": {
+    "name": "R_HS_B_DR_06_210x210",
+    "internalName": "R_HS_B_DR_06_210x210_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_B_DR_06_210x210.dae"
+  },
+  "R_HS_B_DR_06_210x240": {
+    "name": "R_HS_B_DR_06_210x240",
+    "internalName": "R_HS_B_DR_06_210x240_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/doors/R_HS_B_DR_06_210x240.dae"
+  },
+  "R_HS_B_WN_03_120x140": {
+    "name": "R_HS_B_WN_03_120x140",
+    "internalName": "R_HS_B_WN_03_120x140_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_B_WN_03_120x140.dae"
+  },
+  "R_HS_B_WN_03_120x150": {
+    "name": "R_HS_B_WN_03_120x150",
+    "internalName": "R_HS_B_WN_03_120x150_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_B_WN_03_120x150.dae"
+  },
+  "R_HS_B_WN_03_120x230": {
+    "name": "R_HS_B_WN_03_120x230",
+    "internalName": "R_HS_B_WN_03_120x230_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_B_WN_03_120x230.dae"
+  },
+  "R_HS_B_WN_03_140x230": {
+    "name": "R_HS_B_WN_03_140x230",
+    "internalName": "R_HS_B_WN_03_140x230_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_B_WN_03_140x230.dae"
+  },
+  "R_HS_B_WN_03_150x160": {
+    "name": "R_HS_B_WN_03_150x160",
+    "internalName": "R_HS_B_WN_03_150x160_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_B_WN_03_150x160.dae"
+  },
+  "R_HS_B_WN_03_160x200": {
+    "name": "R_HS_B_WN_03_160x200",
+    "internalName": "R_HS_B_WN_03_160x200_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_B_WN_03_160x200.dae"
+  },
+  "R_HS_B_WN_03_60x130": {
+    "name": "R_HS_B_WN_03_60x130",
+    "internalName": "R_HS_B_WN_03_60x130_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_B_WN_03_60x130.dae"
+  },
+  "R_HS_B_WN_03_70x150": {
+    "name": "R_HS_B_WN_03_70x150",
+    "internalName": "R_HS_B_WN_03_70x150_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_B_WN_03_70x150.dae"
+  },
+  "R_HS_B_WN_03_70x70": {
+    "name": "R_HS_B_WN_03_70x70",
+    "internalName": "R_HS_B_WN_03_70x70_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_B_WN_03_70x70.dae"
+  },
+  "R_HS_B_WN_03_90x120": {
+    "name": "R_HS_B_WN_03_90x120",
+    "internalName": "R_HS_B_WN_03_90x120_int",
+    "class": "ForestItemData",
+    "persistentId": "ee1216e3-ff66-4ee3-b7f8-8166acc8383b",
+    "annotation": "OBSTACLES",
+    "shapeFile": "/art/shapes/common/building_architect_modules/windows/R_HS_B_WN_03_90x120.dae"
+  },
   "generibush": {
     "name": "generibush",
     "internalName": "generibush",
@@ -24,110 +600,99 @@
     "name": "palm_medium",
     "internalName": "palm_medium",
     "class": "ForestItemData",
-    "__parent": "DataBlockGroup",
-    "shapeFile": "/levels/franka/art/shapes/trees/trees_palm/palm_medium.dae"
+    "shapeFile": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/palm_medium.dae"
   },
   "palm_small": {
     "name": "palm_small",
     "internalName": "palm_small",
     "class": "ForestItemData",
-    "__parent": "DataBlockGroup",
-    "shapeFile": "/levels/franka/art/shapes/trees/trees_palm/palm_small.dae"
+    "shapeFile": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/palm_small.dae"
   },
   "palm_tall": {
     "name": "palm_tall",
     "internalName": "palm_tall",
     "class": "ForestItemData",
-    "__parent": "DataBlockGroup",
-    "shapeFile": "/levels/franka/art/shapes/trees/trees_palm/palm_tall.dae"
+    "shapeFile": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/palm_tall.dae"
   },
   "palm_tiny": {
     "name": "palm_tiny",
     "internalName": "palm_tiny",
     "class": "ForestItemData",
-    "__parent": "DataBlockGroup",
-    "shapeFile": "/levels/franka/art/shapes/trees/trees_palm/palm_tiny.dae"
+    "shapeFile": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/palm_tiny.dae"
   },
   "tro_tree_1_fallen": {
     "name": "tro_tree_1_fallen",
     "internalName": "tro_tree_1_fallen",
     "class": "ForestItemData",
-    "__parent": "DataBlockGroup",
-    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_1/tro_tree_1_fallen.dae"
+    "shapeFile": "/levels/jungle_rock_island/art/shapes/trees/trees_tropical_1/tro_tree_1_fallen.dae"
   },
   "tro_tree_1_filler": {
     "name": "tro_tree_1_filler",
     "internalName": "tro_tree_1_filler",
     "class": "ForestItemData",
-    "__parent": "DataBlockGroup",
-    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_1/tro_tree_1_filler.dae"
+    "shapeFile": "/levels/jungle_rock_island/art/shapes/trees/trees_tropical_1/tro_tree_1_filler.dae"
   },
   "tro_tree_1_filler_02": {
     "name": "tro_tree_1_filler_02",
     "internalName": "tro_tree_1_filler_02",
     "class": "ForestItemData",
-    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_1/tro_tree_1_filler_02.dae"
+    "shapeFile": "/levels/jungle_rock_island/art/shapes/trees/trees_tropical_1/tro_tree_1_filler_02.dae"
   },
   "tro_tree_1_huge": {
     "name": "tro_tree_1_huge",
     "internalName": "tro_tree_1_huge",
     "class": "ForestItemData",
-    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_1/tro_tree_1_huge.dae",
+    "shapeFile": "/levels/jungle_rock_island/art/shapes/trees/trees_tropical_1/tro_tree_1_huge.dae",
     "trunkBendScale": 1
   },
   "tro_tree_2_bush_huge": {
     "name": "tro_tree_2_bush_huge",
     "internalName": "tro_tree_2_bush_huge",
     "class": "ForestItemData",
-    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_2/tro_tree_2_bush_huge.dae"
+    "shapeFile": "/levels/jungle_rock_island/art/shapes/trees/trees_tropical_2/tro_tree_2_bush_huge.dae"
   },
   "tro_tree_2_large": {
     "name": "tro_tree_2_large",
     "internalName": "tro_tree_2_large",
     "class": "ForestItemData",
-    "__parent": "DataBlockGroup",
-    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_2/tro_tree_2_large.dae"
+    "shapeFile": "/levels/jungle_rock_island/art/shapes/trees/trees_tropical_2/tro_tree_2_large.dae"
   },
   "tro_tree_2_medium": {
     "name": "tro_tree_2_medium",
     "internalName": "tro_tree_2_medium",
     "class": "ForestItemData",
-    "__parent": "DataBlockGroup",
-    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_2/tro_tree_2_medium.dae"
+    "shapeFile": "/levels/jungle_rock_island/art/shapes/trees/trees_tropical_2/tro_tree_2_medium.dae"
   },
   "tro_tree_2_tall": {
     "name": "tro_tree_2_tall",
     "internalName": "tro_tree_2_tall",
     "class": "ForestItemData",
-    "__parent": "DataBlockGroup",
-    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_2/tro_tree_2_tall.dae"
+    "shapeFile": "/levels/jungle_rock_island/art/shapes/trees/trees_tropical_2/tro_tree_2_tall.dae"
   },
   "tro_tree_2_tall_02": {
     "name": "tro_tree_2_tall_02",
     "internalName": "tro_tree_2_tall_02",
     "class": "ForestItemData",
-    "__parent": "DataBlockGroup",
-    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_2/tro_tree_2_tall_02.dae"
+    "shapeFile": "/levels/jungle_rock_island/art/shapes/trees/trees_tropical_2/tro_tree_2_tall_02.dae"
   },
   "tro_tree_2_tiny": {
     "name": "tro_tree_2_tiny",
     "internalName": "tro_tree_2_tiny",
     "class": "ForestItemData",
-    "__parent": "DataBlockGroup",
-    "shapeFile": "/levels/franka/art/shapes/trees/trees_tropical_2/tro_tree_2_tiny.dae"
+    "shapeFile": "/levels/jungle_rock_island/art/shapes/trees/trees_tropical_2/tro_tree_2_tiny.dae"
   },
   "tropical_plant_01_a": {
     "name": "tropical_plant_01_a",
     "internalName": "tropical_plant_01_a",
     "class": "ForestItemData",
-    "__parent": "DataBlockGroup",
-    "shapeFile": "/levels/franka/art/shapes/trees/tropical_wide_leaves/tropical_plant_01_a.dae"
+    "radius": 0.200000003,
+    "shapeFile": "/levels/jungle_rock_island/art/shapes/trees/tropical_wide_leaves/tropical_plant_01_a.dae"
   },
   "tropical_plant_03_e": {
     "name": "tropical_plant_03_e",
     "internalName": "tropical_plant_03_e",
     "class": "ForestItemData",
-    "__parent": "DataBlockGroup",
-    "shapeFile": "/levels/franka/art/shapes/trees/tropical_wide_leaves/tropical_plant_03_e.dae"
+    "radius": 0.300000012,
+    "shapeFile": "/levels/jungle_rock_island/art/shapes/trees/tropical_wide_leaves/tropical_plant_03_e.dae"
   }
 }

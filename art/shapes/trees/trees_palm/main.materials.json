@@ -3,44 +3,30 @@
     "name": "vegetation_palm_01",
     "mapTo": "vegetation_palm_01",
     "class": "Material",
+    "persistentId": "cb15d84f-2551-4b3d-b836-a5b9b82f26d1",
     "Stages": [
       {
-        "colorMap": "levels/franka/art/shapes/trees/trees_palm/vegetation_palm_01_d.dds",
+        "colorMap": "levels/jungle_rock_island/art/shapes/trees/trees_palm/vegetation_palm_01_d.dds",
         "diffuseColor": [
-          0.996078014,
-          0.996078014,
-          0.996078014,
+          0.9960780143737792,
+          0.9960780143737792,
+          0.9960780143737792,
           1
         ],
-        "normalMap": "levels/franka/art/shapes/trees/trees_palm/vegetation_palm_01_n.dds",
-        "roughnessFactor": 0.672736585,
+        "normalMap": "levels/jungle_rock_island/art/shapes/trees/trees_palm/vegetation_palm_01_n.dds",
         "specular": [
-          0.996078014,
-          0.996078014,
-          0.996078014,
+          0.9960780143737792,
+          0.9960780143737792,
+          0.9960780143737792,
           1
         ],
-        "specularMap": "levels/franka/art/shapes/trees/trees_palm/vegetation_palm_01_s.dds",
+        "specularMap": "levels/jungle_rock_island/art/shapes/trees/trees_palm/vegetation_palm_01_s.dds",
+        "specularPower": 21,
         "useAnisotropic": true
       },
-      {
-        "diffuseColor": null,
-        "roughnessFactor": null,
-        "specular": null,
-        "useAnisotropic": null
-      },
-      {
-        "diffuseColor": null,
-        "roughnessFactor": null,
-        "specular": null,
-        "useAnisotropic": null
-      },
-      {
-        "diffuseColor": null,
-        "roughnessFactor": null,
-        "specular": null,
-        "useAnisotropic": null
-      }
+      {},
+      {},
+      {}
     ],
     "alphaRef": 107,
     "alphaTest": true,
@@ -55,19 +41,20 @@
     "name": "vegetation_palm_02",
     "mapTo": "vegetation_palm_02",
     "class": "Material",
+    "persistentId": "1d354a68-8e65-4a5c-aebb-67a19064a348",
     "Stages": [
       {
-        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/trees_palm/t_palm_leaves_ao.data.png",
+        "ambientOcclusionMap": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/t_palm_leaves_ao.data.png",
         "baseColorFactor": [
           0.996078014,
           0.996078014,
           0.996078014,
           1
         ],
-        "baseColorMap": "/levels/franka/art/shapes/trees/trees_palm/t_palm_leaves_b.color.png",
-        "normalMap": "/levels/franka/art/shapes/trees/trees_palm/t_palm_leaves_nm.normal.png",
-        "opacityMap": "/levels/franka/art/shapes/trees/trees_palm/t_palm_leaves_o.data.png",
-        "roughnessMap": "/levels/franka/art/shapes/trees/trees_palm/t_palm_leaves_r.data.png",
+        "baseColorMap": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/t_palm_leaves_b.color.png",
+        "normalMap": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/t_palm_leaves_nm.normal.png",
+        "opacityMap": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/t_palm_leaves_o.data.png",
+        "roughnessMap": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/t_palm_leaves_r.data.png",
         "specular": [
           0.996078014,
           0.996078014,
@@ -75,18 +62,9 @@
           1
         ]
       },
-      {
-        "baseColorFactor": null,
-        "specular": null
-      },
-      {
-        "baseColorFactor": null,
-        "specular": null
-      },
-      {
-        "baseColorFactor": null,
-        "specular": null
-      }
+      {},
+      {},
+      {}
     ],
     "alphaRef": 107,
     "alphaTest": true,
@@ -102,25 +80,26 @@
     "name": "vegetation_palm_02_single_side",
     "mapTo": "vegetation_palm_02_single_side",
     "class": "Material",
+    "persistentId": "d0722c25-2c54-47e9-b96a-1aaa5ae57d12",
     "Stages": [
       {
-        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/trees_palm/t_palm_leaves_ao.data.png",
+        "ambientOcclusionMap": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/t_palm_leaves_ao.data.png",
         "baseColorFactor": [
           0.996078014,
           0.996078014,
           0.996078014,
           1
         ],
-        "baseColorMap": "/levels/franka/art/shapes/trees/trees_palm/t_palm_leaves_b.color.png",
+        "baseColorMap": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/t_palm_leaves_b.color.png",
         "detailNormalMapStrength": 0.300000012,
         "detailScale": [
           4,
           4
         ],
-        "normalMap": "/levels/franka/art/shapes/trees/trees_palm/t_palm_leaves_nm.normal.png",
-        "opacityMap": "/levels/franka/art/shapes/trees/trees_palm/t_palm_leaves_o.data.png",
+        "normalMap": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/t_palm_leaves_nm.normal.png",
+        "opacityMap": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/t_palm_leaves_o.data.png",
         "roughnessFactor": 0.672736585,
-        "roughnessMap": "/levels/franka/art/shapes/trees/trees_palm/t_palm_leaves_r.data.png",
+        "roughnessMap": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/t_palm_leaves_r.data.png",
         "specular": [
           0.996078014,
           0.996078014,
@@ -128,27 +107,9 @@
           1
         ]
       },
-      {
-        "baseColorFactor": null,
-        "detailNormalMapStrength": null,
-        "detailScale": null,
-        "roughnessFactor": null,
-        "specular": null
-      },
-      {
-        "baseColorFactor": null,
-        "detailNormalMapStrength": null,
-        "detailScale": null,
-        "roughnessFactor": null,
-        "specular": null
-      },
-      {
-        "baseColorFactor": null,
-        "detailNormalMapStrength": null,
-        "detailScale": null,
-        "roughnessFactor": null,
-        "specular": null
-      }
+      {},
+      {},
+      {}
     ],
     "alphaRef": 107,
     "alphaTest": true,
@@ -163,43 +124,29 @@
     "name": "vegetation_palm_bark_01",
     "mapTo": "vegetation_palm_bark_01",
     "class": "Material",
+    "persistentId": "bedcd81d-ffeb-413c-ae63-4bd4f49d98ae",
     "Stages": [
       {
-        "colorMap": "levels/franka/art/shapes/trees/trees_palm/vegetation_palm_bark_01_d.dds",
-        "detailMap": "levels/franka/art/shapes/trees/trees_palm/detail_grunge_palm_01.dds",
-        "detailNormalMap": "levels/franka/art/shapes/trees/trees_palm/vegetation_palm_bark_01_n.dds",
-        "detailNormalMapStrength": 1.20000005,
+        "colorMap": "levels/jungle_rock_island/art/shapes/trees/trees_palm/vegetation_palm_bark_01_d.dds",
+        "detailMap": "levels/jungle_rock_island/art/shapes/trees/trees_palm/detail_grunge_palm_01.dds",
+        "detailNormalMap": "levels/jungle_rock_island/art/shapes/trees/trees_palm/vegetation_palm_bark_01_n.dds",
+        "detailNormalMapStrength": 1.200000047683716,
         "detailScale": [
-          0.100000001,
-          0.100000001
+          0.1000000014901161,
+          0.1000000014901161
         ],
         "diffuseColor": [
-          0.996078014,
-          0.996078014,
-          0.996078014,
+          0.9960780143737792,
+          0.9960780143737792,
+          0.9960780143737792,
           1
         ],
-        "normalMap": "levels/franka/art/shapes/trees/trees_palm/vegetation_palm_bark_01_n.dds",
+        "normalMap": "levels/jungle_rock_island/art/shapes/trees/trees_palm/vegetation_palm_bark_01_n.dds",
         "useAnisotropic": true
       },
-      {
-        "detailNormalMapStrength": null,
-        "detailScale": null,
-        "diffuseColor": null,
-        "useAnisotropic": null
-      },
-      {
-        "detailNormalMapStrength": null,
-        "detailScale": null,
-        "diffuseColor": null,
-        "useAnisotropic": null
-      },
-      {
-        "detailNormalMapStrength": null,
-        "detailScale": null,
-        "diffuseColor": null,
-        "useAnisotropic": null
-      }
+      {},
+      {},
+      {}
     ],
     "doubleSided": true,
     "groundType": "WOOD",
@@ -212,78 +159,41 @@
     "name": "vegetation_palm_trunk",
     "mapTo": "vegetation_palm_trunk",
     "class": "Material",
+    "persistentId": "43c00c7c-da16-49b0-bda3-f8fb495ebdaa",
     "Stages": [
       {
-        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/trees_palm/t_palm_trunk_ao.data.png",
-        "ambientOcclusionMapUseUV": null,
+        "ambientOcclusionMap": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/t_palm_trunk_ao.data.png",
         "baseColorFactor": [
           0.996078014,
           0.996078014,
           0.996078014,
           1
         ],
-        "baseColorMap": "/levels/franka/art/shapes/trees/trees_palm/t_palm_trunk_b.color.png",
-        "detailMapUseUV": null,
+        "baseColorMap": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/t_palm_trunk_b.color.png",
         "detailNormalMapStrength": 1.20000005,
         "detailScale": [
           0.100000001,
           0.100000001
         ],
-        "diffuseMapUseUV": null,
-        "metallicMapUseUV": null,
-        "normalDetailMapUseUV": null,
-        "normalMap": "/levels/franka/art/shapes/trees/trees_palm/t_palm_trunk_nm.normal.png",
-        "normalMapUseUV": null,
-        "opacityMapUseUV": null,
-        "overlayMap": "/levels/franka/art/shapes/trees/trees_palm/vegetation_palm_bark_overlay_basecolor.png",
-        "roughnessFactor": null,
-        "roughnessMap": "/levels/franka/art/shapes/trees/trees_palm/t_palm_trunk_r.data.png",
-        "roughnessMapUseUV": null
+        "normalMap": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/t_palm_trunk_nm.normal.png",
+        "overlayMap": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/vegetation_palm_bark_overlay_basecolor.png",
+        "roughnessMap": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/t_palm_trunk_r.data.png"
       },
       {
         "ambientOcclusionMapUseUV": 1,
-        "baseColorFactor": null,
-        "baseColorMap": "/levels/franka/art/shapes/trees/trees_palm/t_palm_trunk_overlay_b.color.png",
+        "baseColorMap": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/t_palm_trunk_overlay_b.color.png",
         "detailMapUseUV": 1,
-        "detailNormalMapStrength": null,
-        "detailScale": null,
         "diffuseMapUseUV": 1,
         "metallicMapUseUV": 1,
         "normalDetailMapUseUV": 1,
         "normalMapUseUV": 1,
-        "opacityMap": "/levels/franka/art/shapes/trees/trees_palm/t_palm_trunk_overlay_o.data.png",
+        "opacityMap": "/levels/jungle_rock_island/art/shapes/trees/trees_palm/t_palm_trunk_overlay_o.data.png",
         "opacityMapUseUV": 1,
         "roughnessFactor": 0.725000024,
         "roughnessMapUseUV": 1
       },
-      {
-        "ambientOcclusionMapUseUV": null,
-        "baseColorFactor": null,
-        "detailMapUseUV": null,
-        "detailNormalMapStrength": null,
-        "detailScale": null,
-        "diffuseMapUseUV": null,
-        "metallicMapUseUV": null,
-        "normalDetailMapUseUV": null,
-        "normalMapUseUV": null,
-        "opacityMapUseUV": null,
-        "roughnessFactor": null,
-        "roughnessMapUseUV": null
-      },
-      {
-        "ambientOcclusionMapUseUV": null,
-        "baseColorFactor": null,
-        "detailMapUseUV": null,
-        "detailNormalMapStrength": null,
-        "detailScale": null,
-        "diffuseMapUseUV": null,
-        "metallicMapUseUV": null,
-        "normalDetailMapUseUV": null,
-        "normalMapUseUV": null,
-        "opacityMapUseUV": null,
-        "roughnessFactor": null,
-        "roughnessMapUseUV": null
-      }
+      {},
+      {}
     ],
     "activeLayers": 2,
     "groundType": "WOOD",

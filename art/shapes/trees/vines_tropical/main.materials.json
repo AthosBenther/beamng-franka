@@ -3,9 +3,11 @@
     "name": "tro_hangingplants",
     "mapTo": "tro_hangingplants",
     "class": "Material",
+    "persistentId": "bc6935bd-a4de-44c3-b05b-eebf9e3dad72",
     "Stages": [
       {
-        "colorMap": "levels/franka/art/shapes/trees/vines_tropical/tro_hangingplants_d.dds"
+        "colorMap": "levels/jungle_rock_island/art/shapes/trees/vines_tropical/tro_hangingplants_d.dds",
+        "specularPower": 1
       },
       {},
       {},
@@ -23,13 +25,14 @@
     "name": "tro_vines_2d",
     "mapTo": "tro_vines_2d",
     "class": "Material",
+    "persistentId": "8f27fa7a-0e23-42ba-9733-d483850a283f",
     "Stages": [
       {
-        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/vines_tropical/t_tro_vines_ao.data.png",
-        "baseColorMap": "/levels/franka/art/shapes/trees/vines_tropical/t_tro_vines_b.color.png",
-        "normalMap": "/levels/franka/art/shapes/trees/vines_tropical/t_tro_vines_nm.normal.png",
-        "opacityMap": "/levels/franka/art/shapes/trees/vines_tropical/t_tro_vines_o.data.png",
-        "roughnessMap": "/levels/franka/art/shapes/trees/vines_tropical/t_tro_vines_r.data.png"
+        "ambientOcclusionMap": "/levels/jungle_rock_island/art/shapes/trees/vines_tropical/t_tro_vines_ao.data.png",
+        "baseColorMap": "/levels/jungle_rock_island/art/shapes/trees/vines_tropical/t_tro_vines_b.color.png",
+        "normalMap": "/levels/jungle_rock_island/art/shapes/trees/vines_tropical/t_tro_vines_nm.normal.png",
+        "opacityMap": "/levels/jungle_rock_island/art/shapes/trees/vines_tropical/t_tro_vines_o.data.png",
+        "roughnessMap": "/levels/jungle_rock_island/art/shapes/trees/vines_tropical/t_tro_vines_r.data.png"
       },
       {},
       {},

@@ -3,13 +3,14 @@
     "name": "tropical_stem",
     "mapTo": "tropical_stem",
     "class": "Material",
+    "persistentId": "b8797d00-c46b-4c27-8900-6e30a587bca6",
     "Stages": [
       {
-        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_stems_ao.data.png",
-        "baseColorMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_stems_b.color.png",
-        "normalMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_stems_nm.normal.png",
-        "opacityMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_stems_o.data.png",
-        "roughnessMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_stems_r.data.png"
+        "ambientOcclusionMap": "/levels/jungle_rock_island/art/shapes/trees/tropical_wide_leaves/t_tropical_stems_ao.data.png",
+        "baseColorMap": "/levels/jungle_rock_island/art/shapes/trees/tropical_wide_leaves/t_tropical_stems_b.color.png",
+        "normalMap": "/levels/jungle_rock_island/art/shapes/trees/tropical_wide_leaves/t_tropical_stems_nm.normal.png",
+        "opacityMap": "/levels/jungle_rock_island/art/shapes/trees/tropical_wide_leaves/t_tropical_stems_o.data.png",
+        "roughnessMap": "/levels/jungle_rock_island/art/shapes/trees/tropical_wide_leaves/t_tropical_stems_r.data.png"
       },
       {},
       {},
@@ -25,13 +26,14 @@
     "name": "tropical_wide_leaves",
     "mapTo": "tropical_wide_leaves",
     "class": "Material",
+    "persistentId": "498f649c-3e77-48ea-bed0-a94a74e7fbf7",
     "Stages": [
       {
-        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_wide_leaves_ao.data.png",
-        "baseColorMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_wide_leaves_b.color.png",
-        "normalMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_wide_leaves_nm.normal.png",
-        "opacityMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_wide_leaves_o.data.png",
-        "roughnessMap": "/levels/franka/art/shapes/trees/tropical_wide_leaves/t_tropical_wide_leaves_r.data.png",
+        "ambientOcclusionMap": "/levels/jungle_rock_island/art/shapes/trees/tropical_wide_leaves/t_tropical_wide_leaves_ao.data.png",
+        "baseColorMap": "/levels/jungle_rock_island/art/shapes/trees/tropical_wide_leaves/t_tropical_wide_leaves_b.color.png",
+        "normalMap": "/levels/jungle_rock_island/art/shapes/trees/tropical_wide_leaves/t_tropical_wide_leaves_nm.normal.png",
+        "opacityMap": "/levels/jungle_rock_island/art/shapes/trees/tropical_wide_leaves/t_tropical_wide_leaves_o.data.png",
+        "roughnessMap": "/levels/jungle_rock_island/art/shapes/trees/tropical_wide_leaves/t_tropical_wide_leaves_r.data.png",
         "specular": [
           1,
           0.999989986,
@@ -39,15 +41,9 @@
           1
         ]
       },
-      {
-        "specular": null
-      },
-      {
-        "specular": null
-      },
-      {
-        "specular": null
-      }
+      {},
+      {},
+      {}
     ],
     "alphaRef": 93,
     "alphaTest": true,

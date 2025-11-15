@@ -3,29 +3,24 @@
     "name": "tro_bush_2_leaves",
     "mapTo": "tro_bush_2_leaves",
     "class": "Material",
+    "persistentId": "9134b63c-19c3-42d9-98d1-b375f7cd6a85",
     "Stages": [
       {
-        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/bush_tropical_2/t_tro_bush_2_ao.data.png",
+        "ambientOcclusionMap": "/levels/jungle_rock_island/art/shapes/trees/bush_tropical_2/t_tro_bush_2_ao.data.png",
         "baseColorFactor": [
           0.827450991,
           0.850979984,
           0.823529005,
           2
         ],
-        "baseColorMap": "/levels/franka/art/shapes/trees/bush_tropical_2/t_tro_bush_2_b.color.png",
-        "normalMap": "/levels/franka/art/shapes/trees/bush_tropical_2/t_tro_bush_2_nm.normal.png",
-        "opacityMap": "/levels/franka/art/shapes/trees/bush_tropical_2/t_tro_bush_2_o.data.png",
-        "roughnessMap": "/levels/franka/art/shapes/trees/bush_tropical_2/t_tro_bush_2_r.data.png"
+        "baseColorMap": "/levels/jungle_rock_island/art/shapes/trees/bush_tropical_2/t_tro_bush_2_b.color.png",
+        "normalMap": "/levels/jungle_rock_island/art/shapes/trees/bush_tropical_2/t_tro_bush_2_nm.normal.png",
+        "opacityMap": "/levels/jungle_rock_island/art/shapes/trees/bush_tropical_2/t_tro_bush_2_o.data.png",
+        "roughnessMap": "/levels/jungle_rock_island/art/shapes/trees/bush_tropical_2/t_tro_bush_2_r.data.png"
       },
-      {
-        "baseColorFactor": null
-      },
-      {
-        "baseColorFactor": null
-      },
-      {
-        "baseColorFactor": null
-      }
+      {},
+      {},
+      {}
     ],
     "alphaRef": 174,
     "alphaTest": true,
@@ -42,26 +37,21 @@
     "name": "tro_bush_2_trunk",
     "mapTo": "tro_bush_2_trunk",
     "class": "Material",
+    "persistentId": "af379f46-7ae0-495e-bc30-14ccd97c57e7",
     "Stages": [
       {
-        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/bush_tropical_2/t_tro_bush_2_trunk_ao.data.png",
-        "baseColorMap": "/levels/franka/art/shapes/trees/bush_tropical_2/t_tro_bush_2_trunk_b.color.png",
+        "ambientOcclusionMap": "/levels/jungle_rock_island/art/shapes/trees/bush_tropical_2/t_tro_bush_2_trunk_ao.data.png",
+        "baseColorMap": "/levels/jungle_rock_island/art/shapes/trees/bush_tropical_2/t_tro_bush_2_trunk_b.color.png",
         "detailScale": [
           0.800000012,
           0.800000012
         ],
-        "normalMap": "/levels/franka/art/shapes/trees/bush_tropical_2/t_tro_bush_2_trunk_nm.normal.png",
-        "roughnessMap": "/levels/franka/art/shapes/trees/bush_tropical_2/t_tro_bush_2_trunk_r.data.png"
+        "normalMap": "/levels/jungle_rock_island/art/shapes/trees/bush_tropical_2/t_tro_bush_2_trunk_nm.normal.png",
+        "roughnessMap": "/levels/jungle_rock_island/art/shapes/trees/bush_tropical_2/t_tro_bush_2_trunk_r.data.png"
       },
-      {
-        "detailScale": null
-      },
-      {
-        "detailScale": null
-      },
-      {
-        "detailScale": null
-      }
+      {},
+      {},
+      {}
     ],
     "groundType": "WOOD",
     "materialTag0": "vegetation",

@@ -280,5 +280,84 @@
       {},
       {}
     ]
+  },
+  "frk_metal_galvanized_rail_gutter": {
+    "name": "frk_metal_galvanized_rail_gutter",
+    "mapTo": "frk_metal_galvanized_rail_gutter",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/franka/art/materials/metal/frk_metaL_galvanized_rain_gutter_n.png",
+        "baseColorFactor": [
+          0.599065006,
+          0.599065006,
+          0.599065006,
+          1
+        ],
+        "baseColorMap": "/levels/franka/art/materials/metal/frk_metaL_galvanized_rain_gutter.png",
+        "detailMap": "/levels/franka/art/materials/metal/frk_metaL_galvanized_rain_gutter_b.png",
+        "detailScale": [
+          1,
+          1
+        ],
+        "metallicFactor": 0.465999991,
+        "normalMap": "/levels/franka/art/materials/metal/frk_metaL_galvanized_rain_gutter_n.png",
+        "normalMapStrength": 5
+      },
+      {
+        "baseColorFactor": null,
+        "detailScale": null,
+        "metallicFactor": null,
+        "normalMapStrength": null
+      },
+      {
+        "baseColorFactor": null,
+        "detailScale": null,
+        "metallicFactor": null,
+        "normalMapStrength": null
+      },
+      {
+        "baseColorFactor": null,
+        "detailScale": null,
+        "metallicFactor": null,
+        "normalMapStrength": null
+      }
+    ],
+    "version": 1.5
+  },
+  "metal_plates": {
+    "name": "metal_plates",
+    "mapTo": "metal_plates",
+    "class": "Material",
+    "Stages": [
+      {
+        "ambientOcclusionMap": "/levels/west_coast_usa/art/shapes/objects/t_metal_plates_ao.data.png",
+        "baseColorMap": "/levels/west_coast_usa/art/shapes/objects/t_metal_plates_b.color.png",
+        "metallicFactor": 0.800000012,
+        "metallicMap": "/levels/west_coast_usa/art/shapes/objects/t_metal_plates_m.data.png",
+        "normalMap": "/levels/west_coast_usa/art/shapes/objects/t_metal_plates_nm.normal.png",
+        "roughnessMap": "/levels/west_coast_usa/art/shapes/objects/t_metal_plates_r.data.png",
+        "vertColor": true
+      },
+      {
+        "metallicFactor": null,
+        "vertColor": null
+      },
+      {
+        "metallicFactor": null,
+        "vertColor": null
+      },
+      {
+        "metallicFactor": null,
+        "vertColor": null
+      }
+    ],
+    "alphaRef": 0,
+    "doubleSided": true,
+    "groundType": "METAL",
+    "invertBackFaceNormals": true,
+    "materialTag0": "beamng",
+    "materialTag1": "vehicle",
+    "version": 1.5
   }
 }

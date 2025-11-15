@@ -7,10 +7,245 @@
 {"name":"AIWaypointsGroup","class":"SimGroup","persistentId":"51078ec2-4675-49fe-8b06-85ad524a3592","__parent":"MissionGroup"}
 {"name":"AIDecalWaypointsGroup","class":"SimGroup","persistentId":"d8821fb3-c655-4b1e-a320-bd4182f00431","__parent":"MissionGroup"}
 {"name":"roads","class":"SimGroup","__parent":"MissionGroup"}
-{"name":"Road Detail","class":"MeshRoad","__parent":"MissionGroup","position":[734.529297,-284.455048,976.191345],"bottomMaterial":"ind_concrete_eroded","breakAngle":60,"nodes":[[734.507874,-284.466034,974.400024,0.800000012,0.200000003,0,0,1],[742.359314,-294.233124,974.942383,2.9000001,0.200000003,0,0,1],[760.783264,-313.973328,974.670593,8.60000038,0.600000024,-0.01151009,-0.010765465,0.999875784],[761.272278,-314.503906,974.664001,8.60000038,1,-0.0230173208,-0.0215282552,0.999503255],[761.805176,-315.251221,974.539246,6,1,-0.032868769,-0.0237201899,0.999178171]],"sideMaterial":"concrete_plain","topMaterial":"ind_concrete_eroded"}
 {"name":"Buildings","class":"SimGroup","__parent":"MissionGroup"}
-{"name":"NewMeshRoad6","class":"MeshRoad","__parent":"MissionGroup","position":[-529.699097,-660.846558,932.999512],"breakAngle":0,"nodes":[[-501.330292,-715.21875,933,1,5,0,0,1],[-520.213318,-691.414185,932.999634,1,5,0,0,1],[-528.630432,-679.520508,933.001099,1,5,0,0,1],[-531.954346,-669.088989,932.999512,1,5,0,0,1],[-521.788269,-658.638306,932.945862,1,5,0,0,1],[-504.369476,-644.932983,933,1,5,0,0,1],[-482.58902,-627.5224,933.917786,1,5,0,0,1]],"sideMaterial":"eca_bld_metal_01_white_annotation_pole","topMaterial":"eca_bld_metal_01_white_annotation_pole","widthSubdivisions":1}
-{"name":"Road Lump","class":"MeshRoad","__parent":"MissionGroup","position":[-857.520691,-749.75061,935.536804],"bottomMaterial":"frk_infra_concrete_curb_white","breakAngle":0,"nodes":[[-852.161682,-747.37207,933.599792,8,5,0.00466967421,-0.0114249801,0.999923825],[-857.571533,-749.583191,933.72699,8.60000038,5,0,0,1],[-874.617371,-757.629639,934.824158,8.60000038,5,0,0,1],[-886.214478,-764.265808,935.124512,8.60000038,5,0,0,1],[-894.832092,-769.369141,935.075684,8.60000038,5,0,0,1],[-918.756042,-784.065674,933.918762,8.60000038,5,0,0,1]],"sideMaterial":"frk_infra_concrete_curb_white","topMaterial":"frk_infra_asphalt"}
-{"class":"DecalRoad","persistentId":"3c6b98ff-8f21-4f02-b8b3-579d469314ed","__parent":"MissionGroup","position":[-86.9119263,-662.459045,933.06897],"autoLanes":false,"decalBias":0.00100000203,"detail":0.409999996,"improvedSpline":true,"material":"ind_concrete","nodes":[[-86.9119263,-662.459045,933.06897,2.5],[-63.7243538,-651.124634,933.049988,2.5],[-45.2064247,-641.831726,933.541504,2.5],[-38.4057884,-639.447083,933.768799,2.5],[-35.6461716,-642.145691,933.927124,2.5],[-32.9128151,-655.386353,933.965515,2.5],[-28.588501,-676.894897,934.116943,2.5]],"renderPriority":9,"zBias":2}
-{"class":"DecalRoad","persistentId":"36e6ffa5-6460-4ed2-bc36-6d131bfe5882","__parent":"MissionGroup","position":[-31.2181225,-668.261902,933.82135],"decalBias":0.000500038266,"improvedSpline":true,"material":"road1_concrete","nodes":[[-31.2181225,-668.261902,933.82135,59.4001617],[-51.909359,-672.981445,934.211121,52.2000809],[-74.6305237,-677.962708,934.029968,40.5000687],[-80.9940872,-679.316711,933.90033,37.6000366]],"textureLength":60,"zBias":1}
-{"class":"DecalRoad","persistentId":"3a8c0bf2-119e-4b3b-bf52-0537c51be49f","__parent":"MissionGroup","position":[-31.6790485,-540.543213,934.973999],"endTangent":true,"improvedSpline":true,"material":"ind_concreteleak","nodes":[[-31.6790485,-540.543213,934.973999,2.5],[-19.6815548,-566.973938,934.775696,2.5],[-21.6003246,-582.402405,934.855835,2.5],[-36.8903656,-596.889771,934.363403,2.5],[-62.5634995,-611.006775,933.907898,2.5],[-89.9709625,-618.392761,933.225037,2.5]],"textureLength":1}
+{"name":"Chmpagnat_det_temp01","class":"MeshRoad","__parent":"MissionGroup","position":[530.125916,34.256588,959.695007],"nodes":[[529.588806,33.6994667,959.695007,7,0.200000003,0,0,1],[521.096436,44.5076256,959.576721,7,0.200000003,0,0,1]],"sideMaterial":"frk_infra_concrete_curb_white","topMaterial":"frk_infra_concrete"}
+{"name":"Chmpagnat_det_temp02","class":"MeshRoad","__parent":"MissionGroup","position":[511.720581,20.5435658,959.695007],"nodes":[[511.073669,19.5041218,959.695007,7,0.200000003,0,0,1],[502.91153,30.0738239,959.576721,7,0.200000003,0,0,1]],"sideMaterial":"frk_infra_concrete_curb_white","topMaterial":"frk_infra_concrete"}
+{"name":"Chmpagnat_det_temp03","class":"MeshRoad","__parent":"MissionGroup","position":[487.715118,0.603614807,958.815796],"nodes":[[487.068207,-0.435829163,958.815796,7,0.200000003,0,0,1],[478.906067,10.1338739,958.69751,7,0.200000003,0,0,1]],"sideMaterial":"frk_infra_concrete_curb_white","topMaterial":"frk_infra_concrete"}
+{"name":"NewMeshRoad22","class":"MeshRoad","__parent":"MissionGroup","position":[-519.35498,-694.822998,932.108459],"bottomMaterial":"frk_infra_concrete_curb_white","nodes":[[-519.35498,-694.822998,932.108459,1,0.200000003,0,0,1],[-529.665955,-680.544312,931.15979,1,0.200000003,0,0,1],[-532.624817,-674.426392,931.114929,1,0.200000003,0,0,1],[-532.856689,-669.739746,931.114929,1,0.200000003,0,0,1],[-530.438599,-664.251892,931.11499,1.5,0.200000003,0,0,1],[-523.423279,-658.019531,931.11499,1.5,0.200000003,0,0,1],[-487.050049,-628.407898,932.017151,2.5,0.200000003,0,0,1],[-484.316254,-626.322693,932.083008,2.5,0.200000003,0,0,1],[-473.706909,-621.87439,932.377014,3,0.200000003,0,0,1],[-469.768524,-620.722656,932.385742,3,0.200000003,0,0,1],[-453.014923,-613.954163,932.426758,3,0.200000003,0,0,1],[-447.462677,-612.827148,932.13855,3,0.200000003,-0.00530877337,0.0476632416,0.998849332],[-437.92337,-611.765076,931.958191,3,0.200000003,-0.0058329762,0.0518491678,0.998637915],[-433.795563,-611.336365,931.807495,3,0.200000003,0.0517828315,0.0658843666,0.99648267],[-428.754242,-610.734863,931.703857,3,0.200000003,-2.72283778e-08,0.0304731112,0.999535561],[-420.655731,-613.389221,931.745972,3,0.200000003,0,0.0614103936,0.998112619]],"sideMaterial":"frk_infra_concrete_curb_white","topMaterial":"frk_infra_concrete"}
+{"class":"DecalRoad","persistentId":"0d13bff8-da77-44ef-ada1-fc38cda3149d","__parent":"MissionGroup","position":[-477.581177,-621.252686,932.031921],"improvedSpline":true,"material":"m_road_edge_dirt","nodes":[[-477.581177,-621.252686,932.031921,3.20000005],[-460.154633,-613.158386,932.091614,5],[-449.866791,-610.085449,932.017944,5],[-443.406647,-609.375977,931.907471,4.0999999],[-435.422089,-608.605957,931.683044,3.20000005]],"smoothness":0.25,"startEndFade":[50,50],"textureLength":50}
+{"class":"DecalRoad","persistentId":"cba48c26-af91-4a57-86f4-9fc90b2a8623","__parent":"MissionGroup","position":[-488.773651,-619.27179,931.99646],"improvedSpline":true,"material":"m_road_edge_dirt","nodes":[[-488.773651,-619.27179,931.99646,3.20000005],[-468.45401,-604.736145,931.999084,3.20000005],[-453.78595,-598.526062,931.929871,3.20000005],[-437.516571,-597.416931,931.746094,3.20000005]],"startEndFade":[50,50],"textureLength":50}
+{"class":"DecalRoad","persistentId":"c45790a6-eeef-4134-b616-e631cca3a60a","__parent":"MissionGroup","position":[-434.760345,-598.841919,931.667358],"improvedSpline":true,"material":"m_road_edge_dirt","nodes":[[-434.760345,-598.841919,931.667358,3.20000005],[-452.942535,-600.740234,931.930969,3.20000005],[-463.376923,-604.716187,931.999451,3.20000005],[-476.53537,-612.937073,931.999451,3.20000005],[-488.465515,-619.947144,931.995911,3.20000005]],"startEndFade":[50,50],"textureLength":50}
+{"class":"DecalRoad","persistentId":"2e76a1fd-4d37-4475-b38b-c4b30f338538","__parent":"MissionGroup","position":[-489.133942,-619.271973,931.994507],"improvedSpline":true,"material":"m_road_edge_dirt","nodes":[[-489.133942,-619.271973,931.994507,0.5],[-485.093872,-614.131592,931.999451,1],[-482.959198,-610.582336,931.999451,1],[-480.902435,-605.847412,931.999451,1],[-478.988647,-597.598206,931.999451,1],[-478.717804,-590.069458,932.001892,0.5]],"startEndFade":[15,5]}
+{"class":"DecalRoad","persistentId":"c4dff5ef-d8e0-46c1-ab15-4ca8aa7015a5","__parent":"MissionGroup","position":[-476.788177,-592.184448,932.004822],"improvedSpline":true,"material":"m_road_edge_dirt","nodes":[[-476.788177,-592.184448,932.004822,4],[-477.379242,-598.165222,931.999451,3.5],[-478.612366,-603.348938,931.999451,3],[-480.162537,-607.785583,931.999451,2.5],[-482.723633,-612.627258,931.999451,2],[-488.153168,-618.894775,931.999023,0.5]],"startEndFade":[10,25],"textureLength":20}
+{"class":"DecalRoad","persistentId":"4eb366d4-7b18-441e-bd6d-64490709dfe7","__parent":"MissionGroup","position":[-445.28949,-597.439392,931.825867],"improvedSpline":true,"material":"m_road_edge_dirt","nodes":[[-445.28949,-597.439392,931.825867,2.5],[-467.999146,-596.219055,931.995361,7],[-480.435181,-591.537781,931.999451,2.5]],"startEndFade":[50,50],"textureLength":50}
+{"class":"DecalRoad","persistentId":"6a6fbbde-7ed1-4b51-a01b-2a6aba522905","__parent":"MissionGroup","position":[-485.837982,-616.831787,931.999451],"improvedSpline":true,"material":"m_asphalt_damaged_01","nodes":[[-485.837982,-616.831787,931.999451,1],[-468.431519,-604.374268,931.998657,6],[-453.892365,-598.249756,931.926453,5],[-436.956085,-596.827576,931.770447,2.5]],"startEndFade":[50,50]}
+{"class":"DecalRoad","persistentId":"3cff9973-ce56-4eb2-a9eb-47d8fde8da62","__parent":"MissionGroup","position":[-476.490234,-590.404785,932.005371],"improvedSpline":true,"material":"m_asphalt_damaged_01","nodes":[[-476.490234,-590.404785,932.005371,3.625],[-477.203552,-602.85791,931.999451,7],[-486.50238,-617.427673,931.999451,3.625]],"startEndFade":[15,15]}
+{"class":"DecalRoad","persistentId":"46be40d1-7206-407d-8261-760b58d9301c","__parent":"MissionGroup","position":[773.140015,-320.696655,974.431274],"detail":1,"improvedSpline":true,"material":"crossing_white","nodes":[[773.140015,-320.696655,974.431274,2.5],[782.484558,-315.924988,974.604614,2.5]]}
+{"class":"DecalRoad","persistentId":"5dfc23e7-fd48-4b2b-90d1-9294ccb3da44","__parent":"MissionGroup","position":[763.521301,-310.446106,974.454468],"improvedSpline":true,"material":"crossing_white","nodes":[[763.521301,-310.446106,974.454468,2.5],[769.916504,-303.932861,974.536133,2.5]]}
+{"class":"DecalRoad","persistentId":"f468a272-4ebd-43cc-bc2a-fcc9469734d5","__parent":"MissionGroup","position":[757.000427,-315.097107,974.23645],"improvedSpline":true,"material":"crossing_white","nodes":[[757.000427,-315.097107,974.23645,2.5],[748.947876,-320.241211,974.196716,2.5]]}
+{"class":"DecalRoad","persistentId":"45fa9ae1-19df-48eb-a3e8-a2dd83607d44","__parent":"MissionGroup","position":[-30.4456978,-539.992981,935.044678],"improvedSpline":true,"material":"gutter1","nodes":[[-30.4456978,-539.992981,935.044678,0.200000003],[-28.9212322,-543.113159,934.935242,0.200000003],[-22.06814,-557.029114,935.013977,0.200000003],[-18.9888287,-564.559631,935.045593,0.200000003],[-17.6400375,-569.480042,935.03949,0.200000003],[-17.2773857,-572.985779,935.028503,0.200000003]]}
+{"name":"NewMeshRoad24","class":"MeshRoad","__parent":"MissionGroup","position":[-515.388977,-556.579712,932.200012],"nodes":[[-515.394958,-556.606567,932.200012,1,1,0,0,1],[-516.004761,-556.55426,932.200012,1.5,1,0,0,1],[-516.005066,-555.498474,932.200012,2,1,0,0,1],[-516.02533,-552.570984,932.200073,2,1,0,0,1],[-514.878296,-545.539917,932.200073,1,1,0,0,1]],"sideMaterial":"frk_infra_concrete_curb_white","topMaterial":"frk_infra_concrete"}
+{"name":"NewMeshRoad25","class":"MeshRoad","__parent":"MissionGroup","position":[-479.487793,-580.537537,932.200012],"breakAngle":0,"nodes":[[-479.576691,-580.562134,932.200012,1,0.5,0,0,1],[-479.777863,-579.481934,932.129517,1,0.5,0,0,1],[-479.816925,-576.722229,932.129456,1.5,0.5,0,0,1],[-478.671997,-575.056152,932.329468,1.5,0.5,0,0,1],[-477.321472,-575.274109,932.329468,1.5,0.5,0,0,1]],"sideMaterial":"frk_infra_concrete_curb_white","topMaterial":"frk_infra_concrete"}
+{"name":"NewMeshRoad26","class":"MeshRoad","__parent":"MissionGroup","position":[-493.373138,-613.816711,932.299988],"breakAngle":0,"nodes":[[-493.544342,-613.882019,932.299988,0.300000012,0.5,0,0,1],[-491.745453,-612.150879,932.302856,0.300000012,0.5,0,0,1],[-488.019714,-606.059998,932.306824,0.300000012,0.5,0,0,1],[-485.611298,-597.219971,932.307739,0.300000012,0.5,0,0,1],[-485.876923,-592.005432,932.212585,0.300000012,0.5,0,0,1]],"sideMaterial":"frk_infra_concrete_curb_white","topMaterial":"frk_infra_concrete","widthSubdivisions":1}
+{"class":"DecalRoad","persistentId":"ddd20fa4-1598-4026-a22b-fb550e246b86","__parent":"MissionGroup","position":[-62.5450325,-611.10791,934.065613],"improvedSpline":true,"material":"frk_infra_overpass_concrete_very_old","nodes":[[-62.5450325,-611.10791,934.065613,5],[-94.0470886,-618.018677,933.311462,5],[-123.843521,-618.112793,933.020813,5],[-160.006256,-610.656433,933.037537,5],[-183.524796,-604.078003,932.99939,5]]}
+{"class":"DecalRoad","persistentId":"1452b001-68c9-447f-a99f-10bc8cf70fb9","__parent":"MissionGroup","position":[-549.921387,-559.074585,933.124329],"decalBias":0.100000001,"improvedSpline":true,"material":"frk_metal_galvanized_rail_gutter","nodes":[[-549.921387,-559.074585,933.124329,0.200000003],[-574.991028,-553.471619,933.982727,0.200000003]],"renderPriority":11,"zBias":-1}
+{"class":"DecalRoad","persistentId":"af29d288-dc30-49b9-9dc5-0384a3aa417a","__parent":"MissionGroup","position":[-552.620728,-556.546936,933.227905],"breakAngle":0,"improvedSpline":true,"material":"frk_metal_galvanized_rail_gutter","nodes":[[-552.620728,-556.546936,933.227905,0.200000003],[-551.349609,-550.583496,933.226135,0.200000003]],"overObjects":true,"renderPriority":11,"textureLength":2}
+{"class":"DecalRoad","persistentId":"a9b923a4-f728-482b-a103-aaae5bb43020","__parent":"MissionGroup","position":[-558.249023,-549.091553,933.469543],"breakAngle":0,"improvedSpline":true,"material":"frk_metal_galvanized_rail_gutter","nodes":[[-558.249023,-549.091553,933.469543,0.200000003],[-559.54895,-555.092834,933.46759,0.200000003]],"overObjects":true,"renderPriority":11,"textureLength":2}
+{"class":"DecalRoad","persistentId":"3acb91ee-bfb7-4abb-9525-b8cde53b6e5e","__parent":"MissionGroup","position":[-559.54895,-555.092834,933.46759],"breakAngle":0,"improvedSpline":true,"material":"frk_metal_galvanized_rail_gutter","nodes":[[-559.54895,-555.092834,933.46759,0.200000003],[-552.611206,-556.543091,933.227539,0.200000003]],"overObjects":true,"renderPriority":11,"textureLength":2}
+{"class":"DecalRoad","persistentId":"18abaa3d-3724-4518-a576-77e49fcf5a6e","__parent":"MissionGroup","position":[-551.349609,-550.583496,933.226135],"breakAngle":0,"improvedSpline":true,"material":"frk_metal_galvanized_rail_gutter","nodes":[[-551.349609,-550.583496,933.226135,0.200000003],[-558.249023,-549.091553,933.469543,0.200000003]],"overObjects":true,"renderPriority":11,"textureLength":2}
+{"class":"DecalRoad","persistentId":"2f77a32c-61cd-418e-b8b0-8d8781ba6cae","__parent":"MissionGroup","position":[-480.625244,-611.381836,931.999451],"improvedSpline":true,"material":"m_asphalt_damaged_01","nodes":[[-480.625244,-611.381836,931.999451,3.625],[-471.574127,-601.657959,931.997742,7],[-462.30069,-595.849304,931.967834,3.625]],"renderPriority":12,"startEndFade":[10,10]}
+{"name":"NewRiver1","class":"River","__parent":"MissionGroup","position":[18.0665646,-571.557861,934.038025],"Foam":[{},{}],"Ripples (texture animation)":[{"rippleDir":[0,1],"rippleSpeed":-0.0649999976,"rippleTexScale":[7.13999987,7.13999987]},{"rippleDir":[0.707000017,0.707000017],"rippleSpeed":0.0900000036,"rippleTexScale":[6.25,12.5]},{"rippleDir":[0.5,0.860000014],"rippleSpeed":0.0399999991,"rippleTexScale":[50,50]}],"Waves (vertex undulation)":[{"waveDir":[0,1],"waveSpeed":1},{"waveDir":[0.707000017,0.707000017],"waveSpeed":1},{"waveDir":[0.5,0.860000014],"waveSpeed":1}],"baseColor":[84,24,24,255],"cubemap":"DefaultSkyCubemap","depthGradientTex":"core/art/water/depthcolor_ramp.png","flowMagnitudePhysics":2,"foamTex":"core/art/water/foam.dds","nodes":[[18.0665646,-571.557861,932.25647,10,5,0,0,1],[39.5726395,-537.635559,931.999573,10,5,0,0,1],[63.6162949,-487.57843,932.391968,10,5,0,0,1],[88.1498642,-435.257904,933.614563,10,5,0,0,1],[121.232407,-376.273956,933.540039,10,5,0,0,1],[145.543579,-332.357269,934.997803,10,5,0,0,1],[191.391235,-267.280182,934.598938,10,5,0,0,1],[206.890884,-245.411346,937.307617,10,5,0,0,1],[236.687866,-211.024307,938.983826,10,5,0,0,1],[248.740082,-197.08638,943.615662,10,5,0,0,1],[261.502441,-185.059937,950.429443,10,5,0,0,1],[285.878906,-162.771118,951.970276,10,5,0,0,1],[305.936798,-145.647141,951.976562,10,5,0,0,1],[328.729156,-126.97541,951.98291,10,5,0,0,1],[349.785583,-109.460251,951.990906,10,5,0,0,1],[480.901489,3.67690277,955.130371,10,5,0,0,1],[501.896423,21.9322338,955.915649,10,5,0,0,1],[548.43396,57.4631615,955.553467,10,5,0,0,1]],"rippleTex":"core/art/water/ripple.dds","specularColor":[0.316141069,0.240942508,0.240942508,1],"underwaterColor":[86,46,33,240],"waterFogDensity":0.5}
+{"name":"TSStatic_311211","class":"TSStatic","__parent":"MissionGroup","position":[826.923096,-586.429138,956.189148],"collisionType":"Visible Mesh","decalType":"Visible Mesh","isRenderEnabled":false,"rotationMatrix":[0.019870162,-0.99980253,6.12280792e-06,0.99980253,0.019870162,8.07121887e-06,-8.19128581e-06,5.961223e-06,1],"shapeName":"/levels/franka/art/shapes/infra/bridges/frk_infra_bridges_detail_metal_rail.dae"}
+{"name":"TSStatic_3112111","class":"TSStatic","__parent":"MissionGroup","position":[826.882324,-584.479309,956.034912],"collisionType":"Visible Mesh","decalType":"Visible Mesh","isRenderEnabled":false,"rotationMatrix":[0.0198702216,-0.997198761,0.0721086115,0.99980253,0.0198190808,-0.00142491981,-8.19191337e-06,0.0721226931,0.997395754],"shapeName":"/levels/franka/art/shapes/infra/bridges/frk_infra_bridges_detail_metal_rail_single.dae"}
+{"name":"TSStatic_3112112","class":"TSStatic","__parent":"MissionGroup","position":[846.378174,-595.197266,956.382507],"collisionType":"Visible Mesh","decalType":"Visible Mesh","isRenderEnabled":false,"rotationMatrix":[0.019870162,-0.99980253,6.12280792e-06,0.99980253,0.019870162,8.07121887e-06,-8.19128581e-06,5.961223e-06,1],"shapeName":"/levels/franka/art/shapes/infra/bridges/frk_infra_bridges_detail_metal_rail.dae"}
+{"name":"NewMeshRoad27","class":"MeshRoad","__parent":"MissionGroup","position":[826.367432,-597.734741,962.001953],"bottomMaterial":"m_concrete_floor_polish","breakAngle":360,"nodes":[[798.356445,-589.78064,962.015015,0.300000012,10,0,0,1],[809.70636,-589.49646,961.837708,0.300000012,10,0,0,1],[826.432922,-596.217041,961.918823,0.300000012,10,0,0,1],[827.03656,-596.530396,962.001953,0.300000012,6,0,0,1],[832.349365,-668.597351,962.229858,0.300000012,6,0,0,1],[832.068115,-668.953003,962.452454,0.300000012,6,0,0,1],[818.167542,-664.334961,962.176147,0.300000012,6,0,0,1]],"sideMaterial":"m_concrete_floor_polish","topMaterial":"m_concrete_floor_polish"}
+{"name":"NewMeshRoad28","class":"MeshRoad","__parent":"MissionGroup","position":[832.215576,-668.910767,959.44989],"bottomMaterial":"m_concrete_floor_polish","nodes":[[832.215576,-668.910767,959.44989,0.300000012,4,0,0,1],[835.696777,-697.703918,959.307922,0.300000012,4,0,0,1]],"sideMaterial":"m_concrete_plain_01","topMaterial":"m_concrete_floor_polish"}
+{"name":"NewMeshRoad29","class":"MeshRoad","__parent":"MissionGroup","position":[878.133545,-719.128357,959.703979],"bottomMaterial":"m_concrete_floor_polish","nodes":[[878.133545,-719.128357,959.703979,0.300000012,4,0,0,1],[867.990906,-611.776489,957.711487,0.300000012,4,0,0,1]],"sideMaterial":"m_concrete_plain_01","topMaterial":"m_concrete_floor_polish"}
+{"name":"Road Architect - Road 1","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 2","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 3","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 4","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 5","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 6","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 7","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 8","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 9","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 10","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 11","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 12","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 13","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 14","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 15","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 16","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 17","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 18","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 19","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 20","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 21","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 22","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 23","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 24","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 25","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 26","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 27","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 28","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 29","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 30","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 31","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 32","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 33","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 34","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 35","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 36","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 37","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 38","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 39","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 40","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 41","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 42","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 43","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 44","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 45","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 46","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 47","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 48","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 49","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 50","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 51","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 52","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 53","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 54","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 55","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 56","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 57","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 58","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 59","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 60","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 61","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 62","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 63","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 64","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 65","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 66","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 67","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 68","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 69","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 70","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 71","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 72","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 73","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 74","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 75","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 76","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 77","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 78","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 79","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 80","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 81","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 82","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 83","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 84","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 85","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 86","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 87","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 88","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 89","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 90","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 91","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 92","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 93","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 94","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 95","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 96","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 97","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 98","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 99","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 100","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 101","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 102","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 103","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 104","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 105","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 106","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 107","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 108","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 109","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 110","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 111","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 112","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 113","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 114","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 115","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 116","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 117","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 118","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 119","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 120","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 121","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 122","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 123","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 124","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 125","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 126","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 127","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 128","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 129","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 130","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 131","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 132","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 133","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 134","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 135","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 136","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 137","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 138","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 139","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 140","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 141","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 142","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 143","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 144","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 145","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 146","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 147","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 148","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 149","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 150","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 151","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 152","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 153","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 154","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 155","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 156","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 157","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 158","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 159","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 160","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 161","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 162","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 163","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 164","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 165","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 166","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 167","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 168","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 169","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 170","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 171","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 172","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 173","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 174","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 175","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 176","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 177","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 178","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 179","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 180","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 181","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 182","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 183","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 184","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 185","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 186","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 187","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 188","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 189","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 190","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 191","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 192","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 193","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 194","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 195","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 196","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 197","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 198","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 199","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 200","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 201","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 202","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 203","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 204","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 205","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 206","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 207","class":"SimGroup","__parent":"MissionGroup"}
+{"name":"Road Architect - Road 208","class":"SimGroup","__parent":"MissionGroup"}

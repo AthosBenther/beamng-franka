@@ -3,33 +3,25 @@
     "name": "vine_leaves",
     "mapTo": "vine_leaves",
     "class": "Material",
+    "persistentId": "cf668c93-56b2-4284-be49-74b796b5920e",
     "Stages": [
       {
-        "ambientOcclusionMap": "/levels/franka/art/shapes/trees/vines/t_vine_ao.data.png",
+        "ambientOcclusionMap": "/levels/jungle_rock_island/art/shapes/trees/vines/t_vine_ao.data.png",
         "baseColorFactor": [
           1,
           1,
           0.999989986,
           1
         ],
-        "baseColorMap": "/levels/franka/art/shapes/trees/vines/t_vine_b.color.png",
-        "normalMap": "/levels/franka/art/shapes/trees/vines/t_vine_nm.normal.png",
-        "opacityMap": "/levels/franka/art/shapes/trees/vines/t_vine_o.data.png",
+        "baseColorMap": "/levels/jungle_rock_island/art/shapes/trees/vines/t_vine_b.color.png",
+        "normalMap": "/levels/jungle_rock_island/art/shapes/trees/vines/t_vine_nm.normal.png",
+        "opacityMap": "/levels/jungle_rock_island/art/shapes/trees/vines/t_vine_o.data.png",
         "roughnessFactor": 0.899999976,
-        "roughnessMap": "/levels/franka/art/shapes/trees/vines/t_vine_r.data.png"
+        "roughnessMap": "/levels/jungle_rock_island/art/shapes/trees/vines/t_vine_r.data.png"
       },
-      {
-        "baseColorFactor": null,
-        "roughnessFactor": null
-      },
-      {
-        "baseColorFactor": null,
-        "roughnessFactor": null
-      },
-      {
-        "baseColorFactor": null,
-        "roughnessFactor": null
-      }
+      {},
+      {},
+      {}
     ],
     "alphaRef": 65,
     "alphaTest": true,

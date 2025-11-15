@@ -102,16 +102,16 @@
     "internalName": "Mud",
     "class": "TerrainMaterial",
     "persistentId": "b4116205-0c19-4bec-b71a-de2331dd42f9",
-    "detailMap": "/assets/materials/terrain/backdrop/island_terrain/island_terrain_dirt_b.color.dds",
+    "detailMap": "/levels/jungle_rock_island/art/terrains/t_mud_b.png",
     "detailSize": 2.5,
-    "detailStrength": 0.5,
-    "diffuseMap": "/assets/materials/terrain/backdrop/island_terrain/island_terrain_dirt_b.color.dds",
-    "diffuseSize": 5,
+    "diffuseMap": "/assets/materials/tileable/metal/ind_bld_rustymetal/ind_bld_rustymetal_01_d.dds",
+    "diffuseSize": 50,
     "groundmodelName": "GRAVEL_WET, GRAVEL_RIVERBED",
     "macroMap": "/levels/franka/terrain/satmap.png",
     "macroSize": 2048,
-    "macroStrength": 0.5,
-    "normalMap": "/assets/materials/terrain/backdrop/island_terrain/island_terrain_grass_detail_nm.normal.dds"
+    "macroStrength": 0.100000001,
+    "normalMap": "/levels/jungle_rock_island/art/terrains/t_mud_nm.png",
+    "parallaxScale": 1
   },
   "SatMap": {
     "internalName": "SatMap",

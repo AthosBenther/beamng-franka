@@ -11,7 +11,7 @@
 {"internalName":"Small","class":"ForestBrushElement","__parent":"ForestBrush_Brush0","forestItemData":"tro_tree_2_tiny","scaleMax":1.5,"scaleMin":0.800000012}
 {"internalName":"Element1","class":"ForestBrushElement","__parent":"ForestBrush_Brush1","forestItemData":"tro_tree_2_bush_huge","scaleMax":2,"scaleMin":0.699999988}
 {"internalName":"Element6","class":"ForestBrushElement","__parent":"ForestBrush_Brush1","forestItemData":"tropical_plant_03_e","probability":0.00999999978}
-{"internalName":"Element7","class":"ForestBrushElement","__parent":"ForestBrush_Brush1","forestItemData":"tropical_plant_01_a","probability":0.0199999996,"scaleMax":0.800000012,"scaleMin":0.200000003}
+{"internalName":"Element7","class":"ForestBrushElement","__parent":"ForestBrush_Brush1","forestItemData":"tropical_plant_01_a","probability":0.0199999996,"scaleMax":0.300000012,"scaleMin":0.100000001}
 {"internalName":"Medium","class":"ForestBrushElement","__parent":"ForestBrush_Brush2","forestItemData":"palm_medium","scaleMax":1.39999998,"scaleMin":0.800000012}
 {"name":"Small","internalName":"Small","class":"ForestBrushElement","__parent":"ForestBrush_Brush2","forestItemData":"palm_small","scaleMax":1.5,"scaleMin":0.699999988}
 {"internalName":"Tall","class":"ForestBrushElement","__parent":"ForestBrush_Brush2","forestItemData":"palm_tall","scaleMin":0.699999988}
