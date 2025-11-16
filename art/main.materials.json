@@ -1,15 +1,40 @@
 {
+  "Hex_Paving": {
+    "name": "Hex_Paving",
+    "mapTo": "Hex_Paving",
+    "class": "Material",
+    "Stages": [
+      {
+        "colorMap": "/levels/franka/art/terrains/concrete/hex_paving.jpg"
+      },
+      {},
+      {},
+      {}
+    ]
+  },
   "TallGrassMat": {
     "name": "TallGrassMat",
     "mapTo": "TallGrassMat",
     "class": "Material",
     "Stages": [
       {
-        "colorMap": "/levels/franka/art/shapes/groundcover/Grass03_tropical_d.dds"
+        "colorMap": "/levels/franka/art/shapes/groundcover/Grass03_tropical_d.dds",
+        "diffuseColor": [
+          0.780391991,
+          0.690195978,
+          1,
+          1
+        ]
       },
-      {},
-      {},
-      {}
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      },
+      {
+        "diffuseColor": null
+      }
     ],
     "alphaRef": 104,
     "alphaTest": true,

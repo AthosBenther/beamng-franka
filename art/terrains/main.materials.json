@@ -98,6 +98,20 @@
     "normalMap": "/levels/franka/art/terrains/Grass-01-N.dds",
     "roughnessBaseTexSize": 1024
   },
+  "HexPaving": {
+    "internalName": "HexPaving",
+    "class": "TerrainMaterial",
+    "persistentId": "227c6a2f-2924-4ca7-96be-09b07b37afe3",
+    "detailDistance": 150,
+    "detailMap": "/levels/franka/art/terrains/concrete/hex_paving.jpg",
+    "diffuseMap": "/levels/franka/art/terrains/macro_rockydirt.dds",
+    "diffuseSize": 50,
+    "groundmodelName": "CONCRETE",
+    "macroDistance": 1000,
+    "macroMap": "/levels/franka/art/terrains/concrete/hex_paving.jpg",
+    "macroSize": 5,
+    "macroStrength": 0.200000003
+  },
   "Mud": {
     "internalName": "Mud",
     "class": "TerrainMaterial",
